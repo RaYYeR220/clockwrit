@@ -17,7 +17,8 @@ export function corsHeaders(req: Request): Record<string, string> {
 /**
  * A reviewer signed in to Sanity (the Dashboard desk app sends the user's token).
  * Valid only for a human whose own permissions let them edit this ruling: we ask the Content Lake
- * with a dry-run patch made with their token, so project roles, org roles and custom roles all count exactly.
+ * with a dry-run patch made with their token, so project roles, org roles and custom roles all count exactly,
+ * and they must administer the organisation that owns the Knowledge Base the approval writes to.
  */
 export async function sanityReviewer(req: Request, rulingId: string): Promise<string | null> {
   const auth = req.headers.get('authorization')
@@ -36,5 +37,18 @@ export async function sanityReviewer(req: Request, rulingId: string): Promise<st
     body: JSON.stringify({mutations: [{patch: {id: rulingId, set: {reviewer: user.name ?? 'reviewer'}}}]}),
   })
   if (!probe.ok) return null
+  // Approving also resolves an issue in the organisation's Knowledge Base, so the person must administer that organisation too.
+  if (!(await administersOrg(token, user.id))) return null
   return `${user.name ?? user.email ?? 'Sanity user'} (Sanity)`
+}
+
+const KB_ROLES = new Set(['administrator'])
+
+async function administersOrg(token: string, userId: string): Promise<boolean> {
+  const res = await fetch('https://api.sanity.io/v2025-01-01/organizations', {headers: {Authorization: `Bearer ${token}`}, cache: 'no-store'})
+  if (!res.ok) return false
+  const orgs = (await res.json()) as {id: string; members?: {sanityUserId: string; isCurrentUser?: boolean; roles?: {name: string}[]}[]}[]
+  const org = orgs.find((o) => o.id === env.orgId())
+  const me = org?.members?.find((m) => m.sanityUserId === userId)
+  return Boolean(me?.roles?.some((r) => KB_ROLES.has(r.name)))
 }
