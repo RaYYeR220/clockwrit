@@ -61,6 +61,7 @@ export interface RulingView {
 
 export interface RulingDoc {
   _id: string
+  _rev?: string
   issueId: string
   status: 'proposed' | 'approved' | 'rejected' | 'applied'
   proposedSide: number
@@ -145,6 +146,8 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
   const view = all.find((v) => v.issueId === issueId)
   if (!view) throw new Error('No such conflict')
   if (view.status !== 'open') throw new Error('This conflict is already resolved')
+  // A live draft is never overwritten: the reviewer must be approving exactly what they read.
+  if (view.ruling && view.ruling.status !== 'rejected') throw new Error(`A ${view.ruling.status} ruling already exists for this conflict`)
 
   const keywords = `${view.claimKey ?? ''} ${view.issue ?? ''}`.slice(0, 300)
   const related = await contentClient().fetch(
@@ -175,7 +178,7 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
     proposedBy: `agent:${env.llmModel()}`,
     proposedAt: new Date().toISOString(),
   }
-  await writeClient().createOrReplace({
+  const body = {
     ...doc,
     knowledgeBase: env.knowledgeBaseId(),
     claimKey: view.claimKey,
@@ -188,7 +191,14 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
       sourceTitles: s.sourceTitles,
       quote: s.quote ?? undefined,
     })),
-  })
+  }
+  // Create when absent; replace only a rejected draft, and only the revision we just read.
+  if (view.ruling?._rev) {
+    const {_id, _type, ...fields} = body
+    await writeClient().patch(_id).ifRevisionId(view.ruling._rev).set(fields).unset(['reviewer', 'reviewNote', 'decidedAt', 'appliedAt']).commit()
+  } else {
+    await writeClient().create(body)
+  }
   return doc
 }
 
@@ -201,20 +211,30 @@ export function checkPasscode(given: string | undefined): boolean {
 }
 
 /** A person approves or sends back the agent's draft. Approval resolves the conflict in the Knowledge Base. */
-export async function decide(input: {issueId: string; decision: 'approve' | 'reject'; reviewer: string; note?: string}): Promise<RulingDoc> {
+export async function decide(input: {
+  issueId: string
+  decision: 'approve' | 'reject'
+  reviewer: string
+  note?: string
+  /** The draft revision and side the reviewer was shown. */
+  expectedRev: string
+  expectedSide: number
+}): Promise<RulingDoc> {
   const id = rulingId(input.issueId)
   const ruling = await contentClient().fetch<RulingDoc | null>(`*[_id == $id][0]`, {id})
   if (!ruling) throw new Error('No draft ruling for this conflict')
   if (ruling.status !== 'proposed') throw new Error(`Ruling is already ${ruling.status}`)
+  if (ruling._rev !== input.expectedRev || ruling.proposedSide !== input.expectedSide)
+    throw new Error('The draft changed since you opened it; reload and review again')
   const decidedAt = new Date().toISOString()
 
   if (input.decision === 'reject') {
-    await writeClient().patch(id).set({status: 'rejected', reviewer: input.reviewer, reviewNote: input.note, decidedAt}).commit()
+    await writeClient().patch(id).ifRevisionId(input.expectedRev).set({status: 'rejected', reviewer: input.reviewer, reviewNote: input.note, decidedAt}).commit()
     return {...ruling, status: 'rejected', reviewer: input.reviewer, reviewNote: input.note, decidedAt}
   }
 
   // Record the human decision first, so the audit trail exists even if the Knowledge Base call fails.
-  await writeClient().patch(id).set({status: 'approved', reviewer: input.reviewer, reviewNote: input.note, decidedAt}).commit()
+  await writeClient().patch(id).ifRevisionId(input.expectedRev).set({status: 'approved', reviewer: input.reviewer, reviewNote: input.note, decidedAt}).commit()
   await kb().context.issues.resolve({issueId: input.issueId, resolution: ruling.proposedSide})
   const appliedAt = new Date().toISOString()
   await writeClient().patch(id).set({status: 'applied', appliedAt}).commit()
