@@ -59,22 +59,71 @@ export interface AuditInput {
   maxOccurrences?: number
 }
 
-const MAX_ITERATIONS = 20_000
+// Limits that keep an audit bounded no matter what a caller sends.
+export const AUDIT_LIMITS = {
+  iterations: 5_000,
+  occurrencesPerEvent: 200,
+  totalOccurrences: 600,
+  events: 20,
+  participants: 20,
+  windowDays: 731,
+  leadInDays: 3 * 366,
+} as const
+
+const ALLOWED_FREQ = new Set(['DAILY', 'WEEKLY', 'MONTHLY', 'YEARLY'])
+const ALLOWED_PARTS = new Set(['FREQ', 'INTERVAL', 'COUNT', 'UNTIL', 'BYDAY', 'BYMONTHDAY', 'BYMONTH', 'BYSETPOS', 'WKST'])
+const LOCAL_RE = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})$/
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
+
+/** Reject recurrence rules a meeting calendar would never need: sub-daily, BYHOUR/BYMINUTE fan-out, impossible dates. */
+export function validateRule(rrule: string): void {
+  const parts = Object.fromEntries(
+    rrule.split(';').map((p) => {
+      const [k = '', v = ''] = p.split('=')
+      return [k.toUpperCase(), v]
+    }),
+  )
+  for (const k of Object.keys(parts)) if (!ALLOWED_PARTS.has(k)) throw new Error(`Unsupported recurrence part: ${k}`)
+  if (!ALLOWED_FREQ.has(parts.FREQ ?? '')) throw new Error(`Unsupported recurrence frequency: ${parts.FREQ ?? 'none'}`)
+  const interval = Number(parts.INTERVAL ?? 1)
+  if (!Number.isInteger(interval) || interval < 1 || interval > 366) throw new Error('INTERVAL must be 1-366')
+  if (parts.BYMONTHDAY) {
+    const days = parts.BYMONTHDAY.split(',').map(Number)
+    if (days.some((d) => !Number.isInteger(d) || d === 0 || Math.abs(d) > 31)) throw new Error('Invalid BYMONTHDAY')
+    const months = parts.BYMONTH ? parts.BYMONTH.split(',').map(Number) : []
+    const longest = months.length ? Math.max(...months.map((m) => [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][m - 1] ?? 0)) : 31
+    if (days.every((d) => d > longest)) throw new Error('BYMONTHDAY never occurs in the selected months')
+  }
+}
+
+function dayDiff(a: string, b: string): number {
+  return (Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86_400_000
+}
+
+function checkWindow(from: string, to: string): void {
+  if (!DATE_RE.test(from) || !DATE_RE.test(to)) throw new Error('Window dates must be YYYY-MM-DD')
+  const span = dayDiff(from, to)
+  if (!(span >= 0 && span <= AUDIT_LIMITS.windowDays)) throw new Error(`Audit window must be 0-${AUDIT_LIMITS.windowDays} days`)
+}
 
 /** Expand an event into local wall-clock starts inside [from, to]. */
-export function expandOccurrences(event: ScheduledEvent, from: string, to: string, max = 200): string[] {
-  const [date, time] = event.start.split('T') as [string, string]
-  const [y, mo, d] = date.split('-').map(Number) as [number, number, number]
-  const [h, mi] = time.split(':').map(Number) as [number, number]
-  const start = ICAL.Time.fromData({year: y, month: mo, day: d, hour: h, minute: mi, second: 0, isDate: false})
+export function expandOccurrences(event: ScheduledEvent, from: string, to: string, max: number = AUDIT_LIMITS.occurrencesPerEvent): string[] {
+  checkWindow(from, to)
+  const m = LOCAL_RE.exec(event.start)
+  if (!m) throw new Error(`Event start must be YYYY-MM-DDTHH:mm, got ${event.start}`)
+  const [y, mo, d, h, mi] = m.slice(1).map(Number) as [number, number, number, number, number]
   if (!event.rrule) return withinWindow([event.start], from, to)
+  validateRule(event.rrule)
+  if (dayDiff(event.start.slice(0, 10), from) > AUDIT_LIMITS.leadInDays)
+    throw new Error('Recurring event starts more than three years before the audit window; move DTSTART closer')
+  const start = ICAL.Time.fromData({year: y, month: mo, day: d, hour: h, minute: mi, second: 0, isDate: false})
   const recur = ICAL.Recur.fromString(event.rrule)
-  if (['SECONDLY', 'MINUTELY'].includes(recur.freq)) throw new Error(`Recurrence too frequent to audit: ${recur.freq}`)
   const it = recur.iterator(start)
   const out: string[] = []
-  // Hard cap on iterator steps, so a rule that starts long before the window can't spin forever.
+  const cap = Math.min(max, AUDIT_LIMITS.occurrencesPerEvent)
+  // Hard cap on iterator steps on top of the lead-in limit.
   let steps = 0
-  for (let next = it.next(); next && out.length < max && steps < MAX_ITERATIONS; next = it.next(), steps++) {
+  for (let next = it.next(); next && out.length < cap && steps < AUDIT_LIMITS.iterations; next = it.next(), steps++) {
     const local = `${pad(next.year, 4)}-${pad(next.month)}-${pad(next.day)}T${pad(next.hour)}:${pad(next.minute)}`
     if (local.slice(0, 10) > to) break
     if (local.slice(0, 10) >= from) out.push(local)
@@ -113,10 +162,15 @@ export function eventsFromIcs(ics: string, defaultZone = 'UTC'): ScheduledEvent[
  * and is it a working day and a working hour for every participant — by law?
  */
 export function auditSchedule(input: AuditInput): OccurrenceReport[] {
+  if (input.events.length > AUDIT_LIMITS.events) throw new Error(`At most ${AUDIT_LIMITS.events} events per audit`)
+  if (input.participants.length > AUDIT_LIMITS.participants) throw new Error(`At most ${AUDIT_LIMITS.participants} participants per audit`)
   const reports: OccurrenceReport[] = []
   for (const event of input.events) {
     const segs = input.segments[event.zone]
-    for (const local of expandOccurrences(event, input.from, input.to, input.maxOccurrences ?? 200)) {
+    const budget = AUDIT_LIMITS.totalOccurrences - reports.length
+    if (budget <= 0) break
+    const perEvent = Math.min(input.maxOccurrences ?? AUDIT_LIMITS.occurrencesPerEvent, budget)
+    for (const local of expandOccurrences(event, input.from, input.to, perEvent)) {
       const flags: Flag[] = []
       if (!segs) {
         reports.push({

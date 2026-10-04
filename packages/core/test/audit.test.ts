@@ -38,12 +38,17 @@ describe('expandOccurrences', () => {
     expect(occ).toEqual(['2026-12-03T09:00', '2026-12-10T09:00', '2026-12-17T09:00', '2026-12-24T09:00', '2026-12-31T09:00'])
   })
 
-  it('refuses sub-hourly rules and bounds rules that start long before the window', () => {
-    expect(() => expandOccurrences({title: 't', start: '1970-01-01T00:00', zone: 'UTC', rrule: 'FREQ=MINUTELY'}, '2026-01-01', '2026-01-02')).toThrow(/too frequent/)
-    const t0 = Date.now()
-    const occ = expandOccurrences({title: 't', start: '1900-01-01T00:00', zone: 'UTC', rrule: 'FREQ=HOURLY'}, '2026-01-01', '2026-01-02')
-    expect(occ).toEqual([])
-    expect(Date.now() - t0).toBeLessThan(2000)
+  it('refuses rules that would fan out or never occur', () => {
+    const ev = (rrule: string, start = '2026-01-01T09:00') => () => expandOccurrences({title: 't', start, zone: 'UTC', rrule}, '2026-01-01', '2026-12-31')
+    expect(ev('FREQ=MINUTELY')).toThrow(/frequency/)
+    expect(ev('FREQ=HOURLY')).toThrow(/frequency/)
+    expect(ev('FREQ=DAILY;BYHOUR=1,2,3,4,5,6,7,8,9,10')).toThrow(/Unsupported recurrence part/)
+    expect(ev('FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=30')).toThrow(/never occurs/)
+    expect(ev('FREQ=DAILY', '1900-01-01T00:00')).toThrow(/three years/)
+  })
+
+  it('refuses unbounded windows', () => {
+    expect(() => expandOccurrences({title: 't', start: '2026-01-01T09:00', zone: 'UTC', rrule: 'FREQ=DAILY'}, '2026-01-01', '2099-01-01')).toThrow(/window/)
   })
 })
 
