@@ -32,7 +32,7 @@ export async function legalTime(input: {zone: string; at?: string; local?: strin
     return {ok: false as const, zone: data.zone, error: `No recorded clock regime for ${data.zone}. It is outside this dataset; do not guess.`}
   }
   let instant: string
-  let resolution: 'unique' | 'ambiguous' | 'nonexistent' | 'instant' = 'instant'
+  let resolution: 'unique' | 'ambiguous' | 'instant' = 'instant'
   let alternatives: {instant: string; offset: string}[] = []
   if (input.local) {
     const r = resolveLocal(data.segments, input.local)

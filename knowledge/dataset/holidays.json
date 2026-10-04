@@ -4984,17 +4984,199 @@
     ]
   },
   {
-    "_id": "hol-id-2026-03-20",
+    "_id": "hol-id-2026-01-01",
     "jurisdiction": "jur-id",
-    "date": "2026-03-20",
-    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave; Idul Fitri for Muhammadiyah members)",
-    "dayOff": false,
-    "kind": "bridge",
+    "date": "2026-01-01",
+    "name": "New Year's Day - national holiday",
+    "nameLocal": "Tahun Baru 2026 Masehi",
+    "dayOff": true,
+    "kind": "statutory",
     "dateCertainty": "fixed",
     "status": "in_force",
     "basis": [
-      "ins-id-skb-2026",
-      "ins-id-muhammadiyah-maklumat-1447"
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-01-16",
+    "jurisdiction": "jur-id",
+    "date": "2026-01-16",
+    "name": "Isra Mi'raj of the Prophet Muhammad - national holiday",
+    "nameLocal": "Isra Mikraj Nabi Muhammad S.A.W.",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-02-17",
+    "jurisdiction": "jur-id",
+    "date": "2026-02-17",
+    "name": "Chinese New Year 2577 - national holiday",
+    "nameLocal": "Tahun Baru Imlek 2577 Kongzili",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-19",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-19",
+    "name": "Day of Silence (Saka New Year 1948) - national holiday",
+    "nameLocal": "Hari Suci Nyepi (Tahun Baru Saka 1948)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-04-03",
+    "jurisdiction": "jur-id",
+    "date": "2026-04-03",
+    "name": "Good Friday - national holiday",
+    "nameLocal": "Wafat Yesus Kristus",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-04-05",
+    "jurisdiction": "jur-id",
+    "date": "2026-04-05",
+    "name": "Easter Sunday - national holiday",
+    "nameLocal": "Kebangkitan Yesus Kristus (Paskah)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-05-01",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-01",
+    "name": "International Labour Day - national holiday",
+    "nameLocal": "Hari Buruh Internasional",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-05-14",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-14",
+    "name": "Ascension of Jesus Christ - national holiday",
+    "nameLocal": "Kenaikan Yesus Kristus",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-05-31",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-31",
+    "name": "Vesak 2570 BE - national holiday",
+    "nameLocal": "Hari Raya Waisak 2570 BE",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-06-01",
+    "jurisdiction": "jur-id",
+    "date": "2026-06-01",
+    "name": "Pancasila Day - national holiday",
+    "nameLocal": "Hari Lahir Pancasila",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-06-16",
+    "jurisdiction": "jur-id",
+    "date": "2026-06-16",
+    "name": "Islamic New Year 1448 H - national holiday",
+    "nameLocal": "1 Muharam Tahun Baru Islam 1448 Hijriah",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-08-17",
+    "jurisdiction": "jur-id",
+    "date": "2026-08-17",
+    "name": "Independence Proclamation Day - national holiday",
+    "nameLocal": "Proklamasi Kemerdekaan",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-08-25",
+    "jurisdiction": "jur-id",
+    "date": "2026-08-25",
+    "name": "Mawlid of the Prophet Muhammad - national holiday",
+    "nameLocal": "Maulid Nabi Muhammad S.A.W.",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-12-25",
+    "jurisdiction": "jur-id",
+    "date": "2026-12-25",
+    "name": "Christmas Day - national holiday",
+    "nameLocal": "Kelahiran Yesus Kristus",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
     ]
   },
   {
@@ -5002,7 +5184,7 @@
     "jurisdiction": "jur-id",
     "date": "2026-03-21",
     "name": "Idul Fitri 1447 H (1 Syawal, government sidang isbat) - national holiday",
-    "nameLocal": "Hari Raya Idul Fitri",
+    "nameLocal": "Idul Fitri 1447 Hijriah",
     "dayOff": true,
     "kind": "moon-sighted",
     "dateCertainty": "announced",
@@ -5017,7 +5199,7 @@
     "jurisdiction": "jur-id",
     "date": "2026-03-22",
     "name": "Idul Fitri 1447 H, second day - national holiday",
-    "nameLocal": "Hari Raya Idul Fitri",
+    "nameLocal": "Idul Fitri 1447 Hijriah",
     "dayOff": true,
     "kind": "moon-sighted",
     "dateCertainty": "announced",
@@ -5028,10 +5210,69 @@
     ]
   },
   {
+    "_id": "hol-id-2026-05-27",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-27",
+    "name": "Idul Adha 1447 H - national holiday",
+    "nameLocal": "Idul Adha 1447 Hijriah",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-investortrust-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-02-16",
+    "jurisdiction": "jur-id",
+    "date": "2026-02-16",
+    "name": "Cuti bersama (Tahun Baru Imlek 2577 Kongzili) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Tahun Baru Imlek 2577 Kongzili",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-18",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-18",
+    "name": "Cuti bersama (Hari Suci Nyepi (Tahun Baru Saka 1948)) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Hari Suci Nyepi (Tahun Baru Saka 1948)",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-20",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-20",
+    "name": "Cuti bersama (Idul Fitri 1447 Hijriah) - collective leave counted against annual leave, not a national holiday; Idul Fitri for Muhammadiyah members",
+    "nameLocal": "Cuti bersama Idul Fitri 1447 Hijriah",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-muhammadiyah-maklumat-1447"
+    ]
+  },
+  {
     "_id": "hol-id-2026-03-23",
     "jurisdiction": "jur-id",
     "date": "2026-03-23",
-    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave)",
+    "name": "Cuti bersama (Idul Fitri 1447 Hijriah) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Idul Fitri 1447 Hijriah",
     "dayOff": false,
     "kind": "bridge",
     "dateCertainty": "fixed",
@@ -5044,7 +5285,8 @@
     "_id": "hol-id-2026-03-24",
     "jurisdiction": "jur-id",
     "date": "2026-03-24",
-    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave)",
+    "name": "Cuti bersama (Idul Fitri 1447 Hijriah) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Idul Fitri 1447 Hijriah",
     "dayOff": false,
     "kind": "bridge",
     "dateCertainty": "fixed",
@@ -5054,25 +5296,39 @@
     ]
   },
   {
-    "_id": "hol-id-2026-05-27",
+    "_id": "hol-id-2026-05-15",
     "jurisdiction": "jur-id",
-    "date": "2026-05-27",
-    "name": "Idul Adha 1447 H - national holiday",
-    "nameLocal": "Hari Raya Idul Adha",
-    "dayOff": true,
-    "kind": "moon-sighted",
-    "dateCertainty": "announced",
+    "date": "2026-05-15",
+    "name": "Cuti bersama (Kenaikan Yesus Kristus) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Kenaikan Yesus Kristus",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
     "status": "in_force",
     "basis": [
-      "ins-id-skb-2026",
-      "ins-id-investortrust-adha-2026"
+      "ins-id-skb-2026"
     ]
   },
   {
     "_id": "hol-id-2026-05-28",
     "jurisdiction": "jur-id",
     "date": "2026-05-28",
-    "name": "Cuti bersama Idul Adha (collective leave)",
+    "name": "Cuti bersama (Idul Adha 1447 Hijriah) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Idul Adha 1447 Hijriah",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-12-24",
+    "jurisdiction": "jur-id",
+    "date": "2026-12-24",
+    "name": "Cuti bersama (Kelahiran Yesus Kristus) - collective leave counted against annual leave, not a national holiday",
+    "nameLocal": "Cuti bersama Kelahiran Yesus Kristus",
     "dayOff": false,
     "kind": "bridge",
     "dateCertainty": "fixed",

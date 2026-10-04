@@ -1,26 +1,182 @@
-@import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ox-950: #1e040b;
+  --ox-900: #2e0711;
+  --ox-850: #3a0a16;
+  --ox-800: #4a0d1c;
+  --ox-700: #6e1a2c;
+  --ox-600: #8e2b3e;
+  --bone: #f1e4cf;
+  --bone-50: #faf4ea;
+  --bone-100: #f6ecdc;
+  --bone-200: #eadbc2;
+  --bone-300: #d9c6a6;
+  --bone-dim: rgba(241, 228, 207, 0.66);
+  --bone-faint: rgba(241, 228, 207, 0.24);
+  --bone-line: rgba(241, 228, 207, 0.14);
+  --ink: #2a0610;
+  --ink-2: rgba(42, 6, 16, 0.7);
+  --ink-3: rgba(42, 6, 16, 0.45);
+  --ink-line: rgba(42, 6, 16, 0.14);
+  --flame: #ff6a3d;
+  --flame-600: #e84f22;
+  --flame-ink: #1e040b;
+  --moss: #9fd6a0;
+  --moss-ink: #12391f;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 72px;
+  --s9: 112px;
+  --r1: 2px;
+  --r2: 6px;
+  --r3: 14px;
+  --r-pill: 999px;
+  --gutter: clamp(16px, 5vw, 72px);
+  --max: 1240px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  margin: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--ox-800);
+  color: var(--bone);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--flame);
+  color: var(--flame-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--flame);
+  outline-offset: 3px;
+}
+
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+  margin: 0 0 var(--s4);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  background: var(--flame);
+  color: var(--flame-ink);
+  text-decoration: none;
+  font: 500 14px/1 var(--font-mono), monospace;
+  padding: var(--s3) var(--s6);
+  border: 0;
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: var(--bone);
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: progress;
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--bone);
+  box-shadow: inset 0 0 0 1px var(--bone-faint);
+}
+.btn.ghost:hover {
+  box-shadow: inset 0 0 0 1px var(--bone);
+  background: transparent;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  border-radius: var(--r-pill);
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+.chip.primary {
+  color: var(--moss);
+}
+.chip.secondary {
+  color: var(--bone);
+}
+.chip.community {
+  color: var(--flame);
+}
+
+/* light "bone" panels: the working surfaces */
+.paper {
+  background: var(--bone-50);
+  color: var(--ink);
+}
+.paper .kicker {
+  color: var(--ink-3);
+}
+.paper .chip.primary {
+  color: #1f6b35;
+}
+.paper .chip.secondary {
+  color: var(--ox-700);
+}
+.paper .chip.community {
+  color: var(--flame-600);
+}
+.paper .btn.ghost {
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink-line);
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
 }
