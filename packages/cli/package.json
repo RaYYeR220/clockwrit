@@ -1,0 +1,23 @@
+{
+  "name": "clockwrit",
+  "version": "0.1.0",
+  "description": "What time is it, legally? Check zones, working days and calendars against the law, IANA tzdata and your runtime.",
+  "type": "module",
+  "bin": {
+    "clockwrit": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@wallclock/core": "workspace:^",
+    "moment-timezone": "0.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "24",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
