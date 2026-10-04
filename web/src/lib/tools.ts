@@ -102,7 +102,9 @@ export async function legalTime(input: {zone: string; at?: string; local?: strin
 }
 
 export async function workingDay(input: {jurisdiction: string; date: string; scenario?: string}) {
-  const {calendar, citations} = await loadCalendar(input.jurisdiction.toUpperCase(), input.scenario)
+  const {calendar, citations, coverage} = await loadCalendar(input.jurisdiction.toUpperCase(), input.scenario)
+  const year = Number(input.date.slice(0, 4))
+  const yearCoverage = coverage.find((c) => c.year === year)
   try {
     const v = dayVerdict(calendar, input.jurisdiction.toUpperCase(), input.date)
     return {
@@ -112,6 +114,11 @@ export async function workingDay(input: {jurisdiction: string; date: string; sce
       workday: v.workday,
       reasons: v.reasons.map((r) => ({code: r.code, text: r.text, basis: cite(r.basis, citations)})),
       nextWorkdays: nextWorkdays(calendar, v.jurisdiction, input.date, 3),
+      coverage: yearCoverage?.completeness ?? 'partial',
+      caveat:
+        yearCoverage?.completeness === 'complete'
+          ? null
+          : `Holidays for ${v.jurisdiction} in ${year} are recorded only partially; a "working day" here means no recorded holiday, not a verified one.`,
       scenario: input.scenario ?? null,
     }
   } catch (e) {

@@ -16,6 +16,29 @@ export const jurisdiction = defineType({
     defineField({name: 'name', type: 'string', validation: (r) => r.required()}),
     defineField({name: 'parent', type: 'reference', to: [{type: 'jurisdiction'}]}),
     defineField({
+      name: 'calendarCoverage',
+      title: 'Calendar coverage',
+      type: 'array',
+      description: 'Which years have a complete list of statutory holidays. Outside these, a "working day" answer is not claimed.',
+      of: [
+        {
+          type: 'object',
+          name: 'coverageYear',
+          fields: [
+            defineField({name: 'year', type: 'number', validation: (r) => r.required().integer()}),
+            defineField({
+              name: 'completeness',
+              type: 'string',
+              options: {list: ['complete', 'partial'], layout: 'radio', direction: 'horizontal'},
+              validation: (r) => r.required(),
+            }),
+            defineField({name: 'note', type: 'string'}),
+          ],
+          preview: {select: {title: 'year', subtitle: 'completeness'}},
+        },
+      ],
+    }),
+    defineField({
       name: 'timeAuthority',
       title: 'Who sets the clock',
       type: 'text',

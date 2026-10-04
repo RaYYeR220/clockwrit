@@ -41,6 +41,9 @@ importers:
       '@wallclock/core':
         specifier: workspace:^
         version: link:../packages/core
+      moment-timezone:
+        specifier: 0.6.5
+        version: 0.6.5
     devDependencies:
       '@types/node':
         specifier: '24'

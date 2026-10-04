@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@sanity/client": "8.9.0",
-    "@wallclock/core": "workspace:^"
+    "@wallclock/core": "workspace:^",
+    "moment-timezone": "0.6.5"
   },
   "devDependencies": {
     "@types/node": "24",

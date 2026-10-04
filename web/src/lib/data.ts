@@ -26,6 +26,7 @@ export const ZONE_QUERY = defineQuery(`*[_type == "zone" && ($id == ianaId || $i
 }`)
 
 export const CALENDAR_QUERY = defineQuery(`{
+  "coverage": *[_type == "jurisdiction" && code == $code][0].calendarCoverage[]{year, completeness, note},
   "holidays": *[_type == "holiday" && jurisdiction->code == $code] {_id, date, name, nameLocal, dayOff, kind, dateCertainty, status, "basis": basis[]->${INSTRUMENT}},
   "weekends": *[_type == "weekendRegime" && jurisdiction->code == $code] {_id, from, to, days, note, "basis": basis[]->${INSTRUMENT}},
   "overrides": *[_type == "workdayOverride" && jurisdiction->code == $code] {_id, date, isWorkday, reason, "basis": basis[]->${INSTRUMENT}},
@@ -82,13 +83,17 @@ export async function loadZone(zone: string, scenario?: string): Promise<ZoneDat
 }
 
 interface CalendarDocs {
+  coverage: {year: number; completeness: 'complete' | 'partial'; note?: string}[] | null
   holidays: {_id: string; date: string; name: string; dayOff: boolean; kind: string; basis: Citation[] | null}[]
   weekends: {_id: string; from: string | null; to: string | null; days: number[]; basis: Citation[] | null}[]
   overrides: {_id: string; date: string; isWorkday: boolean; reason: string; basis: Citation[] | null}[]
   suspensions: {_id: string; from: string; to: string | null; reason: string; basis: Citation[] | null}[]
 }
 
-export async function loadCalendar(code: string, scenario?: string): Promise<{calendar: CalendarData; citations: Record<string, Citation>}> {
+export async function loadCalendar(
+  code: string,
+  scenario?: string,
+): Promise<{calendar: CalendarData; citations: Record<string, Citation>; coverage: NonNullable<CalendarDocs['coverage']>}> {
   const release = await resolveScenario(scenario)
   const docs = await contentClient(release ? [release] : undefined).fetch<CalendarDocs>(CALENDAR_QUERY, {code})
   const citations: Record<string, Citation> = {}
@@ -106,6 +111,7 @@ export async function loadCalendar(code: string, scenario?: string): Promise<{ca
       suspensions: docs.suspensions.map((s) => ({id: s._id, jurisdiction: code, from: s.from, to: s.to, reason: s.reason, basis: ids(s.basis)})),
     },
     citations,
+    coverage: docs.coverage ?? [],
   }
 }
 
