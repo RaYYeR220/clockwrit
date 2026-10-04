@@ -76,7 +76,7 @@ export interface RulingDoc {
   appliedAt?: string
 }
 
-function rulingId(issueId: string) {
+export function rulingIdFor(issueId: string) {
   return `ruling-${issueId.replace(/[^A-Za-z0-9_-]/g, '-')}`
 }
 
@@ -167,7 +167,7 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
   if (output.proposedSide >= view.sides.length) throw new Error('Draft picked a side that does not exist')
 
   const doc: RulingDoc & {_type: 'ruling'} = {
-    _id: rulingId(issueId),
+    _id: rulingIdFor(issueId),
     _type: 'ruling',
     issueId,
     status: 'proposed',
@@ -220,7 +220,7 @@ export async function decide(input: {
   expectedRev: string
   expectedSide: number
 }): Promise<RulingDoc> {
-  const id = rulingId(input.issueId)
+  const id = rulingIdFor(input.issueId)
   const ruling = await contentClient().fetch<RulingDoc | null>(`*[_id == $id][0]`, {id})
   if (!ruling) throw new Error('No draft ruling for this conflict')
   if (ruling.status !== 'proposed') throw new Error(`Ruling is already ${ruling.status}`)

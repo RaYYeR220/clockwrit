@@ -1,6 +1,6 @@
 import {rateLimit} from '@/lib/rate-limit'
 import {corsHeaders, sanityReviewer} from '@/lib/reviewer'
-import {checkPasscode, decide} from '@/lib/rulings'
+import {checkPasscode, decide, rulingIdFor} from '@/lib/rulings'
 
 export const runtime = 'nodejs'
 export const maxDuration = 60
@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     expectedSide?: number
   }
   // The gate is in code, not in the prompt: either a Sanity project member's token or the reviewer passcode.
-  const member = await sanityReviewer(req)
+  const member = body.issueId ? await sanityReviewer(req, rulingIdFor(body.issueId)) : null
   if (!member && !checkPasscode(body.passcode)) return Response.json({error: 'Reviewer sign-in or passcode required'}, {status: 403, headers: cors})
   if (!body.issueId || (body.decision !== 'approve' && body.decision !== 'reject') || !body.expectedRev || typeof body.expectedSide !== 'number')
     return Response.json({error: 'issueId, decision (approve|reject), expectedRev and expectedSide required'}, {status: 400, headers: cors})

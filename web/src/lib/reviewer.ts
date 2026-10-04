@@ -16,20 +16,25 @@ export function corsHeaders(req: Request): Record<string, string> {
 
 /**
  * A reviewer signed in to Sanity (the Dashboard desk app sends the user's token).
- * Valid only if the token can read this project — i.e. the person is a project member.
+ * Valid only for a human whose own permissions let them edit this ruling: we ask the Content Lake
+ * with a dry-run patch made with their token, so project roles, org roles and custom roles all count exactly.
  */
-export async function sanityReviewer(req: Request): Promise<string | null> {
+export async function sanityReviewer(req: Request, rulingId: string): Promise<string | null> {
   const auth = req.headers.get('authorization')
   const token = auth?.startsWith('Bearer ') ? auth.slice(7).trim() : null
   if (!token || token.length > 4096) return null
-  const headers = {Authorization: `Bearer ${token}`}
-  const [project, me] = await Promise.all([
-    fetch(`https://api.sanity.io/v2021-06-07/projects/${env.projectId()}`, {headers, cache: 'no-store'}),
-    fetch('https://api.sanity.io/v2021-06-07/users/me', {headers, cache: 'no-store'}),
-  ])
-  if (!project.ok || !me.ok) return null
-  const user = (await me.json()) as {name?: string; email?: string; provider?: string}
+  const headers = {Authorization: `Bearer ${token}`, 'content-type': 'application/json'}
+  const me = await fetch('https://api.sanity.io/v2021-06-07/users/me', {headers, cache: 'no-store'})
+  if (!me.ok) return null
+  const user = (await me.json()) as {id?: string; name?: string; email?: string; provider?: string}
   // Robot tokens are not people; the human gate needs a human.
-  if (user.provider === 'sanity-token') return null
+  if (!user.id || user.provider === 'sanity-token') return null
+  const probe = await fetch(`https://${env.projectId()}.api.sanity.io/v2026-09-01/data/mutate/${env.dataset()}?dryRun=true`, {
+    method: 'POST',
+    headers,
+    cache: 'no-store',
+    body: JSON.stringify({mutations: [{patch: {id: rulingId, set: {reviewer: user.name ?? 'reviewer'}}}]}),
+  })
+  if (!probe.ok) return null
   return `${user.name ?? user.email ?? 'Sanity user'} (Sanity)`
 }
