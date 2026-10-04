@@ -1,6 +1,6 @@
 // Creates the Knowledge Base, imports the original sources and builds it.
 // Sources live in knowledge/sources/*.md with front matter: title, url, authority, kind.
-// Usage: SANITY_ORGANIZATION_ID=... SANITY_CONTEXT_TOKEN=... pnpm --filter @wallclock/knowledge kb <create|import|build|status|issues>
+// Usage: SANITY_ORGANIZATION_ID=... SANITY_CONTEXT_TOKEN=... pnpm --filter @wallclock/knowledge kb <create|import [A|B]|build|status|issues>
 import {createClient} from '@sanity/client'
 import {readdirSync, readFileSync, writeFileSync} from 'node:fs'
 import {join} from 'node:path'
@@ -31,6 +31,7 @@ interface Source {
   title: string
   url?: string
   authority?: string
+  phase?: string
   body: string
 }
 
@@ -43,7 +44,7 @@ function readSources(): Source[] {
       const raw = readFileSync(join(dir, file), 'utf8')
       const fm = /^---\n([\s\S]*?)\n---\n/.exec(raw)
       const meta = Object.fromEntries((fm?.[1] ?? '').split('\n').map((l) => [l.split(':')[0]!.trim(), l.slice(l.indexOf(':') + 1).trim()]))
-      return {file, title: meta.title ?? file, url: meta.url, authority: meta.authority, body: raw.slice(fm?.[0].length ?? 0)}
+      return {file, title: meta.title ?? file, url: meta.url, authority: meta.authority, phase: meta.phase, body: raw.slice(fm?.[0].length ?? 0)}
     })
 }
 
@@ -63,7 +64,10 @@ async function main() {
   const kb = kbClient(kbId) as unknown as Ctx
 
   if (cmd === 'import') {
-    for (const s of readSources()) {
+    // Phase A (the law and references) is built first; phase B (news, vendors, libraries) is fed in afterwards,
+    // so the rebuild files the disagreements as issues instead of silently blending them.
+    const phase = process.argv[3]
+    for (const s of readSources().filter((x) => !phase || x.phase === phase)) {
       const header = `Source: ${s.title}\nURL: ${s.url ?? 'n/a'}\nAuthority tier: ${s.authority ?? 'unknown'}\n\n`
       const job = await kb.context.imports!.create!({type: 'text', title: s.title.slice(0, 200), content: header + s.body, contentType: 'text/markdown'})
       console.log('import', s.file, job)
