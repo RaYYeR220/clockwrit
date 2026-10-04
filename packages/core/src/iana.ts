@@ -8,6 +8,7 @@ const require = createRequire(import.meta.url)
 interface MomentTz {
   dataVersion: string
   zone(name: string): {utcOffset(ms: number): number} | null
+  names(): string[]
 }
 
 let tz: MomentTz | null = null
@@ -21,6 +22,11 @@ function iana(): MomentTz {
 /** The IANA tzdata release the reference clock is compiled from (e.g. "2026e"). */
 export function ianaVersion(): string {
   return iana().dataVersion
+}
+
+/** Every zone name in the pinned release, links included. */
+export function ianaZones(): string[] {
+  return iana().names()
 }
 
 /** Offset according to the pinned IANA tzdata release. */
