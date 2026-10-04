@@ -31,6 +31,14 @@ interface IssueDoc {
     suggested?: number
   }
 }
+interface SourceRow {
+  _id?: string
+  id?: string
+  title?: string
+  filename?: string
+  url?: string
+  canonicalUrl?: string
+}
 interface Ctx {
   context: {
     issues: {
@@ -39,7 +47,7 @@ interface Ctx {
       apply(a: {issueIds: string[]}): Promise<unknown>
     }
     sources: {
-      list(q?: object): Promise<{_id?: string; id?: string; title?: string; url?: string}[]>
+      list(q?: object): Promise<SourceRow[] | {data: SourceRow[]; nextCursor?: string | null}>
       content(a: {sourceId: string; startLine?: number; endLine?: number}): Promise<unknown>
     }
   }
@@ -55,7 +63,7 @@ export interface RulingView {
   issue?: string
   status: IssueDoc['status']
   resolution?: number
-  sides: (IssueSide & {index: number; sourceTitles: string[]; quote: string | null})[]
+  sides: (IssueSide & {index: number; sourceTitles: string[]; sourceUrls: string[]; quote: string | null})[]
   ruling: RulingDoc | null
 }
 
@@ -80,9 +88,36 @@ export function rulingIdFor(issueId: string) {
   return `ruling-${issueId.replace(/[^A-Za-z0-9_-]/g, '-')}`
 }
 
-async function sourceTitles(): Promise<Map<string, string>> {
-  const list = await kb().context.sources.list({})
-  return new Map(list.map((s) => [String(s._id ?? s.id), s.title ?? s.url ?? String(s._id ?? s.id)]))
+interface SourceInfo {
+  title: string
+  url?: string
+  authority?: 'primary' | 'secondary' | 'community'
+}
+
+const sourceCache = new Map<string, SourceInfo>()
+
+/**
+ * Every source was imported with a header naming its title, URL and the authority tier we gave it.
+ * Reading those lines back is exact, unlike matching on the Knowledge Base's slugified file names.
+ */
+async function sourceInfo(id: string): Promise<SourceInfo> {
+  const hit = sourceCache.get(id)
+  if (hit) return hit
+  let info: SourceInfo = {title: id}
+  try {
+    const head = asText(await kb().context.sources.content({sourceId: id, startLine: 1, endLine: 4}))
+    const field = (name: string) => new RegExp(`^\s*(?:\d+[:|]\s*)?${name}:\s*(.+)$`, 'm').exec(head)?.[1]?.trim()
+    const tier = field('Authority tier')
+    info = {
+      title: field('Source') ?? id,
+      url: field('URL') !== 'n/a' ? field('URL') : undefined,
+      authority: tier === 'primary' || tier === 'secondary' || tier === 'community' ? tier : undefined,
+    }
+  } catch {
+    // keep the id as the title
+  }
+  sourceCache.set(id, info)
+  return info
 }
 
 function asText(content: unknown): string {
@@ -104,9 +139,8 @@ async function quoteFor(side: IssueSide): Promise<string | null> {
 
 /** Conflicts the Knowledge Base raised, with each side's quoted evidence and any ruling on record. */
 export async function listRulings(): Promise<RulingView[]> {
-  const [issues, titles, rulings] = await Promise.all([
+  const [issues, rulings] = await Promise.all([
     kb().context.issues.list({}),
-    sourceTitles(),
     contentClient().fetch<RulingDoc[]>(`*[_type == "ruling"]`),
   ])
   const byIssue = new Map(rulings.map((r) => [r.issueId, r]))
@@ -121,12 +155,20 @@ export async function listRulings(): Promise<RulingView[]> {
       status: i.status,
       resolution: i.resolution,
       sides: await Promise.all(
-        (i.content.sides ?? []).map(async (s, index) => ({
-          ...s,
-          index,
-          sourceTitles: (s.sourceIds ?? []).map((id) => titles.get(id) ?? id),
-          quote: await quoteFor(s),
-        })),
+        (i.content.sides ?? []).map(async (s, index) => {
+          const info = await Promise.all((s.sourceIds ?? []).map(sourceInfo))
+          // The Knowledge Base doesn't always rate a side; fall back to the tier we gave its strongest source.
+          const rank = {primary: 0, secondary: 1, community: 2} as const
+          const best = info.map((x) => x.authority).filter(Boolean).sort((a, b) => rank[a!] - rank[b!])[0]
+          return {
+            ...s,
+            authority: s.authority ?? best,
+            index,
+            sourceTitles: info.map((x) => x.title),
+            sourceUrls: info.map((x) => x.url ?? ''),
+            quote: await quoteFor(s),
+          }
+        }),
       ),
       ruling: byIssue.get(i._id) ?? null,
     })),
