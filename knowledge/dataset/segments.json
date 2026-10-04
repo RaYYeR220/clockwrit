@@ -1,0 +1,2343 @@
+[
+  {
+    "_id": "seg-america-vancouver-canada-rules",
+    "zone": "zone-america-vancouver",
+    "validFrom": null,
+    "validTo": "2026-03-09T07:00:00Z",
+    "stdOffsetMinutes": -480,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "PST",
+      "PDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica",
+      "ins-bc-gov-news-2026-permanent-dst"
+    ],
+    "note": "PST/PDT on Canada rules (2nd Sun Mar 02:00 to 1st Sun Nov 02:00). The last spring-forward was 2026-03-08. Pre-2026 statute text not retrieved; rule per tzdata 2026e. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-vancouver-2026",
+    "zone": "zone-america-vancouver",
+    "validFrom": "2026-03-09T07:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -420,
+    "dst": null,
+    "abbreviations": [
+      "MST"
+    ],
+    "basis": [
+      "ins-bc-interpretation-act-s26",
+      "ins-bc-interpretation-act-tlc",
+      "ins-bc-gov-news-2026-permanent-dst"
+    ],
+    "note": "Interpretation Act s. 26: 'Pacific Time' = 7 hours behind UTC, in force 2026-03-09 (B.C. Reg. 20/2026); boundary at 00:00 local (07:00 UTC). tzdata 2026b-2026e instead model PDT until 2026-11-01 02:00 and 'MST' afterwards (temporary hack for CLDR 48.1): the UTC offset is -07:00 on both sides, only isdst/abbreviation differ, so this is not an offset divergence. Microsoft MC1479468 also dates the change 2026-11-01."
+  },
+  {
+    "_id": "seg-america-edmonton-canada-rules",
+    "zone": "zone-america-edmonton",
+    "validFrom": null,
+    "validTo": "2026-06-18T06:00:00Z",
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "MST/MDT on Canada rules (Daylight Saving Time Act, replaced in 2026; text not retrieved, rule per tzdata 2026e). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-edmonton-2026",
+    "zone": "zone-america-edmonton",
+    "validFrom": "2026-06-18T06:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-ab-official-time-act",
+      "ins-ab-oc-204-2026",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Official Time Act s. 1: UTC-6, no DST, in force 2026-06-18 (OC 204/2026; boundary 00:00 local assumed = 06:00 UTC). tzdata 2026c-2026e keep MDT until 2026-11-01 02:00 then CST: same -06:00 offset, only isdst/abbreviation differ. Also used by Lloydminster, East Kootenay/Golden (BC) and Yellowknife (link)."
+  },
+  {
+    "_id": "seg-america-inuvik-canada-rules",
+    "zone": "zone-america-inuvik",
+    "validFrom": null,
+    "validTo": "2026-08-21T06:00:00Z",
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "MST/MDT on Canada rules (rule per tzdata 2026e). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-inuvik-2026",
+    "zone": "zone-america-inuvik",
+    "validFrom": "2026-08-21T06:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-nt-time-regulations-r-090-2026",
+      "ins-iana-tzdata-2026d"
+    ],
+    "note": "Northwest Territories Time Regulations R-090-2026 s. 1: standard time six hours behind UTC, in force 2026-08-21 (boundary 00:00 local = 06:00 UTC). tzdata 2026d+ model MDT until 2026-11-01 02:00 then CST (same offset); tzdata 2026c had the change only as comments and still falls back to -07 on 2026-11-01."
+  },
+  {
+    "_id": "seg-america-winnipeg-canada-rules",
+    "zone": "zone-america-winnipeg",
+    "validFrom": null,
+    "validTo": "2026-10-31T05:00:00Z",
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "CST",
+      "CDT"
+    ],
+    "basis": [
+      "ins-mb-official-time-act-ccsm-o30",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "The Official Time Act s. 2: Central Standard Time with DST from the 2nd Sunday in March to the 1st Sunday in November. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-winnipeg-2026",
+    "zone": "zone-america-winnipeg",
+    "validFrom": "2026-10-31T05:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -300,
+    "dst": null,
+    "abbreviations": [
+      "EST"
+    ],
+    "basis": [
+      "ins-mb-official-time-amendment-act-2023",
+      "ins-mb-news-2026-09-17",
+      "ins-iana-tzdata-2026e"
+    ],
+    "note": "The Official Time Amendment Act (S.M. 2023, c. 4) comes into force 2026-10-31 by proclamation of 2026-09-23 (boundary 00:00 local CDT = 05:00 UTC); Manitoba stays on UTC-5 and does not fall back on 2026-11-01. Not yet in force on 2026-10-04 (status enacted_not_effective). tzdata 2026e models CDT until 2026-11-01 02:00 then EST: same -05:00 offset. NW Ontario areas on this zone are assumed by tzdata to follow (UNVERIFIED)."
+  },
+  {
+    "_id": "seg-america-regina-base",
+    "zone": "zone-america-regina",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "CST (UTC-6) all year, no DST, since 1960 per tzdata 2026e; The Time Act (RSS 1978 c. T-14) text not retrieved. Bill 58 (The Time Act, 2026) would keep UTC-6 and is not yet proclaimed. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-swift-current-base",
+    "zone": "zone-america-swift-current",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "CST (UTC-6) all year, no DST, since 1972 per tzdata 2026e. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-africa-casablanca-gmt-plus-1",
+    "zone": "zone-africa-casablanca",
+    "validFrom": null,
+    "validTo": "2019-05-05T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 under Decree 2.18.855 (2018). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-africa-casablanca-2019-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2019-05-05T02:00:00Z",
+    "validTo": "2019-06-09T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2019: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2019-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2019-06-09T02:00:00Z",
+    "validTo": "2020-04-19T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2019 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2020-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2020-04-19T02:00:00Z",
+    "validTo": "2020-05-31T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2020: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2020-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2020-05-31T02:00:00Z",
+    "validTo": "2021-04-11T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2020 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2021-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2021-04-11T02:00:00Z",
+    "validTo": "2021-05-16T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2021: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2021-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2021-05-16T02:00:00Z",
+    "validTo": "2022-03-27T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2021 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2022-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2022-03-27T02:00:00Z",
+    "validTo": "2022-05-08T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2022: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2022-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2022-05-08T02:00:00Z",
+    "validTo": "2023-03-19T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2022 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2023-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2023-03-19T02:00:00Z",
+    "validTo": "2023-04-23T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2023: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2023-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2023-04-23T02:00:00Z",
+    "validTo": "2024-03-10T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2023 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2024-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2024-03-10T02:00:00Z",
+    "validTo": "2024-04-14T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2024: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2024-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2024-04-14T02:00:00Z",
+    "validTo": "2025-02-23T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2024 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2025-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2025-02-23T02:00:00Z",
+    "validTo": "2025-04-06T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2025: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2025-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2025-04-06T02:00:00Z",
+    "validTo": "2026-02-15T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2025 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-casablanca-2026-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2026-02-15T02:00:00Z",
+    "validTo": "2026-03-22T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2026: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-casablanca-2026-after-ramadan",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2026-03-22T02:00:00Z",
+    "validTo": "2026-09-20T01:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "GMT+1 after the 2026 Ramadan period, until the return to GMT."
+  },
+  {
+    "_id": "seg-africa-casablanca-2026",
+    "zone": "zone-africa-casablanca",
+    "validFrom": "2026-09-20T01:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-26-530",
+      "ins-iana-tzdata-2026c",
+      "ins-ma-hespress-2026",
+      "ins-ma-mwn-2026"
+    ],
+    "note": "Decree 2.26.530 (BO 7521, 2026-06-29) restores GMT from Sunday 2026-09-20: clocks set back 60 min at 02:00 (+01) = 01:00 UTC, so 01:00-01:59 local occurred twice. Abrogates Decree 2.18.855; no more Ramadan switches. tzdata 2026c+ agree; runtimes on tzdata <= 2026b still show +01."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-gmt-plus-1",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": null,
+    "validTo": "2019-05-05T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 under Decree 2.18.855 (2018). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2019-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2019-05-05T02:00:00Z",
+    "validTo": "2019-06-09T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2019: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2019-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2019-06-09T02:00:00Z",
+    "validTo": "2020-04-19T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2019 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2020-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2020-04-19T02:00:00Z",
+    "validTo": "2020-05-31T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2020: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2020-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2020-05-31T02:00:00Z",
+    "validTo": "2021-04-11T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2020 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2021-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2021-04-11T02:00:00Z",
+    "validTo": "2021-05-16T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2021: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2021-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2021-05-16T02:00:00Z",
+    "validTo": "2022-03-27T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2021 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2022-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2022-03-27T02:00:00Z",
+    "validTo": "2022-05-08T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2022: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2022-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2022-05-08T02:00:00Z",
+    "validTo": "2023-03-19T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2022 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2023-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2023-03-19T02:00:00Z",
+    "validTo": "2023-04-23T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2023: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2023-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2023-04-23T02:00:00Z",
+    "validTo": "2024-03-10T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2023 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2024-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2024-03-10T02:00:00Z",
+    "validTo": "2024-04-14T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2024: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2024-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2024-04-14T02:00:00Z",
+    "validTo": "2025-02-23T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2024 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2025-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2025-02-23T02:00:00Z",
+    "validTo": "2025-04-06T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2025: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2025-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2025-04-06T02:00:00Z",
+    "validTo": "2026-02-15T02:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Permanent GMT+1 (Decree 2.18.855) after the 2025 Ramadan period."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2026-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2026-02-15T02:00:00Z",
+    "validTo": "2026-03-22T02:00:00Z",
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Temporary return to GMT for Ramadan 2026: clocks back at 03:00 local (+01) and forward at 02:00 local (+00), as modelled by tzdata 2026e Rule Morocco (dates announced annually by the government; individual announcements not retrieved)."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2026-after-ramadan",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2026-03-22T02:00:00Z",
+    "validTo": "2026-09-20T01:00:00Z",
+    "stdOffsetMinutes": 60,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-18-855",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "GMT+1 after the 2026 Ramadan period, until the return to GMT."
+  },
+  {
+    "_id": "seg-africa-el-aaiun-2026",
+    "zone": "zone-africa-el-aaiun",
+    "validFrom": "2026-09-20T01:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 0,
+    "dst": null,
+    "basis": [
+      "ins-ma-decree-2-26-530",
+      "ins-iana-tzdata-2026c",
+      "ins-ma-hespress-2026",
+      "ins-ma-mwn-2026"
+    ],
+    "note": "Decree 2.26.530 (BO 7521, 2026-06-29) restores GMT from Sunday 2026-09-20: clocks set back 60 min at 02:00 (+01) = 01:00 UTC, so 01:00-01:59 local occurred twice. Abrogates Decree 2.18.855; no more Ramadan switches. tzdata 2026c+ agree; runtimes on tzdata <= 2026b still show +01."
+  },
+  {
+    "_id": "seg-america-asuncion-para-rules",
+    "zone": "zone-america-asuncion",
+    "validFrom": null,
+    "validTo": "2024-10-06T04:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 10,
+        "on": "Sun>=1",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 3,
+        "on": "Sun>=22",
+        "at": "0:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2024b-southamerica",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-4 with DST from the 1st Sunday of October to the 4th Sunday of March (Sun>=22) at 00:00. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-asuncion-2024",
+    "zone": "zone-america-asuncion",
+    "validFrom": "2024-10-06T04:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -180,
+    "dst": null,
+    "basis": [
+      "ins-py-ley-7354",
+      "ins-iana-tzdata-2025a",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "Ley 7354 art. 1: UTC-3 nationwide; art. 2: in force from the first Sunday of October 2024 (2024-10-06, boundary 00:00 local -04 = 04:00 UTC). tzdata treats 2024-10-06..14 as DST and standard -03 only from 2024-10-15 (constitutional non-retroactivity): same offset, isdst differs. No fall-back on 2025-03-23."
+  },
+  {
+    "_id": "seg-asia-almaty-utc-plus-6",
+    "zone": "zone-asia-almaty",
+    "validFrom": null,
+    "validTo": "2024-02-29T18:00:00Z",
+    "stdOffsetMinutes": 360,
+    "dst": null,
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+6, no DST. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-almaty-2024",
+    "zone": "zone-asia-almaty",
+    "validFrom": "2024-02-29T18:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 300,
+    "dst": null,
+    "basis": [
+      "ins-kz-government-resolution-2024-01-19",
+      "ins-iana-tzdata-2024a"
+    ],
+    "note": "Government resolution of 19 Jan 2024: the 5th time zone (UTC+5) for the whole territory; clocks set back 1 h at 00:00 on 2024-03-01 (+06) = 2024-02-29 18:00 UTC. The 2024 petition to return to UTC+6 produced no change."
+  },
+  {
+    "_id": "seg-asia-qostanay-utc-plus-6",
+    "zone": "zone-asia-qostanay",
+    "validFrom": null,
+    "validTo": "2024-02-29T18:00:00Z",
+    "stdOffsetMinutes": 360,
+    "dst": null,
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+6, no DST. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-qostanay-2024",
+    "zone": "zone-asia-qostanay",
+    "validFrom": "2024-02-29T18:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 300,
+    "dst": null,
+    "basis": [
+      "ins-kz-government-resolution-2024-01-19",
+      "ins-iana-tzdata-2024a"
+    ],
+    "note": "Government resolution of 19 Jan 2024: the 5th time zone (UTC+5) for the whole territory; clocks set back 1 h at 00:00 on 2024-03-01 (+06) = 2024-02-29 18:00 UTC. The 2024 petition to return to UTC+6 produced no change."
+  },
+  {
+    "_id": "seg-america-nuuk-eu-rules-minus-3",
+    "zone": "zone-america-nuuk",
+    "validFrom": null,
+    "validTo": "2023-03-26T01:00:00Z",
+    "stdOffsetMinutes": -180,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "UTC-3 with EU summer time. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-nuuk-2023",
+    "zone": "zone-america-nuuk",
+    "validFrom": "2023-03-26T01:00:00Z",
+    "validTo": "2023-10-29T01:00:00Z",
+    "stdOffsetMinutes": -120,
+    "dst": null,
+    "basis": [
+      "ins-gl-announcement-2023",
+      "ins-iana-tzdata-2023a"
+    ],
+    "note": "Greenland's standard time is UTC-2 from 25 March 2023 22:00 local (-03) = 2023-03-26 01:00 UTC; no spring-forward in 2023. Boundary to the next regime follows tzdata (2023-10-29 01:00 UTC); the offset is -02:00 on both sides."
+  },
+  {
+    "_id": "seg-america-nuuk-2023-eu-rules",
+    "zone": "zone-america-nuuk",
+    "validFrom": "2023-10-29T01:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-gl-announcement-2023",
+      "ins-iana-tzdata-2023a",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "UTC-2 standard time with EU summer time (UTC-1) from 2024 onwards; the bill to stop DST did not pass (tzdata 2023a corrected 2022g)."
+  },
+  {
+    "_id": "seg-america-scoresbysund-eu-rules-minus-1",
+    "zone": "zone-america-scoresbysund",
+    "validFrom": null,
+    "validTo": "2024-03-31T01:00:00Z",
+    "stdOffsetMinutes": -60,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "UTC-1 with EU summer time. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-scoresbysund-2024",
+    "zone": "zone-america-scoresbysund",
+    "validFrom": "2024-03-31T01:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-europe",
+      "ins-gl-announcement-2023"
+    ],
+    "note": "Ittoqqortoormiit joins Greenland's UTC-2 standard time with EU summer time from 2024-03-31 (tzdata 2026e); the offset stays -01:00 across the boundary."
+  },
+  {
+    "_id": "seg-america-mexico-city-mexico-rules",
+    "zone": "zone-america-mexico-city",
+    "validFrom": null,
+    "validTo": "2022-10-30T07:00:00Z",
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 4,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "CST",
+      "CDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "UTC-6 with Mexican DST (1st Sun Apr 02:00 to last Sun Oct 02:00). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-mexico-city-2022",
+    "zone": "zone-america-mexico-city",
+    "validFrom": "2022-10-30T07:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022"
+    ],
+    "note": "Ley de los Husos Horarios (DOF 2022-10-28) in force 2022-10-30; the last fall-back happened that day at 02:00 CDT (07:00 UTC), after which no seasonal time applies here."
+  },
+  {
+    "_id": "seg-america-monterrey-mexico-rules",
+    "zone": "zone-america-monterrey",
+    "validFrom": null,
+    "validTo": "2022-10-30T07:00:00Z",
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 4,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "CST",
+      "CDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "UTC-6 with Mexican DST (1st Sun Apr 02:00 to last Sun Oct 02:00). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-monterrey-2022",
+    "zone": "zone-america-monterrey",
+    "validFrom": "2022-10-30T07:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022"
+    ],
+    "note": "Ley de los Husos Horarios (DOF 2022-10-28) in force 2022-10-30; the last fall-back happened that day at 02:00 CDT (07:00 UTC), after which no seasonal time applies here."
+  },
+  {
+    "_id": "seg-america-chihuahua-mexico-rules",
+    "zone": "zone-america-chihuahua",
+    "validFrom": null,
+    "validTo": "2022-10-30T08:00:00Z",
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 4,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "UTC-7 with Mexican DST. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-chihuahua-2022",
+    "zone": "zone-america-chihuahua",
+    "validFrom": "2022-10-30T08:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022",
+      "ins-mx-zeta-2022"
+    ],
+    "note": "Under the 2022 law the state of Chihuahua (outside the border strip) moved to UTC-6 without DST: at 02:00 MDT on 2022-10-30 clocks did not fall back."
+  },
+  {
+    "_id": "seg-america-ciudad-juarez-us-rules",
+    "zone": "zone-america-ciudad-juarez",
+    "validFrom": null,
+    "validTo": "2022-10-30T08:00:00Z",
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "UTC-7 with US DST dates (since 2010). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-ciudad-juarez-2022-cst",
+    "zone": "zone-america-ciudad-juarez",
+    "validFrom": "2022-10-30T08:00:00Z",
+    "validTo": "2022-11-30T06:00:00Z",
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022",
+      "ins-iana-tzdata-2022g"
+    ],
+    "note": "One month on the state-wide UTC-6 regime of the 2022 law, before the border-strip reform."
+  },
+  {
+    "_id": "seg-america-ciudad-juarez-2022-border",
+    "zone": "zone-america-ciudad-juarez",
+    "validFrom": "2022-11-30T06:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-iana-tzdata-2022g",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "November 2022 reform: the Chihuahua border strip follows US DST again from 2022-11-30 00:00 local (06:00 UTC) on a -7 base. Early reporting (ZETA, Oct 2022) said all of Chihuahua would keep a single schedule."
+  },
+  {
+    "_id": "seg-america-ojinaga-us-rules",
+    "zone": "zone-america-ojinaga",
+    "validFrom": null,
+    "validTo": "2022-10-30T08:00:00Z",
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "UTC-7 with US DST dates (since 2010). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-ojinaga-2022-cst",
+    "zone": "zone-america-ojinaga",
+    "validFrom": "2022-10-30T08:00:00Z",
+    "validTo": "2022-11-30T06:00:00Z",
+    "stdOffsetMinutes": -360,
+    "dst": null,
+    "abbreviations": [
+      "CST"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022",
+      "ins-iana-tzdata-2022g"
+    ],
+    "note": "One month on the state-wide UTC-6 regime of the 2022 law, before the border-strip reform."
+  },
+  {
+    "_id": "seg-america-ojinaga-2022-border",
+    "zone": "zone-america-ojinaga",
+    "validFrom": "2022-11-30T06:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-iana-tzdata-2022g",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "November 2022 reform: the Chihuahua border strip follows US DST again from 2022-11-30 00:00 local (06:00 UTC) on a -6 base. Early reporting (ZETA, Oct 2022) said all of Chihuahua would keep a single schedule."
+  },
+  {
+    "_id": "seg-america-matamoros-us-rules",
+    "zone": "zone-america-matamoros",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "CST",
+      "CDT"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Northern-border municipality: UTC-6 with US DST dates (since 2010; kept by the 2022 law). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-tijuana-us-rules",
+    "zone": "zone-america-tijuana",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -480,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "PST",
+      "PDT"
+    ],
+    "basis": [
+      "ins-mx-ley-husos-horarios-2022",
+      "ins-iana-tzdata-2022f",
+      "ins-mx-idc-2022",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Baja California: UTC-8 with US DST dates (since 2010; kept by the 2022 law). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-africa-cairo-no-dst",
+    "zone": "zone-africa-cairo",
+    "validFrom": null,
+    "validTo": "2023-04-27T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": null,
+    "abbreviations": [
+      "EET"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "UTC+2 without DST (DST suspended since 2016 until Law 24 of 2023). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-africa-cairo-2023",
+    "zone": "zone-africa-cairo",
+    "validFrom": "2023-04-27T22:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 4,
+        "on": "lastFri",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastThu",
+        "at": "24:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-eg-cairo-governorate-dst-2025",
+      "ins-iana-tzdata-2023a",
+      "ins-eg-amwal-2026",
+      "ins-tzdata-2026e-africa"
+    ],
+    "note": "Law No. 24 of 2023: DST from the last Friday of April (00:00) to the end of the last Thursday of October (24:00). Observed in 2025 (from 2025-04-25) and 2026 (2026-04-24 to 2026-10-29 24:00). Law text itself not retrieved; rule per Cairo Governorate notice and tzdata."
+  },
+  {
+    "_id": "seg-america-port-au-prince-us-style",
+    "zone": "zone-america-port-au-prince",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -300,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EST",
+      "EDT"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-northamerica",
+      "ins-ht-nouvelliste-2026"
+    ],
+    "note": "UTC-5 with DST on US dates since 2017 (tzdata Rule Haiti 2017 max). Presidency notices not retrieved (UNVERIFIED); Le Nouvelliste confirms the March 2026 change. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-beirut-lebanon-rules",
+    "zone": "zone-asia-beirut",
+    "validFrom": null,
+    "validTo": "2023-03-25T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "0:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+2 with DST from the last Sunday of March 00:00 to the last Sunday of October 00:00. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-beirut-2023-delay",
+    "zone": "zone-asia-beirut",
+    "validFrom": "2023-03-25T22:00:00Z",
+    "validTo": "2023-03-29T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": null,
+    "abbreviations": [
+      "EET"
+    ],
+    "basis": [
+      "ins-lb-lorient-today-2023-03-27",
+      "ins-lb-gulfnews-2023-03-26",
+      "ins-iana-tzdata-2023c"
+    ],
+    "note": "Official time stayed UTC+2: the government postponed DST (23 Mar), then the cabinet (27 Mar) set the switch for 'overnight Wednesday to Thursday'. The end instant assumes midnight between 29 and 30 March 2023 (Lebanon's usual 00:00 transition time; exact hour not stated). tzdata 2023c+ models DST from 2023-03-26 - a known divergence."
+  },
+  {
+    "_id": "seg-asia-beirut-2023-rules",
+    "zone": "zone-asia-beirut",
+    "validFrom": "2023-03-29T22:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "0:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "Regular Lebanese DST rule after the 2023 episode."
+  },
+  {
+    "_id": "seg-europe-kyiv-eet-eest",
+    "zone": "zone-europe-kyiv",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-ua-slovoidilo-2026",
+      "ins-tzdata-2026e-europe",
+      "ins-ua-bill-4201"
+    ],
+    "note": "CMU Resolution No. 509 (1996): EET/EEST, last Sunday of March 03:00 -> 04:00 and last Sunday of October 04:00 -> 03:00 local (= 01:00 UTC, the EU instants). Resolution text not retrievable on 2026-10-04 (zakon.rada.gov.ua refused connections); in force per Slovo i Dilo and buhgalter.com.ua. Bill 4201 (no seasonal changes) is unsigned. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-new-york-us-rules",
+    "zone": "zone-america-new-york",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -300,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EST",
+      "EDT"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Eastern Time with DST from the 2nd Sunday of March to the 1st Sunday of November (15 U.S.C. 260a). H.R. 139 is pending in the Senate. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-chicago-us-rules",
+    "zone": "zone-america-chicago",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -360,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "CST",
+      "CDT"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Central Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-denver-us-rules",
+    "zone": "zone-america-denver",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -420,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "MST",
+      "MDT"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Mountain Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-los-angeles-us-rules",
+    "zone": "zone-america-los-angeles",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -480,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "PST",
+      "PDT"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Pacific Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-anchorage-us-rules",
+    "zone": "zone-america-anchorage",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -540,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "Sun>=8",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "2:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "AKST",
+      "AKDT"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Alaska Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-pacific-honolulu-no-dst",
+    "zone": "zone-pacific-honolulu",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -600,
+    "dst": null,
+    "abbreviations": [
+      "HST"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Hawaii-Aleutian standard time all year: Hawaii exempts itself under 15 U.S.C. 260a(a). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-phoenix-no-dst",
+    "zone": "zone-america-phoenix",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -420,
+    "dst": null,
+    "abbreviations": [
+      "MST"
+    ],
+    "basis": [
+      "ins-us-15-usc-260a",
+      "ins-tzdata-2026e-northamerica"
+    ],
+    "note": "Mountain Standard Time all year: Arizona exempts itself under 15 U.S.C. 260a(a) (the Navajo Nation, on America/Denver, does observe DST). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-berlin-eu-rules",
+    "zone": "zone-europe-berlin",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 60,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "CET",
+      "CEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-paris-eu-rules",
+    "zone": "zone-europe-paris",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 60,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "CET",
+      "CEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-madrid-eu-rules",
+    "zone": "zone-europe-madrid",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 60,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "CET",
+      "CEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-warsaw-eu-rules",
+    "zone": "zone-europe-warsaw",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 60,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "CET",
+      "CEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-athens-eu-rules",
+    "zone": "zone-europe-athens",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-lisbon-eu-rules",
+    "zone": "zone-europe-lisbon",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": 0,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "WET",
+      "WEST"
+    ],
+    "basis": [
+      "ins-eu-directive-2000-84-ec",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Summer time from 01:00 UTC on the last Sunday in March to 01:00 UTC on the last Sunday in October (Directive 2000/84/EC arts. 2-3). Proposal 2018/0332(COD) to end clock changes is still awaiting the Council. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-tehran-2019",
+    "zone": "zone-asia-tehran",
+    "validFrom": null,
+    "validTo": "2019-12-31T20:30:00Z",
+    "stdOffsetMinutes": 210,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "21",
+        "at": "24:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 9,
+        "on": "21",
+        "at": "24:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+3:30 with DST from 21 Mar 24:00 to 21 Sep 24:00 (tzdata Rule Iran 2017-2019). Iranian DST law text not retrieved. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-tehran-2020",
+    "zone": "zone-asia-tehran",
+    "validFrom": "2019-12-31T20:30:00Z",
+    "validTo": "2020-12-31T20:30:00Z",
+    "stdOffsetMinutes": 210,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "20",
+        "at": "24:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 9,
+        "on": "20",
+        "at": "24:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "Leap-year dates: DST from 20 Mar 24:00 to 20 Sep 24:00 (tzdata Rule Iran 2020). Year boundary at 00:00 local; no offset change there."
+  },
+  {
+    "_id": "seg-asia-tehran-2021",
+    "zone": "zone-asia-tehran",
+    "validFrom": "2020-12-31T20:30:00Z",
+    "validTo": "2022-09-21T19:30:00Z",
+    "stdOffsetMinutes": 210,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "21",
+        "at": "24:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 9,
+        "on": "21",
+        "at": "24:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-asia",
+      "ins-iana-tzdata-2022b"
+    ],
+    "note": "DST from 21 Mar 24:00 to 21 Sep 24:00 (tzdata Rule Iran 2021-2022); last fall-back 2022-09-21 24:00 (+04:30) = 19:30 UTC."
+  },
+  {
+    "_id": "seg-asia-tehran-2022",
+    "zone": "zone-asia-tehran",
+    "validFrom": "2022-09-21T19:30:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 210,
+    "dst": null,
+    "basis": [
+      "ins-iana-tzdata-2022b",
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "DST cancelled from Iranian year 1402 (IRNA, via tzdata commentary): UTC+3:30 all year. Tehran province only changed office hours in May 2025 (06:00-13:00, Thursdays closed) - not a clock change, despite English Wikipedia."
+  },
+  {
+    "_id": "seg-asia-amman-jordan-rules",
+    "zone": "zone-asia-amman",
+    "validFrom": null,
+    "validTo": "2021-12-31T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastThu",
+        "at": "24:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastFri",
+        "at": "0:00",
+        "atType": "std"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+2 with DST from the last Thursday of March 24:00 to the last Friday of October 00:00 standard time. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-amman-2022-rules",
+    "zone": "zone-asia-amman",
+    "validFrom": "2021-12-31T22:00:00Z",
+    "validTo": "2022-10-27T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 2,
+        "on": "lastThu",
+        "at": "24:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastFri",
+        "at": "0:00",
+        "atType": "std"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "2022 DST started on the last Thursday of February 24:00 (tzdata Rule Jordan 2022). Year boundary at 00:00 local; no offset change."
+  },
+  {
+    "_id": "seg-asia-amman-2022",
+    "zone": "zone-asia-amman",
+    "validFrom": "2022-10-27T22:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 180,
+    "dst": null,
+    "basis": [
+      "ins-iana-tzdata-2022e",
+      "ins-jo-arabiaweather-2022",
+      "ins-jo-petra-2022"
+    ],
+    "note": "Council of Ministers (2022-10-05): summer time all year, i.e. permanent UTC+3; no fall-back on 2022-10-28. The Petra news item cited by tzdata now returns \"not available\" (link rot)."
+  },
+  {
+    "_id": "seg-asia-damascus-syria-rules",
+    "zone": "zone-asia-damascus",
+    "validFrom": null,
+    "validTo": "2022-10-27T21:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastFri",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastFri",
+        "at": "0:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "UTC+2 with DST from the last Friday of March to the last Friday of October (00:00). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-asia-damascus-2022",
+    "zone": "zone-asia-damascus",
+    "validFrom": "2022-10-27T21:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 180,
+    "dst": null,
+    "basis": [
+      "ins-iana-tzdata-2022e",
+      "ins-tzdata-2026e-asia"
+    ],
+    "note": "Cabinet decision of 2022-10-04: permanent UTC+3 from 2022-10-28 00:00 (no fall-back). No later Syrian change found (UNVERIFIED beyond tzdata)."
+  },
+  {
+    "_id": "seg-america-santiago-chile-rules",
+    "zone": "zone-america-santiago",
+    "validFrom": null,
+    "validTo": "2022-01-01T03:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=2",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-4 with DST from the 1st Sunday after 1 Sep (Sun>=2, 04:00 UTC) to Sun>=2 April (03:00 UTC). Decree DS 1.286 of 2018 as amended (text not retrieved). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-santiago-2022-rules",
+    "zone": "zone-america-santiago",
+    "validFrom": "2022-01-01T03:00:00Z",
+    "validTo": "2023-01-01T03:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=9",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "2022 only: DST began on Sun>=9 September (tzdata Rule Chile 2022). Year boundary at 00:00 local; no offset change."
+  },
+  {
+    "_id": "seg-america-coyhaique-chile-rules",
+    "zone": "zone-america-coyhaique",
+    "validFrom": null,
+    "validTo": "2022-01-01T03:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=2",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-4 with DST from the 1st Sunday after 1 Sep (Sun>=2, 04:00 UTC) to Sun>=2 April (03:00 UTC). Decree DS 1.286 of 2018 as amended (text not retrieved). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-coyhaique-2022-rules",
+    "zone": "zone-america-coyhaique",
+    "validFrom": "2022-01-01T03:00:00Z",
+    "validTo": "2023-01-01T03:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=9",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "2022 only: DST began on Sun>=9 September (tzdata Rule Chile 2022). Year boundary at 00:00 local; no offset change."
+  },
+  {
+    "_id": "seg-america-santiago-2023-rules",
+    "zone": "zone-america-santiago",
+    "validFrom": "2023-01-01T03:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=2",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-4 with DST (Sun>=2 Sep 04:00 UTC to Sun>=2 Apr 03:00 UTC); regime renewed to fall 2029 by Decreto 98 of 2026 (published 2026-07-02)."
+  },
+  {
+    "_id": "seg-america-coyhaique-2023-rules",
+    "zone": "zone-america-coyhaique",
+    "validFrom": "2023-01-01T03:00:00Z",
+    "validTo": "2025-03-20T03:00:00Z",
+    "stdOffsetMinutes": -240,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 9,
+        "on": "Sun>=2",
+        "at": "4:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 4,
+        "on": "Sun>=2",
+        "at": "3:00",
+        "atType": "utc"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "Same as mainland Chile until Decreto 93 of 2025."
+  },
+  {
+    "_id": "seg-america-coyhaique-2025",
+    "zone": "zone-america-coyhaique",
+    "validFrom": "2025-03-20T03:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -180,
+    "dst": null,
+    "basis": [
+      "ins-cl-decreto-93-2025",
+      "ins-iana-tzdata-2025b"
+    ],
+    "note": "Decreto 93 (DO 2025-03-20): Aysén keeps the advanced official time indefinitely, i.e. UTC-3 all year; did not fall back on 2025-04-05 24:00. Boundary at 00:00 local on the publication date (03:00 UTC); offset -03:00 on both sides."
+  },
+  {
+    "_id": "seg-america-punta-arenas-base",
+    "zone": "zone-america-punta-arenas",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -180,
+    "dst": null,
+    "basis": [
+      "ins-cl-decreto-93-2025",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "Magallanes: UTC-3 all year since 2016-12-04 (tzdata), confirmed by Decreto 93 of 2025. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-chisinau-moldova-rules",
+    "zone": "zone-europe-chisinau",
+    "validFrom": null,
+    "validTo": "2021-12-31T22:00:00Z",
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "2:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "3:00",
+        "atType": "wall"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-tzdata-2025c-europe",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "UTC+2 with transitions at 02:00 and 03:00 local on the last Sundays of March and October (until 2021). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-europe-chisinau-2022",
+    "zone": "zone-europe-chisinau",
+    "validFrom": "2021-12-31T22:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": 120,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 3,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      },
+      "end": {
+        "month": 10,
+        "on": "lastSun",
+        "at": "1:00",
+        "atType": "utc"
+      }
+    },
+    "abbreviations": [
+      "EET",
+      "EEST"
+    ],
+    "basis": [
+      "ins-iana-tzdata-2026a",
+      "ins-md-monitorul-2026",
+      "ins-tzdata-2026e-europe"
+    ],
+    "note": "Since 2022 Moldova springs forward at 03:00 and falls back at 04:00 local (01:00 UTC, the EU instants); formalised by a 2026 government decision (Monitorul Oficial text not retrievable - UNVERIFIED). DST continues despite a Logos Press headline about \"permanent UTC+2\". tzdata <= 2025c is an hour off on transition nights."
+  },
+  {
+    "_id": "seg-america-sao-paulo-brazil-rules",
+    "zone": "zone-america-sao-paulo",
+    "validFrom": null,
+    "validTo": "2019-04-25T03:00:00Z",
+    "stdOffsetMinutes": -180,
+    "dst": {
+      "saveMinutes": 60,
+      "start": {
+        "month": 11,
+        "on": "Sun>=1",
+        "at": "0:00",
+        "atType": "wall"
+      },
+      "end": {
+        "month": 2,
+        "on": "Sun>=15",
+        "at": "0:00",
+        "atType": "wall"
+      }
+    },
+    "basis": [
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-3 with the 2018-19 summer time (from 2018-11-04 to 2019-02-17, 00:00 local); only the 2018-19 season is represented by this rule. Pre-2019 decree text not retrieved; rule per tzdata 2026e."
+  },
+  {
+    "_id": "seg-america-sao-paulo-2019",
+    "zone": "zone-america-sao-paulo",
+    "validFrom": "2019-04-25T03:00:00Z",
+    "validTo": null,
+    "stdOffsetMinutes": -180,
+    "dst": null,
+    "basis": [
+      "ins-br-decreto-9772-2019",
+      "ins-br-dgabc-2025",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "Decreto 9.772 of 2019-04-25 art. 1: daylight saving time ended nationwide (boundary 00:00 local). The government ruled out DST for 2024-25 and denied 2025 rumours; a March 2026 article claiming DST from May 2026 is false."
+  },
+  {
+    "_id": "seg-america-manaus-base",
+    "zone": "zone-america-manaus",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -240,
+    "dst": null,
+    "basis": [
+      "ins-br-decreto-9772-2019",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-4 without DST (no DST here since 1994 per tzdata). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  },
+  {
+    "_id": "seg-america-bahia-base",
+    "zone": "zone-america-bahia",
+    "validFrom": null,
+    "validTo": null,
+    "stdOffsetMinutes": -180,
+    "dst": null,
+    "basis": [
+      "ins-br-decreto-9772-2019",
+      "ins-tzdata-2026e-southamerica"
+    ],
+    "note": "UTC-3 without DST (since 2012 per tzdata). Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+  }
+]

@@ -104,10 +104,13 @@ async function main() {
   for (const r of releases) {
     const existing = await client.fetch<string | null>(`releases::all()[name == $id][0].name`, {id: r.id})
     if (!existing) await client.releases.create({releaseId: r.id, metadata: {title: r.title, description: r.description, releaseType: 'undecided'}})
+    // A version is the document as it would read once the release is published; writing it by its full id keeps reruns idempotent.
+    const tx = client.transaction()
     for (const {type, doc} of r.documents) {
       const document = toDocument(type, doc)
-      await client.createVersion({document, publishedId: document._id, releaseId: r.id})
+      tx.createOrReplace({...document, _id: `versions.${r.id}.${document._id}`})
     }
+    await tx.commit()
     console.log(`release ${r.id}: ${r.documents.length} versions`)
   }
 }

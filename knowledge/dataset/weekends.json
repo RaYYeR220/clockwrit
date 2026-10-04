@@ -1,0 +1,273 @@
+[
+  {
+    "_id": "wkd-pl",
+    "jurisdiction": "jur-pl",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Sundays are statutory days off (1951 Act art. 1 pkt 2). Saturday as the second weekly day off follows the five-day working week of the Labour Code (not among the fetched sources - UNVERIFIED).",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "wkd-ua",
+    "jurisdiction": "jur-ua",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Saturday-Sunday five-day week as recorded in the research case; Labour Code art. 67 was not among the fetched sources (UNVERIFIED). Under martial law parts of art. 67 are also disapplied (Law 2136-IX art. 6(6)).",
+    "basis": [
+      "ins-ua-labour-code-art-73"
+    ]
+  },
+  {
+    "_id": "wkd-gb-eaw",
+    "jurisdiction": "jur-gb-eaw",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "No statutory weekend in the UK. GOV.UK moves bank holidays that fall on Saturday or Sunday to a weekday ('Substitute day'), i.e. treats Saturday-Sunday as non-working.",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "wkd-gb-sct",
+    "jurisdiction": "jur-gb-sct",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "No statutory weekend in the UK. GOV.UK moves bank holidays that fall on Saturday or Sunday to a weekday ('Substitute day'), i.e. treats Saturday-Sunday as non-working.",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "wkd-gb-nir",
+    "jurisdiction": "jur-gb-nir",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "No statutory weekend in the UK. GOV.UK moves bank holidays that fall on Saturday or Sunday to a weekday ('Substitute day'), i.e. treats Saturday-Sunday as non-working.",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "wkd-us",
+    "jurisdiction": "jur-us",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Federal employees: holidays falling on Saturday move to the preceding Friday and on Sunday to the following Monday (5 U.S.C. 6103(b); E.O. 11582), i.e. Saturday-Sunday are non-workdays. Private and state schedules vary.",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "wkd-us-wy",
+    "jurisdiction": "jur-us-wy",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Assumed Saturday-Sunday as for federal employees; the Wyoming state-employee schedule was not fetched (UNVERIFIED).",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "wkd-br",
+    "jurisdiction": "jur-br",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Saturday-Sunday assumed for the federal administration; the Portaria lists weekday holidays and optional days but does not define the weekly rest (CLT weekly rest not fetched - UNVERIFIED).",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "wkd-ru",
+    "jurisdiction": "jur-ru",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Five-day working week with Saturday and Sunday off (the basis of the official production calendar).",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "wkd-cn",
+    "jurisdiction": "jur-cn",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Saturday-Sunday rest: Decree 795 art. 6 gives a make-up weekday when a holiday falls on 周六/周日; the annual notice names specific Saturdays/Sundays as working days.",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "wkd-ae-until-2021",
+    "jurisdiction": "jur-ae",
+    "from": null,
+    "to": "2021-12-31",
+    "days": [
+      5,
+      6
+    ],
+    "note": "Friday-Saturday weekend before the federal change of 1 January 2022 (as recorded in CLDR release-40).",
+    "basis": [
+      "ins-ae-cldr-release-40",
+      "ins-ae-portal-public-sector-hours"
+    ]
+  },
+  {
+    "_id": "wkd-ae-2022",
+    "jurisdiction": "jur-ae",
+    "from": "2022-01-01",
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Federal government: Saturday-Sunday weekend with a Friday half day (07:30-12:00) since 2022-01-01. Private sector: at least one paid weekly rest day set by contract (Decree-Law 33/2021 art. 21).",
+    "basis": [
+      "ins-ae-portal-public-sector-hours",
+      "ins-ae-decree-law-33-2021"
+    ]
+  },
+  {
+    "_id": "wkd-ae-sh-2022",
+    "jurisdiction": "jur-ae-sh",
+    "from": "2022-01-01",
+    "to": null,
+    "days": [
+      5,
+      6,
+      7
+    ],
+    "note": "Government of Sharjah: four-day week Monday-Thursday; Friday, Saturday and Sunday off (start date 2022-01-01 per Khaleej Times via research, not stated on u.ae).",
+    "basis": [
+      "ins-ae-portal-public-sector-hours"
+    ]
+  },
+  {
+    "_id": "wkd-sa",
+    "jurisdiction": "jur-sa",
+    "from": "2013-06-29",
+    "to": null,
+    "days": [
+      5,
+      6
+    ],
+    "note": "Friday is the statutory weekly rest day for all workers (replaceable for some work); Friday-Saturday is the weekend of ministries, SAMA and financial institutions since 2013-06-29 (Royal Order O/185). Saturday is not guaranteed for private-sector workers.",
+    "basis": [
+      "ins-sa-hrsd-worker-rights",
+      "ins-sa-crowell-weekend-2013"
+    ]
+  },
+  {
+    "_id": "wkd-jp",
+    "jurisdiction": "jur-jp",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "No statutory weekend: the National Holidays Act substitute rule (art. 3(2)) only concerns holidays falling on Sunday. Saturday-Sunday rest is the usual practice (not stated in the fetched sources - UNVERIFIED).",
+    "basis": [
+      "ins-jp-cao-national-holidays"
+    ]
+  },
+  {
+    "_id": "wkd-kr",
+    "jurisdiction": "jur-kr",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Government offices: Sunday is itself a public holiday (Regulation art. 2(1)) and the substitute-holiday rule (art. 3) treats Saturday and Sunday as non-working days. Private-sector paid-holiday rules were not researched.",
+    "basis": [
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "wkd-pk",
+    "jurisdiction": "jur-pk",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Federal offices on the 5-day basis work Monday-Friday (Establishment Division, April 2024); offices on the 6-day basis also work Saturday.",
+    "basis": [
+      "ins-pk-establishment-office-timings-2024"
+    ]
+  },
+  {
+    "_id": "wkd-id",
+    "jurisdiction": "jur-id",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Government agencies work Monday-Friday (Perpres 21/2023 as reported by Kontan). Private-sector weekly rest under the Manpower Act was not fetched (UNVERIFIED).",
+    "basis": [
+      "ins-id-kontan-perpres-21-2023"
+    ]
+  },
+  {
+    "_id": "wkd-tr",
+    "jurisdiction": "jur-tr",
+    "from": null,
+    "to": null,
+    "days": [
+      6,
+      7
+    ],
+    "note": "Law 2429 art. 3(A): the weekly holiday is Sunday and begins no later than 13:00 on Saturday (at least 35 hours); other laws (civil servants, labour) are preserved. Saturday is modelled as a rest day, which is a simplification for private-sector Saturday mornings.",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  }
+]

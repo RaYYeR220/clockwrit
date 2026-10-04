@@ -1,0 +1,3951 @@
+[
+  {
+    "_id": "ins-bc-gov-news-2026-permanent-dst",
+    "title": "Adopting permanent daylight saving time",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-bc",
+    "publisher": "Government of British Columbia, Ministry of Attorney General (BC Gov News)",
+    "summary": "BC government announces permanent UTC-7 after the 2026-03-08 spring-forward; Nov 1 2026 fall-back eliminated. Its statement that East Kootenay will keep switching UTC-7/UTC-6 was overtaken by the RDEK vote of 14 Aug 2026.",
+    "published": "2026-03-02",
+    "reviewedAt": "2026-10-04",
+    "url": "https://news.gov.bc.ca/releases/2026AG0013-000209",
+    "quotes": [
+      {
+        "original": "B.C. will adopt permanent, year-round daylight saving time after clocks shift forward an hour on Sunday, March 8, 2026",
+        "language": "en",
+        "locator": "News release, 2 Mar 2026"
+      },
+      {
+        "original": "Pacific time will be set seven hours behind co-ordinated universal time (UTC-7), matching the current offset used during daylight saving time.",
+        "language": "en",
+        "locator": "Backgrounder"
+      },
+      {
+        "original": "The Interpretation Amendment Act, which is the legal framework that enables the Province to adopt permanent DST, became law in 2019. At the time, government chose not to bring it into force in order to co-ordinate timing with neighbouring U.S. states in the same time zone.",
+        "language": "en",
+        "locator": "Backgrounder"
+      },
+      {
+        "original": "Under the new system, people in these regions will remain aligned with Alberta and continue to switch between UTC-7 in the winter and UTC-6 in the summer.",
+        "language": "en",
+        "locator": "Backgrounder (East Kootenay)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-bc-interpretation-act-s26",
+    "title": "Interpretation Act [RSBC 1996] c. 238, s. 26 Pacific Time",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-bc",
+    "publisher": "King's Printer, British Columbia (BC Laws)",
+    "summary": "Current statutory definition of BC legal time: UTC-7, no DST provision. In force 9 Mar 2026 (00:00 local = 07:00 UTC).",
+    "effective": "2026-03-09T07:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96238_01",
+    "quotes": [
+      {
+        "original": "(1) In this section, \"Pacific Time\" means 7 hours behind Coordinated Universal Time (UTC). (2) A reference to time in British Columbia is a reference to Pacific Time.",
+        "language": "en",
+        "locator": "s. 26(1)-(2)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-bc-interpretation-act-tlc",
+    "title": "Interpretation Act [RSBC 1996] c. 238 - Table of Legislative Changes (s. 26 in force 9 Mar 2026 by B.C. Reg. 20/2026)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-bc",
+    "publisher": "King's Printer, British Columbia",
+    "summary": "s.26 re-enacted by S.B.C. 2019 c.41 s.1, effective 9 March 2026 via B.C. Reg. 20/2026.",
+    "published": "2026-09-22",
+    "effective": "2026-03-09T07:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://free.bcpublications.ca/civix/document/id/complete/statreg/e4tlc96238",
+    "quotes": [
+      {
+        "original": "26 re-en 2019-41-1 9 Mar 2026 (BC Reg 20/2026)",
+        "language": "en",
+        "locator": "Row for section 26"
+      }
+    ]
+  },
+  {
+    "_id": "ins-bc-gov-news-2019",
+    "title": "Interpretation amendment act sets stage for year-round daylight time",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "superseded",
+    "jurisdiction": "jur-ca-bc",
+    "publisher": "Government of British Columbia (BC Gov News)",
+    "summary": "2019 plan: permanent DST conditional (policy, not statutory) on US Pacific states aligning - superseded in 2026.",
+    "published": "2019-10-31",
+    "reviewedAt": "2026-10-04",
+    "url": "https://news.gov.bc.ca/20905",
+    "quotes": [
+      {
+        "original": "The move to year-round DST is planned to be brought into effect at a time that maintains alignment with Washington, Oregon, California and Yukon, which are all in the process of creating or enacting similar legislation.",
+        "language": "en",
+        "locator": "News release, 31 Oct 2019"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cbc-east-kootenay-2026",
+    "title": "After months of debate, East Kootenay will stop changing clocks and stay on mountain daylight time year-round",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-bc",
+    "publisher": "CBC News",
+    "summary": "East Kootenay stays on UTC-6 year-round (Alberta), contradicting the March 2026 BC backgrounder.",
+    "published": "2026-08-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.cbc.ca/news/canada/british-columbia/east-kootenay-stops-changing-clocks-9.7308201",
+    "quotes": [
+      {
+        "original": "The Regional District of East Kootenay (RDEK) board voted 12-3 Friday to stop changing clocks twice a year and make mountain daylight time permanent. The decision keeps the region aligned with Alberta , instead of moving to the same clock as most of B.C.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ab-official-time-act",
+    "title": "Official Time Act, RSA 2000 c. O-5.7 (Office Consolidation, current as of June 18, 2026)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-ab",
+    "publisher": "Alberta King's Printer",
+    "summary": "Alberta legal time is UTC-6 with no DST. Consolidation current as of 18 Jun 2026; in force 18 Jun 2026 (00:00 local = 06:00 UTC assumed).",
+    "published": "2026-06-18",
+    "effective": "2026-06-18T06:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://kings-printer.alberta.ca/documents/Acts/O05p7.pdf",
+    "quotes": [
+      {
+        "original": "1 In this Act, \"official time\" means the time 6 hours behind Coordinated Universal Time.",
+        "language": "en",
+        "locator": "s. 1 (definition of \"official time\")"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ab-oc-204-2026",
+    "title": "Order in Council 204/2026",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-ab",
+    "publisher": "Alberta King's Printer",
+    "summary": "Proclaims the Bill 31 section in force on 2026-06-18 (per tzdata commentary). Scanned PDF without a text layer; content known only through tzdata commentary (UNVERIFIED by text extraction).",
+    "published": "2026-06-18",
+    "effective": "2026-06-18T06:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://kings-printer.alberta.ca/Documents/Orders/Orders_in_Council/2026/2026_204.pdf",
+    "quotes": []
+  },
+  {
+    "_id": "ins-ab-referendum-2021",
+    "title": "Daylight Saving Time - Official Results",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "expired",
+    "jurisdiction": "jur-ca-ab",
+    "publisher": "Elections Alberta",
+    "summary": "2021 referendum rejected year-round DST.",
+    "published": "2021-10-26",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.elections.ab.ca/senate-and-referendum/referendum-questions/daylight-saving-time/",
+    "quotes": [
+      {
+        "original": "“No” – 536,874 votes, representing 50.2% of valid ballots cast",
+        "language": "en",
+        "locator": "Official results table"
+      }
+    ]
+  },
+  {
+    "_id": "ins-hca-alberta-2026-04",
+    "title": "Alberta to make daylight saving time permanent",
+    "kind": "news",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-ca-ab",
+    "publisher": "HRD Canada (hcamag.com)",
+    "summary": "April 2026 news: not yet law (now outdated).",
+    "published": "2026-04-21",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.hcamag.com/ca/specialization/employment-law/alberta-to-make-daylight-saving-time-permanent/572493",
+    "quotes": [
+      {
+        "original": "The bill must still be debated and approved by members of the legislature before it can take effect.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-nt-time-regulations-r-090-2026",
+    "title": "Northwest Territories Time Regulations, R-090-2026",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-nt",
+    "publisher": "Government of the Northwest Territories, Department of Justice",
+    "summary": "NWT legal time UTC-6.",
+    "published": "2026-08-21",
+    "effective": "2026-08-21T06:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.justice.gov.nt.ca/en/files/legislation/interpretation/interpretation.r2.pdf",
+    "quotes": [
+      {
+        "original": "1. Standard time is set at the time six hours behind Coordinated Universal Time.",
+        "language": "en",
+        "locator": "s. 1"
+      },
+      {
+        "original": "2. The name of standard time is changed to \"Northwest Territories Time\".",
+        "language": "en",
+        "locator": "s. 2"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cbc-nwt-2026-04",
+    "title": "N.W.T. to end seasonal time changes",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-nt",
+    "publisher": "CBC News",
+    "summary": "Political announcement (April 2026).",
+    "published": "2026-04-20",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.cbc.ca/news/canada/north/nwt-ends-daylight-saving-9.7170964",
+    "quotes": [
+      {
+        "original": "N.W.T. Premier R.J. Simpson announced Monday that the territory will move to end seasonal time changes and will adopt a year-round time standard instead.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-mb-news-2026-09-17",
+    "title": "Manitoba Will Move to Permanent Daylight Saving Time",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "enacted_not_effective",
+    "jurisdiction": "jur-ca-mb",
+    "publisher": "Province of Manitoba (news release)",
+    "summary": "Manitoba will not fall back on 2026-11-01.",
+    "published": "2026-09-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://news.gov.mb.ca/news/?item=75397",
+    "quotes": [
+      {
+        "original": "This change means Manitobans’ clocks will not revert to standard time on Nov. 1.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-mb-official-time-amendment-act-2023",
+    "title": "The Official Time Amendment Act (S.M. 2023, c. 4) - Proclamation naming 31 October 2026 as the in-force date",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "enacted_not_effective",
+    "jurisdiction": "jur-ca-mb",
+    "publisher": "Province of Manitoba (Lieutenant Governor)",
+    "summary": "Legal in-force date 2026-10-31. Assented 2023-05-30; comes into force 2026-10-31 (00:00 local CDT = 05:00 UTC); Manitoba then stays on UTC-5 year-round.",
+    "published": "2026-09-23",
+    "effective": "2026-10-31T05:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://web2.gov.mb.ca/laws/statutes/proclamations/2023c4(2026-10-31).pdf",
+    "quotes": [
+      {
+        "original": "With the advice and consent of the Executive Council of Manitoba, we name October 31, 2026, as the day on which The Official Time Amendment Act (S.M. 2023, c. 4) comes into force.",
+        "language": "en",
+        "locator": "Proclamation, operative paragraph"
+      }
+    ]
+  },
+  {
+    "_id": "ins-mb-official-time-act-ccsm-o30",
+    "title": "The Official Time Act, C.C.S.M. c. O30 (current consolidation)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca-mb",
+    "publisher": "Province of Manitoba (King's Printer, C.C.S.M.)",
+    "summary": "Pre-amendment Manitoba rule still in force until 2026-10-31: Central Standard Time (UTC-6) with daylight saving time from 2:00 a.m. on the second Sunday in March to 2:00 a.m. on the first Sunday in November.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://web2.gov.mb.ca/laws/statutes/ccsm/o030.php",
+    "quotes": [
+      {
+        "original": "2(1) Except as provided in this section, Central Standard Time must be used and observed throughout the province as the official time.",
+        "language": "en",
+        "locator": "s. 2(1)"
+      },
+      {
+        "original": "(b) in 2007 and every year after that, from 2:00 a.m. on the second Sunday in March until 2:00 a.m. on the first Sunday in November.",
+        "language": "en",
+        "locator": "s. 2(2)(b)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cbc-manitoba-2026-09-17",
+    "title": "Manitoba adopts permanent daylight time after survey suggested overwhelming opposition to clock changes",
+    "kind": "news",
+    "authority": "community",
+    "status": "enacted_not_effective",
+    "jurisdiction": "jur-ca-mb",
+    "publisher": "CBC News",
+    "summary": "News coverage.",
+    "published": "2026-09-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.cbc.ca/news/canada/manitoba/daylight-time-manitoba-9.7347844",
+    "quotes": [
+      {
+        "original": "Manitobans no longer need to remember to spring forward or fall back one hour on their clocks, as Premier Wab Kinew says the province will adopt permanent daylight time.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sk-bill-58-time-act-2026",
+    "title": "Bill No. 58 - The Time Act, 2026 (Saskatchewan)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "enacted_not_effective",
+    "jurisdiction": "jur-ca-sk",
+    "publisher": "Legislative Assembly of Saskatchewan",
+    "summary": "Saskatchewan time = CST (UTC-6), incl. Lloydminster. Royal Assent 2026-05-14 per tzdata commentary; in force only by order of the Lieutenant Governor in Council - no order found as of 2026-10-04 (UNVERIFIED either way). Changes no UTC offset in practice.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://docs.legassembly.sk.ca/legdocs/Bills/30L2S/Bill30-58.pdf",
+    "quotes": [
+      {
+        "original": "4 Subject to section 5, the time to be observed in Saskatchewan is central standard time.",
+        "language": "en",
+        "locator": "s. 4"
+      },
+      {
+        "original": "9 This Act comes into force by order of the Lieutenant Governor in Council.",
+        "language": "en",
+        "locator": "s. 9"
+      },
+      {
+        "original": "(2) Without limiting the generality of subsection (1), this Act applies to the City of Lloydminster, notwithstanding The City of Lloydminster Act or The Lloydminster Charter.",
+        "language": "en",
+        "locator": "s. 3(2)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ms-mc1479468",
+    "title": "MC1479468 - Interim time zone guidance for Alberta, British Columbia, and Morocco",
+    "kind": "vendor-notice",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-ca",
+    "publisher": "Microsoft 365 Message Center (via merill.net archive)",
+    "summary": "Vendor (Windows) dates the Alberta/BC change to 2026-11-01 and confirms Morocco UTC+0 from 2026-09-20; does not mention Manitoba.",
+    "published": "2026-09-25",
+    "reviewedAt": "2026-10-04",
+    "url": "https://mc.merill.net/message/MC1479468",
+    "quotes": [
+      {
+        "original": "Alberta and affected Northwest Territories locations are permanently moving to UTC-6 on November 1, 2026. Most of British Columbia is permanently moving to UTC-7 on the same date. Morocco turned its clocks back one hour to UTC+0 on September 20, 2026.",
+        "language": "en",
+        "locator": "Message body"
+      },
+      {
+        "original": "Three time zone changes affect Windows devices in Alberta, British Columbia, and Morocco, with Windows releasing fixes across September and October 2026.",
+        "language": "en",
+        "locator": "Message summary"
+      }
+    ]
+  },
+  {
+    "_id": "ins-obs-nodejs-24-13-tzdata-2025b",
+    "title": "Node.js v24.13.0 Intl.DateTimeFormat (ICU 77.1, process.versions.tz = '2025b') - local runtime observation",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "publisher": "Node.js / ICU (observation)",
+    "summary": "A current LTS runtime still bundles tzdata 2025b: it returns -08 for Vancouver, -07 for Edmonton and -06 for Winnipeg after 2026-11-01, +01 for Casablanca today, and puts the Chisinau 2025 spring-forward an hour early. Reproducible observation run on 2026-10-04, not a web page.",
+    "published": "2026-10-04",
+    "reviewedAt": "2026-10-04",
+    "url": "urn:observation:nodejs-v24.13.0-icu-77.1-tzdata-2025b",
+    "quotes": [
+      {
+        "original": "America/Vancouver 2026-11-15T18:00:00Z 11/15/2026, 10:00 AM GMT-08:00",
+        "language": "en",
+        "locator": "America/Vancouver"
+      },
+      {
+        "original": "America/Edmonton 2026-11-15T18:00:00Z 11/15/2026, 11:00 AM GMT-07:00",
+        "language": "en",
+        "locator": "America/Edmonton"
+      },
+      {
+        "original": "America/Winnipeg 2026-11-15T18:00:00Z 11/15/2026, 12:00 PM GMT-06:00",
+        "language": "en",
+        "locator": "America/Winnipeg"
+      },
+      {
+        "original": "Africa/Casablanca 2026-10-04T12:00:00Z 10/04/2026, 01:00 PM GMT+01:00",
+        "language": "en",
+        "locator": "Africa/Casablanca"
+      },
+      {
+        "original": "node2025b Chisinau 2025-03-30T00:30:00Z 30/03/2025, 03:30 GMT+03:00",
+        "language": "en",
+        "locator": "Europe/Chisinau"
+      }
+    ]
+  },
+  {
+    "_id": "ins-obs-timezonecomplete-5-15-1",
+    "title": "timezonecomplete 5.15.1 with npm tzdata 1.0.52 (IANA 2026e JSON) - local evaluator observation",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "publisher": "timezonecomplete (observation)",
+    "summary": "The evaluator mis-applies correct 2026e rules: it returns +02:00 for Cairo and -05:00 for Port-au-Prince in July 2026 although both observe DST. Tool bug, not a law change. Reproducible observation run on 2026-10-04.",
+    "published": "2026-10-04",
+    "reviewedAt": "2026-10-04",
+    "url": "urn:observation:timezonecomplete-5.15.1-with-npm-tzdata-1.0.52-2026e",
+    "quotes": [
+      {
+        "original": "Africa/Cairo 2026-07-15T12:00:00Z 120",
+        "language": "en",
+        "locator": "Africa/Cairo, offset in minutes"
+      },
+      {
+        "original": "America/Port-au-Prince 2026-07-15T12:00:00Z -300",
+        "language": "en",
+        "locator": "America/Port-au-Prince, offset in minutes"
+      }
+    ]
+  },
+  {
+    "_id": "ins-iana-tzdata-2022b",
+    "title": "tz database NEWS - Release 2022b",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Iran stops observing DST permanently after falling back on 2022-09-21.",
+    "published": "2022-08-10",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Iran plans to stop observing DST permanently, after it falls back on 2022-09-21.",
+        "language": "en",
+        "locator": "NEWS, Release 2022b"
+      }
+    ],
+    "tzdataVersion": "2022b"
+  },
+  {
+    "_id": "ins-iana-tzdata-2022e",
+    "title": "tz database NEWS - Release 2022e",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Jordan and Syria move to permanent +03 and do not fall back on 2022-10-28.",
+    "published": "2022-10-11",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Jordan and Syria are abandoning the DST regime and are changing to permanent +03, so they will not fall back from +03 to +02 on 2022-10-28.",
+        "language": "en",
+        "locator": "NEWS, Release 2022e"
+      }
+    ],
+    "tzdataVersion": "2022e"
+  },
+  {
+    "_id": "ins-iana-tzdata-2022f",
+    "title": "tz database NEWS - Release 2022f",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Mexico stops observing DST after 2022 except areas near the US border, which keep US DST rules.",
+    "published": "2022-10-28",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Mexico will no longer observe DST after 2022, except for areas near the US border that continue to observe US DST rules.",
+        "language": "en",
+        "locator": "NEWS, Release 2022f"
+      }
+    ],
+    "tzdataVersion": "2022f"
+  },
+  {
+    "_id": "ins-iana-tzdata-2022g",
+    "title": "tz database NEWS - Release 2022g",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Chihuahua border strip (Ciudad Juarez, Ojinaga) rejoins US DST rules from 2022-11-30. Its Greenland item (Nuuk to stop DST after March 2023) was reversed by 2023a.",
+    "published": "2022-11-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Much of Greenland, represented by America/Nuuk, stops observing winter time after March 2023, so its daylight saving time becomes standard time.",
+        "language": "en",
+        "locator": "NEWS, Release 2022g"
+      },
+      {
+        "original": "In the Mexican state of Chihuahua, the border strip near the US will change to agree with nearby US locations on 2022-11-30.",
+        "language": "en",
+        "locator": "NEWS, Release 2022g"
+      }
+    ],
+    "tzdataVersion": "2022g"
+  },
+  {
+    "_id": "ins-iana-tzdata-2023a",
+    "title": "tz database NEWS - Release 2023a",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Greenland (America/Nuuk) keeps EU DST rules on a -02 base; Egypt observes DST from 2023 (last Friday of April to last Thursday of October).",
+    "published": "2023-03-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Much of Greenland, represented by America/Nuuk, will continue to observe DST using European Union rules.",
+        "language": "en",
+        "locator": "NEWS, Release 2023a"
+      },
+      {
+        "original": "Starting in 2023, Egypt will observe DST from April's last Friday through October's last Thursday.",
+        "language": "en",
+        "locator": "NEWS, Release 2023a"
+      }
+    ],
+    "tzdataVersion": "2023a"
+  },
+  {
+    "_id": "ins-iana-tzdata-2023b",
+    "title": "tz database NEWS - Release 2023b",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Followed the Lebanese postponement: spring-forward on April 20/21 instead of March 25/26 2023. Reverted five days later by 2023c.",
+    "published": "2023-03-23",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "This year Lebanon springs forward April 20/21 not March 25/26.",
+        "language": "en",
+        "locator": "NEWS, Release 2023b"
+      }
+    ],
+    "tzdataVersion": "2023b"
+  },
+  {
+    "_id": "ins-iana-tzdata-2023c",
+    "title": "tz database NEWS - Release 2023c",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Reverts Lebanon to 2023a data (DST from 2023-03-26), i.e. tzdata does not model the officially delayed switch of 29/30 March 2023.",
+    "published": "2023-03-28",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Model Lebanon's DST chaos by reverting data to tzdb 2023a.",
+        "language": "en",
+        "locator": "NEWS, Release 2023c"
+      }
+    ],
+    "tzdataVersion": "2023c"
+  },
+  {
+    "_id": "ins-iana-tzdata-2024a",
+    "title": "tz database NEWS - Release 2024a",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Kazakhstan unifies on UTC+5: Asia/Almaty and Asia/Qostanay move from +06 on 2024-03-01 00:00.",
+    "published": "2024-02-01",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Kazakhstan unifies on UTC+5.  This affects Asia/Almaty and Asia/Qostanay which together represent the eastern portion of the country that will transition from UTC+6 on 2024-03-01 at 00:00 to join the western portion.",
+        "language": "en",
+        "locator": "NEWS, Release 2024a"
+      }
+    ],
+    "tzdataVersion": "2024a"
+  },
+  {
+    "_id": "ins-iana-tzdata-2025a",
+    "title": "tz database NEWS - Release 2025a",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Paraguay is permanently at -03 after the 2024-10-06 spring-forward (timestamps from 2025-03-22; tm_isdst from 2024-10-15).",
+    "published": "2025-01-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Paraguay stopped changing its clocks after the spring-forward transition on 2024-10-06, so it is now permanently at -03.",
+        "language": "en",
+        "locator": "NEWS, Release 2025a"
+      },
+      {
+        "original": "This affects timestamps starting 2025-03-22, as well as the obsolescent tm_isdst flags starting 2024-10-15.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ],
+    "tzdataVersion": "2025a"
+  },
+  {
+    "_id": "ins-iana-tzdata-2025b",
+    "title": "tz database NEWS - Release 2025b",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Chile's Aysen Region goes to -03 year-round; new zone America/Coyhaique diverges from Santiago on 2025-04-05 24:00.",
+    "published": "2025-03-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Chile's Aysén Region moves from -04/-03 to -03 year-round, joining Magallanes Region.  The region will not change its clocks on 2025-04-05 at 24:00, diverging from America/Santiago and creating a new zone America/Coyhaique.",
+        "language": "en",
+        "locator": "NEWS, Release 2025b"
+      }
+    ],
+    "tzdataVersion": "2025b"
+  },
+  {
+    "_id": "ins-iana-tzdata-2026a",
+    "title": "tz database NEWS - Release 2026a",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Moldova has used EU transition times (03:00/04:00 local) since 2022; data corrected past and future.",
+    "published": "2026-03-01",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Since 2022 Moldova has observed EU transition times, that is, it has sprung forward at 03:00, not 02:00, and has fallen back at 04:00, not 03:00.",
+        "language": "en",
+        "locator": "NEWS, Release 2026a"
+      }
+    ],
+    "tzdataVersion": "2026a"
+  },
+  {
+    "_id": "ins-iana-tzdata-2026b",
+    "title": "tz database NEWS - Release 2026b",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "British Columbia permanent -07. Legally 2026-03-09, but modelled as PDT until 2026-11-01 02:00 then MST (temporary hack for CLDR 48.1).",
+    "published": "2026-04-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "British Columbia’s 2026-03-08 spring forward was its last foreseeable clock change, as it moved to permanent -07 thereafter.",
+        "language": "en",
+        "locator": "NEWS, Release 2026b"
+      },
+      {
+        "original": "Although the change to permanent -07 legally took place on 2026-03-09, temporarily model the change to occur on 2026-11-01 at 02:00 instead.  This works around a limitation in CLDR 48.1 (2026-01-08).",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ],
+    "tzdataVersion": "2026b"
+  },
+  {
+    "_id": "ins-iana-tzdata-2026c",
+    "title": "tz database NEWS - Release 2026c",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Alberta permanent -06 (legally 2026-06-18, modelled 2026-11-01 02:00); Morocco and Western Sahara back to permanent +00 on 2026-09-20 02:00; NWT left as comments only.",
+    "published": "2026-07-08",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Alberta’s 2026-03-08 spring forward was its last foreseeable clock change, as it moved to permanent -06 thereafter.",
+        "language": "en",
+        "locator": "NEWS, Release 2026c"
+      },
+      {
+        "original": "Although the change to permanent -06 legally took place on 2026-06-18, temporarily model the change to occur on 2026-11-01 at 02:00 instead, for the same reason we introduced a similarly temporary hack for British Columbia in 2026b.",
+        "language": "en",
+        "locator": "NEWS, Release 2026c"
+      },
+      {
+        "original": "Morocco plans to move back to permanent UTC, without daylight saving time transitions, on 2026-09-20 at 02:00.  This also affects Western Sahara.",
+        "language": "en",
+        "locator": "NEWS, Release 2026c"
+      },
+      {
+        "original": "Unfortunately the change is not yet official, so it is currently present only as comments that can be uncommented as needed.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ],
+    "tzdataVersion": "2026c"
+  },
+  {
+    "_id": "ins-iana-tzdata-2026d",
+    "title": "tz database NEWS - Release 2026d",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Northwest Territories (America/Inuvik) permanent -06: legally 2026-08-21, modelled 2026-11-01 02:00.",
+    "published": "2026-09-11",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Canada’s Northwest Territories will not fall back on 2026-11-01 and will stay on -06 year-round, matching Alberta’s recent change.",
+        "language": "en",
+        "locator": "NEWS, Release 2026d"
+      },
+      {
+        "original": "Although the change to permanent -06 legally took place on 2026-08-21, temporarily model the change to occur on 2026-11-01 at 02:00 for the same reason as other recent temporary hacks.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ],
+    "tzdataVersion": "2026d"
+  },
+  {
+    "_id": "ins-iana-tzdata-2026e",
+    "title": "tz database NEWS - Release 2026e",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA Time Zone Database",
+    "summary": "Manitoba (America/Winnipeg) permanent -05: legally 2026-10-31, modelled 2026-11-01 02:00.",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://data.iana.org/time-zones/tzdb/NEWS",
+    "quotes": [
+      {
+        "original": "Manitoba’s 2026-03-08 spring forward was its last foreseeable clock change, as it moved to permanent -05 thereafter.",
+        "language": "en",
+        "locator": "NEWS, Release 2026e"
+      },
+      {
+        "original": "Although the change to permanent -05 legally takes place on 2026-10-31, temporarily model the change to occur on 2026-11-01 at 02:00 for the same reason as other recent temporary hacks.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2026e-northamerica",
+    "title": "tzdata 2026e northamerica (IANA tz source file)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Current tzdata for North America: Canada/US rules (2nd Sun Mar 02:00 to 1st Sun Nov 02:00), the 2026 Canadian \"temporary hack\" zone lines, Mexico 2022 changes and Haiti rules. Also documents that NW Ontario following Manitoba is an assumption.",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026e/northamerica",
+    "quotes": [
+      {
+        "original": "-8:00 Canada P%sT 2026 Mar 9 # Temporary hack; see above. -8:00 Canada PDT 2026 Nov 1 2:00 # End of temporary hack. -7:00 - MST",
+        "language": "en",
+        "locator": "L2203-L2209 Zone America/Vancouver"
+      },
+      {
+        "original": "After receiving Royal Assent on 2026-05-14, Order in Council 204/2026 was issued on 2026-06-18 proclaiming the relevant section of the bill in force on the same date.",
+        "language": "en",
+        "locator": "L2028-L2035 Alberta commentary"
+      },
+      {
+        "original": "With Manitoba now opting to stay on -05 year-round, if any of these areas do not follow, it would require a new zone; however, given the short leadtime ahead of a potential divergence on 2026-11-01 and in the interest of not creating zones that may not be needed, assume for the time being that they will.",
+        "language": "en",
+        "locator": "L1749-L1759 NW Ontario commentary"
+      },
+      {
+        "original": "In Saskatchewan, a bill was passed to replace the Time Act. It sets UTC-6 all year in the whole province, including Lloydminster, but allows the government to issue regulations specifying a different time in localities that request so",
+        "language": "en",
+        "locator": "L1942-L1956 Saskatchewan commentary"
+      },
+      {
+        "original": "Rule Haiti 2017 max - Mar Sun>=8 2:00 1:00 D Rule Haiti 2017 max - Nov Sun>=1 2:00 0 S",
+        "language": "en",
+        "locator": "L3736-L3737 Rule Haiti"
+      },
+      {
+        "original": "Rule Canada 2007 max - Mar Sun>=8 2:00 1:00 D / Rule Canada 2007 max - Nov Sun>=1 2:00 0 S",
+        "language": "en",
+        "locator": "L1400-L1401 (tabs collapsed)"
+      },
+      {
+        "original": "-6:00 Canada C%sT 2026 Oct 31 # Temporary hack; see above. -6:00 Canada CDT 2026 Nov 1 2:00 # End of temporary hack. -5:00 - EST",
+        "language": "en",
+        "locator": "Zone America/Winnipeg (tabs collapsed)"
+      },
+      {
+        "original": "Rule Mexico 2002 2022 - Apr Sun>=1 2:00 1:00 D / Rule Mexico 2002 2022 - Oct lastSun 2:00 0 S",
+        "language": "en",
+        "locator": "L2952-L2953 (tabs collapsed)"
+      },
+      {
+        "original": "-7:00 US M%sT 2022 Oct 30 2:00 -6:00 - CST 2022 Nov 30 0:00 -7:00 US M%sT",
+        "language": "en",
+        "locator": "Zone America/Ciudad_Juarez (tabs collapsed)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2026a-northamerica",
+    "title": "tzdata 2026a northamerica - Zone America/Vancouver (stale)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Pre-2026b data: Vancouver keeps Canada DST rules indefinitely (PST -08 every winter).",
+    "published": "2026-03-01",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026a/northamerica",
+    "quotes": [
+      {
+        "original": "Zone America/Vancouver -8:12:28 - LMT 1884 -8:00 Vanc P%sT 1987 -8:00 Canada P%sT",
+        "language": "en",
+        "locator": "L1971-L1973"
+      }
+    ],
+    "tzdataVersion": "2026a"
+  },
+  {
+    "_id": "ins-tzdata-2026b-africa",
+    "title": "tzdata 2026b africa - Zone Africa/Casablanca (stale)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Pre-2026c: +01 indefinitely with predicted Ramadan rules (see #L939-L940: 'Rule Morocco 2027 only - Feb 7 3:00 -1:00 -' / 'Rule Morocco 2027 only - Mar 14 2:00 0 -').",
+    "published": "2026-04-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026b/africa",
+    "quotes": [
+      {
+        "original": "0:00 Morocco %z 2018 Oct 28 3:00 1:00 Morocco %z",
+        "language": "en",
+        "locator": "L1071-L1075"
+      }
+    ],
+    "tzdataVersion": "2026b"
+  },
+  {
+    "_id": "ins-tzdata-2026e-africa",
+    "title": "tzdata 2026e africa (IANA tz source file)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Morocco: +01 since 2018-10-28 with annual Ramadan returns to +00 (2019-2026 dates listed), then permanent +00 from 2026-09-20 02:00; Egypt DST rule from 2023 (Apr lastFri 00:00 to Oct lastThu 24:00).",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026e/africa",
+    "quotes": [
+      {
+        "original": "1:00 Morocco %z 2026 Sep 20 2:00 0:00 - %z",
+        "language": "en",
+        "locator": "Zone Africa/Casablanca (tabs collapsed)"
+      },
+      {
+        "original": "Rule Morocco 2026 only - Feb 15 3:00 -1:00 - / Rule Morocco 2026 only - Mar 22 2:00 0 -",
+        "language": "en",
+        "locator": "L938-L939 (tabs collapsed)"
+      },
+      {
+        "original": "Rule Egypt 2023 max - Apr lastFri 0:00 1:00 S / Rule Egypt 2023 max - Oct lastThu 24:00 0 -",
+        "language": "en",
+        "locator": "L338-L339 (tabs collapsed)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2026e-southamerica",
+    "title": "tzdata 2026e southamerica (IANA tz source file)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Paraguay standard -03 modelled from 2024-10-15; Chile rules (Apr Sun>=2 03:00 UTC / Sep Sun>=2 04:00 UTC, 2022 exception Sep Sun>=9) renewed to 2029 by Decreto 98/2026; Brazil last DST 2018-11-04 to 2019-02-17.",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026e/southamerica",
+    "quotes": [
+      {
+        "original": "So I think that the time change on 6 October 2024 should still be considered as DST according to the previous law, and permanently UTC-3 from 15 October 2024 according to the new law",
+        "language": "en",
+        "locator": "L1768-L1794 Paraguay commentary"
+      },
+      {
+        "original": "Chile’s timekeeping regime is renewed by Decreto 98 of 2026 of the Ministry of the Interior, Undersecretariat of the Interior, promulgated 2026-06-30 and published 2026-07-02",
+        "language": "en",
+        "locator": "L1347-L1352 Chile commentary"
+      },
+      {
+        "original": "Rule Chile 2019 max - Apr Sun>=2 3:00u 0 - / Rule Chile 2022 only - Sep Sun>=9 4:00u 1:00 - / Rule Chile 2023 max - Sep Sun>=2 4:00u 1:00 -",
+        "language": "en",
+        "locator": "L1390-L1393 (tabs collapsed)"
+      },
+      {
+        "original": "Rule Brazil 2016 2019 - Feb Sun>=15 0:00 0 - / Rule Brazil 2018 only - Nov Sun>=1 0:00 1:00 -",
+        "language": "en",
+        "locator": "L932, L946 (tabs collapsed)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2024b-southamerica",
+    "title": "tzdata 2024b southamerica - Paraguay rules (stale)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Pre-2025a: annual fall-back to -04 continues forever.",
+    "published": "2024-09-04",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2024b/southamerica",
+    "quotes": [
+      {
+        "original": "Rule Para 2013 max - Mar Sun>=22 0:00 0 -",
+        "language": "en",
+        "locator": "L1709-L1716"
+      }
+    ],
+    "tzdataVersion": "2024b"
+  },
+  {
+    "_id": "ins-tzdata-2026e-asia",
+    "title": "tzdata 2026e asia (IANA tz source file)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Kazakhstan +05 since 2024-03-01; Iran DST rules to 2022 then none; Jordan and Syria permanent +03 from 2022-10-28; Lebanon rule last Sun Mar 00:00 to last Sun Oct 00:00.",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026e/asia",
+    "quotes": [
+      {
+        "original": "6:00 - %z 2024 Mar 1 0:00 5:00 - %z",
+        "language": "en",
+        "locator": "L2513-L2514 Zone Asia/Almaty"
+      },
+      {
+        "original": "DST will be cancelled for the next Iranian year 1402 (i.e 2023-March-21) and forthcoming years.",
+        "language": "en",
+        "locator": "L1598-L1602 Iran commentary (IRNA)"
+      },
+      {
+        "original": "Rule Iran 2021 2022 - Mar 21 24:00 1:00 - / Rule Iran 2021 2022 - Sep 21 24:00 0 -",
+        "language": "en",
+        "locator": "L1645-L1646 (tabs collapsed)"
+      },
+      {
+        "original": "2:00 Jordan EE%sT 2022 Oct 28 0:00s 3:00 - %z",
+        "language": "en",
+        "locator": "Zone Asia/Amman (tabs collapsed)"
+      },
+      {
+        "original": "2:00 Syria EE%sT 2022 Oct 28 0:00 3:00 - %z",
+        "language": "en",
+        "locator": "Zone Asia/Damascus (tabs collapsed)"
+      },
+      {
+        "original": "Rule Lebanon 1993 max - Mar lastSun 0:00 1:00 S / Rule Lebanon 1999 max - Oct lastSun 0:00 0 -",
+        "language": "en",
+        "locator": "L2792-L2794 (tabs collapsed)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2026e-europe",
+    "title": "tzdata 2026e europe (IANA tz source file)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "in_force",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "EU rule (last Sun Mar / last Sun Oct at 01:00 UTC); Greenland -02 since 2023 with EU DST; Moldova on EU rule since 2022; Europe/Kyiv on EU rule.",
+    "published": "2026-09-29",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2026e/europe",
+    "quotes": [
+      {
+        "original": "The bill to stop observing DST did not (Greenland will stop observing DST when EU does).",
+        "language": "en",
+        "locator": "L1160-L1181 Greenland commentary"
+      },
+      {
+        "original": "Rule EU 1981 max - Mar lastSun 1:00u 1:00 S / Rule EU 1996 max - Oct lastSun 1:00u 0 -",
+        "language": "en",
+        "locator": "L590-L591 (tabs collapsed)"
+      },
+      {
+        "original": "2:00 Moldova EE%sT 2022 2:00 EU EE%sT",
+        "language": "en",
+        "locator": "Zone Europe/Chisinau (tabs collapsed)"
+      },
+      {
+        "original": "-3:00 EU %z 2023 Mar 26 1:00u -2:00 - %z 2023 Oct 29 1:00u -2:00 EU %z",
+        "language": "en",
+        "locator": "Zone America/Nuuk (tabs collapsed)"
+      }
+    ],
+    "tzdataVersion": "2026e"
+  },
+  {
+    "_id": "ins-tzdata-2022d-asia",
+    "title": "tzdata 2022d asia - Zone Asia/Amman (stale)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Pre-2022e: Jordan DST rules continue (+02 winter).",
+    "published": "2022-09-23",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2022d/asia",
+    "quotes": [
+      {
+        "original": "Zone Asia/Amman 2:23:44 - LMT 1931 2:00 Jordan EE%sT",
+        "language": "en",
+        "locator": "L2268-L2269"
+      }
+    ],
+    "tzdataVersion": "2022d"
+  },
+  {
+    "_id": "ins-tzdata-2025c-europe",
+    "title": "tzdata 2025c europe - Rule Moldova (stale)",
+    "kind": "tzdata-release",
+    "authority": "secondary",
+    "status": "superseded",
+    "publisher": "IANA tz (eggert/tz GitHub mirror)",
+    "summary": "Old local-time transitions.",
+    "published": "2025-12-10",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/eggert/tz/blob/2025c/europe",
+    "quotes": [
+      {
+        "original": "Rule Moldova 1997 max - Mar lastSun 2:00 1:00 S Rule Moldova 1997 max - Oct lastSun 3:00 0 -",
+        "language": "en",
+        "locator": "L2016-L2017"
+      }
+    ],
+    "tzdataVersion": "2025c"
+  },
+  {
+    "_id": "ins-ma-decree-2-26-530",
+    "title": "Decree No. 2.26.530 on legal time - Bulletin officiel No. 7521 (Arabic edition)",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ma",
+    "publisher": "Secrétariat Général du Gouvernement (Kingdom of Morocco)",
+    "summary": "Official publication of Decree 2.26.530 (return to GMT). Returns Morocco to GMT on 2026-09-20 at 02:00 (+01) = 01:00 UTC and abrogates Decree 2.18.855. Arabic text not machine-readable (UNVERIFIED wording); content confirmed by Hespress, Morocco World News, tzdata and Microsoft.",
+    "published": "2026-06-29",
+    "effective": "2026-09-20T01:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.sgg.gov.ma/BO/AR/3111/2026/BO_7521_Ar.pdf",
+    "quotes": [],
+    "supersedes": [
+      "ins-ma-decree-2-18-855"
+    ]
+  },
+  {
+    "_id": "ins-ma-decree-2-18-855",
+    "title": "Decree No. 2.18.855 of 26 October 2018 on legal time (permanent GMT+1) - Bulletin officiel No. 6720 bis",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "superseded",
+    "jurisdiction": "jur-ma",
+    "publisher": "Secrétariat Général du Gouvernement (Kingdom of Morocco)",
+    "summary": "Kept Morocco permanently on GMT+1 from 2018-10-28; in practice the government returned to GMT during Ramadan each year (2019-2026). Abrogated by Decree 2.26.530 with effect from 2026-09-20. Text not retrieved (scanned Arabic PDF); existence and BO link per the tz mailing list (2018-10-28) and Hespress.",
+    "published": "2018-10-27",
+    "reviewedAt": "2026-10-04",
+    "url": "http://www.sgg.gov.ma/Portals/1/BO/2018/BO_6720-bis_Ar.pdf?ver=2018-10-27-101217-477",
+    "quotes": []
+  },
+  {
+    "_id": "ins-tzlist-morocco-2018",
+    "title": "[tz] Morocco stays on GMT+1 / UTC+1 perpetually (tz mailing list, 28 Oct 2018)",
+    "kind": "news",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-ma",
+    "publisher": "tz mailing list (mm.icann.org archive)",
+    "summary": "Reports that Decree 2.18.855 (adopted 26 Oct 2018) was published in the Arabic Official Bulletin and keeps Morocco on GMT+1 from 27 Oct 2018.",
+    "published": "2018-10-28",
+    "reviewedAt": "2026-10-04",
+    "url": "https://mm.icann.org/pipermail/tz/2018-October/052158.html",
+    "quotes": [
+      {
+        "original": "The decree was published in the Arabic version of the Official Gazette.",
+        "language": "en",
+        "locator": "Message by Matt Johnson, 2018-10-28"
+      },
+      {
+        "original": "In accordance with the provisions of Decree No. 2.18.855, approved by the Government Council, held on Friday, October 26, 2018, concerning the legal hour, the Ministry of Administration Reform and Public Service announces that the current hourly (GMT + 1) Starting from the date of publication of the aforementioned decree in the Official Journal on Saturday 27 October 2018",
+        "language": "en",
+        "locator": "Quoted machine translation of the ministry notice (message of 2018-10-26)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ma-hespress-2026",
+    "title": "Maroc : le retour à l'heure GMT officiellement acté à partir du 20 septembre",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ma",
+    "publisher": "Hespress FR",
+    "summary": "Decree published in BO; GMT from Sunday 2026-09-20.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://fr.hespress.com/480202-maroc-le-retour-a-lheure-gmt-officiellement-acte-a-partir-du-20-septembre.html",
+    "quotes": [
+      {
+        "original": "Le Bulletin officiel a publié le décret n° 2.26.530, qui met fin au régime du « GMT+1 » instauré de manière permanente en 2018 et fixe le retour au fuseau horaire GMT à compter du dimanche 20 septembre 2026.",
+        "language": "fr",
+        "english": "The Official Bulletin has published decree No. 2.26.530, which ends the 'GMT+1' regime introduced permanently in 2018 and sets the return to the GMT time zone from Sunday 20 September 2026.",
+        "locator": "Quoted passage (page text)"
+      },
+      {
+        "original": "Publié au Bulletin officiel n° 7521 du 29 juin 2026, le décret précise les modalités de cette transition et fournit le cadre juridique nécessaire à son application.",
+        "language": "fr",
+        "english": "Published in Official Bulletin No. 7521 of 29 June 2026, the decree sets out the arrangements for this transition and provides the legal framework needed to apply it.",
+        "locator": "Quoted passage (page text)"
+      },
+      {
+        "original": "Au-delà du simple changement d’heure, le texte prévoit également l’abrogation du décret n° 2.18.855 du 26 octobre 2018, qui avait instauré le maintien permanent de l’heure additionnelle (GMT+1).",
+        "language": "fr",
+        "english": "Beyond the change of time itself, the text also repeals Decree No. 2.18.855 of 26 October 2018, which had made the additional hour (GMT+1) permanent.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ma-mwn-2026",
+    "title": "Confirmed: Morocco to Restore GMT on September 20, Ending Eight-Year GMT+1 Saga",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ma",
+    "publisher": "Morocco World News",
+    "summary": "Transition instant and legal basis.",
+    "published": "2026-06-25",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.moroccoworldnews.com/2026/06/325034/confirmed-morocco-to-restore-gmt-on-september-20-ending-eight-year-gmt1-saga/",
+    "quotes": [
+      {
+        "original": "Under the decree’s provisions, clocks will be set back by 60 minutes at 2:00 a.m. on Sunday, September 20, restoring the legal time established by Royal Decree No. 455.67 of June 2, 1967.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ma-mapexpress-2026",
+    "title": "Conseil de gouvernement: approbation du projet de décret relatif au retour à l'heure légale",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ma",
+    "publisher": "MAP Express (Maghreb Arabe Presse)",
+    "summary": "Official news agency report of the decree approval. Not retrievable on 2026-10-04 (HTTP 403 to bots); no quote recorded.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.mapexpress.ma/actualite/activite-gouvernementale/conseil-gouvernement-approuve-projet-decret-relatif-au-retour-lheure-legale/",
+    "quotes": []
+  },
+  {
+    "_id": "ins-py-ley-7354",
+    "title": "Ley N° 7354 Que establece el horario oficial en la República del Paraguay (scan)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-py",
+    "publisher": "Congreso de la Nación Paraguaya (copy attached on IANA tz list)",
+    "summary": "Paraguay legal time is UTC-3.",
+    "published": "2024-10-11",
+    "effective": "2024-10-06T04:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://lists.iana.org/hyperkitty/list/tz@iana.org/message/7ORD5BU3XCNERRI3UOCHRF4EGTWIVI5P/attachment/4/LEY-144874.pdf",
+    "quotes": [
+      {
+        "original": "Artículo 1o.- Establécese el horario oficial en todo el territorio de la República del Paraguay en el huso horario UTC-3",
+        "language": "es",
+        "english": "Article 1: The official time throughout the territory of the Republic of Paraguay is established in the UTC-3 time zone.",
+        "locator": "Art. 1"
+      },
+      {
+        "original": "Artículo 2'.- La presente ley entrará en vigencia a partir del primer domingo del mes de octubre del año 2024.",
+        "language": "es",
+        "english": "Article 2: This law shall enter into force from the first Sunday of October 2024.",
+        "locator": "Art. 2"
+      }
+    ]
+  },
+  {
+    "_id": "ins-py-gaceta-89723",
+    "title": "Gaceta Oficial - publication 89723",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-py",
+    "publisher": "Gaceta Oficial de la República del Paraguay",
+    "summary": "Official publication of Ley 7354. Host did not resolve on 2026-10-04; no quote recorded.",
+    "published": "2024-10-14",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.gacetaoficial.gov.py/index/detalle_publicacion/89723",
+    "quotes": []
+  },
+  {
+    "_id": "ins-kz-government-resolution-2024-01-19",
+    "title": "Постановление Правительства РК (19.01.2024) о порядке исчисления времени",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-kz",
+    "publisher": "Prime Minister of the Republic of Kazakhstan (primeminister.kz)",
+    "summary": "Single UTC+5 zone nationwide.",
+    "published": "2024-01-19",
+    "effective": "2024-02-29T18:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://primeminister.kz/ru/decisions/19012024-20",
+    "quotes": [
+      {
+        "original": "3. Применить ко всей территории Республики Казахстан 5-й часовой пояс.",
+        "language": "ru",
+        "english": "3. Apply the 5th time zone to the entire territory of the Republic of Kazakhstan.",
+        "locator": "Item 3"
+      },
+      {
+        "original": "в ночь с 29 февраля 2024 года на 1 марта 2024 года (в 00:00 часов) перевести местное время на 1 час назад",
+        "language": "ru",
+        "english": "on the night of 29 February to 1 March 2024 (at 00:00) set local time back by 1 hour",
+        "locator": "Item on the transition night"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tca-kazakhstan-2025",
+    "title": "How Kazakhstan's time zone debate turned political",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-kz",
+    "publisher": "The Times of Central Asia",
+    "summary": "Petition (50,000+ signatures) did not reverse the change.",
+    "published": "2025-03-13",
+    "reviewedAt": "2026-10-04",
+    "url": "https://timesca.com/how-kazakhstans-time-zone-debate-turned-political/",
+    "quotes": [
+      {
+        "original": "However, after three rounds of discussions, no changes were made, and Kazakhstan remained in UTC+5.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      },
+      {
+        "original": "On April 22, 2024, an online petition titled “Return the Time Back” appeared, addressed to President Kassym-Jomart Tokayev and key ministers",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gl-announcement-2023",
+    "title": "Announcement on changing of standard time for Greenland",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-gl",
+    "publisher": "Naalakkersuisut (Government of Greenland), Premier Múte Bourup Egede (copy on tz list)",
+    "summary": "Standard time -02 from 2023-03-25.",
+    "published": "2023-03-15",
+    "effective": "2023-03-26T01:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://mm.icann.org/pipermail/tz/attachments/20230315/562d95e3/AnnouncementonchangingofstandardtimeforGreenland-0001.pdf",
+    "quotes": [
+      {
+        "original": "Greenland's standard time is UTC -2 from 25 March 2023 onwards.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-mx-ley-husos-horarios-2022",
+    "title": "DECRETO por el que se expide la Ley de los Husos Horarios en los Estados Unidos Mexicanos",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-mx",
+    "publisher": "Diario Oficial de la Federación",
+    "summary": "Primary text of the law. Ends seasonal time except in the northern border municipalities, which keep US dates; in force 2022-10-30. DOF unreachable on 2026-10-04 (no quote recorded).",
+    "published": "2022-10-28",
+    "effective": "2022-10-30T07:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5670045&fecha=28/10/2022",
+    "quotes": []
+  },
+  {
+    "_id": "ins-mx-idc-2022",
+    "title": "Adiós al horario de verano",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-mx",
+    "publisher": "IDC Online",
+    "summary": "Border seasonal time follows US dates.",
+    "published": "2022-10-26",
+    "reviewedAt": "2026-10-04",
+    "url": "https://idconline.mx/corporativo/2022/10/26/adios-al-horario-de-verano",
+    "quotes": [
+      {
+        "original": "el horario estacional fronterizo norte surtirá efecto desde las dos horas del segundo domingo de marzo, y concluirá a las dos horas del primer domingo de noviembre.",
+        "language": "es",
+        "english": "the northern-border seasonal time will take effect from 02:00 on the second Sunday of March and end at 02:00 on the first Sunday of November.",
+        "locator": "Article body"
+      },
+      {
+        "original": "En los artículos transitorios se dispone que la Ley de los Husos Horarios en los Estados Unidos Mexicanos entrará en vigor el 30 de octubre de 2022",
+        "language": "es",
+        "english": "The transitional articles provide that the Law on Time Zones in the United Mexican States will enter into force on 30 October 2022",
+        "locator": "Article body (transitional articles)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-mx-zeta-2022",
+    "title": "Gobierno decreta fin del horario de verano; 30 de octubre, última vez que se atrasará reloj",
+    "kind": "news",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-mx-chh",
+    "publisher": "Semanario ZETA (Tijuana)",
+    "summary": "Oct 2022: Chihuahua single schedule all year (later changed for border strip).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://zetatijuana.com/2022/10/gobierno-decreta-fin-del-horario-de-verano-30-de-octubre-ultima-vez-que-se-atrasara-reloj/",
+    "quotes": [
+      {
+        "original": "Mientras que Sonora y Chihuahua quedarán con un solo horario durante todo el año.",
+        "language": "es",
+        "english": "While Sonora and Chihuahua will have a single time all year round.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-eg-cairo-governorate-dst-2025",
+    "title": "Daylight saving time: Egypt to set clocks forward by 60 mins on April 25th",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-eg",
+    "publisher": "Cairo Governorate (cairo.gov.eg)",
+    "summary": "DST observed in 2025.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.cairo.gov.eg/en/news/news-eng/2025/7a9db97de1224760a36a2b21aceec50b",
+    "quotes": [
+      {
+        "original": "According to the Daylight Saving Time Law, daylight saving time in Egypt will be implemented on the last Friday of April, which this year falls on April 25, 2025.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-eg-amwal-2026",
+    "title": "Egypt to switch to daylight saving time from 24 April",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-eg",
+    "publisher": "Amwal Al Ghad English",
+    "summary": "DST observed in 2026 under Law 24/2023.",
+    "published": "2026-04-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://en.amwalalghad.com/?p=227123",
+    "quotes": [
+      {
+        "original": "The shift will remain in place until the end of the last Thursday of October, in line with Law No. 24 of 2023, which reintroduced daylight saving time as part of efforts to improve energy efficiency.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-eg-ahram-2026",
+    "title": "Egypt to move clocks forward one hour on Friday for summer time",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-eg",
+    "publisher": "Ahram Online",
+    "summary": "2026 DST start coverage. HTTP 403 on 2026-10-04; no quote recorded.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://english.ahram.org.eg/NewsContentP/1/566547/Egypt/Egypt-to-move-clocks-forward-one-hour-on-Friday-fo.aspx",
+    "quotes": []
+  },
+  {
+    "_id": "ins-ht-nouvelliste-2026",
+    "title": "How Does Daylight Saving Time Affect Haitians?",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ht",
+    "publisher": "Le Nouvelliste",
+    "summary": "DST observed in March 2026.",
+    "published": "2026-03-18",
+    "reviewedAt": "2026-10-04",
+    "url": "https://lenouvelliste.com/en/article/265364/how-does-daylight-saving-time-affect-haitians",
+    "quotes": [
+      {
+        "original": "The time change took place at the beginning of March. This is not a first in Haiti. For more than forty years, the time has been periodically adjusted twice a year in the country.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ht-lerelief-2025",
+    "title": "Haiti to Switch to Winter Time on Sunday, November 2, 2025",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ht",
+    "publisher": "Le Relief Haïti",
+    "summary": "Presidency announcement of 2025 fall-back. JavaScript-rendered; body not retrievable on 2026-10-04.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.lereliefhaiti.com/en/articles/haiti-to-switch-to-winter-time-on-sunday-november-2-2025-clocks-will-go-back-one-hour",
+    "quotes": []
+  },
+  {
+    "_id": "ins-lb-lorient-today-2023-03-27",
+    "title": "Lebanon will officially shift to summer time overnight Wednesday to Thursday",
+    "kind": "news",
+    "authority": "community",
+    "status": "expired",
+    "jurisdiction": "jur-lb",
+    "publisher": "L'Orient Today",
+    "summary": "Official switch overnight 2023-03-29/30. Caretaker PM Mikati after the 27 Mar 2023 cabinet session: winter time kept for now, official switch overnight Wednesday 29 to Thursday 30 March 2023.",
+    "published": "2023-03-27",
+    "reviewedAt": "2026-10-04",
+    "url": "https://today.lorientlejour.com/article/1332824/lebanon-will-officially-shift-to-summer-time-overnight-wednesday-to-thursday.html",
+    "quotes": [
+      {
+        "original": "\"After each minister gave his opinion on the issue, the [cabinet] decided to maintain winter time for the time being and switch to summer time on Wednesday night,\" he announced. \"We need a 48-hour delay to settle some technical matters.\"",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-lb-gulfnews-2023-03-26",
+    "title": "Daylight savings dispute leaves Lebanon with two time zones",
+    "kind": "news",
+    "authority": "community",
+    "status": "expired",
+    "jurisdiction": "jur-lb",
+    "publisher": "Gulf News (AP)",
+    "summary": "Two de-facto times on 2023-03-26.",
+    "published": "2023-03-26",
+    "reviewedAt": "2026-10-04",
+    "url": "https://gulfnews.com/world/mena/daylight-savings-dispute-leaves-lebanon-with-two-time-zones-1.94730127",
+    "quotes": [
+      {
+        "original": "The Lebanese government’s last-minute decision to delay the start of daylight savings time by a month until the end of the Ramadan resulted in mass confusion Sunday.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-bill-4201",
+    "title": "Bill No. 4201 'On calculation of time in Ukraine' (Verkhovna Rada bill card)",
+    "kind": "bill",
+    "authority": "primary",
+    "status": "pending_bill",
+    "jurisdiction": "jur-ua",
+    "publisher": "Verkhovna Rada of Ukraine",
+    "summary": "Latest status: sent to the President on 2024-08-21 (no later event). Would fix Kyiv time at UTC+2 with no seasonal changes. The card lists the adopted text as 'No. 3856-IX', signed by the Rada Chairman; no presidential signature or veto as of 2026-10-04.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://itd.rada.gov.ua/billInfo/Bills/Card/4294",
+    "quotes": [
+      {
+        "original": "Передано на підпис Президенту 21.08.2024",
+        "language": "uk",
+        "english": "Sent to the President for signature 21.08.2024",
+        "locator": "Card: last event"
+      },
+      {
+        "original": "Закон прийнято 16.07.2024",
+        "language": "uk",
+        "english": "Law adopted 16.07.2024",
+        "locator": "Card: adoption event"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-kyivpost-2024",
+    "title": "Рада скасувала переведення часу з зимового на літній - що відомо",
+    "kind": "news",
+    "authority": "community",
+    "status": "pending_bill",
+    "jurisdiction": "jur-ua",
+    "publisher": "Kyiv Post (Ukrainian)",
+    "summary": "Headline frames the change as done.",
+    "published": "2024-07-16",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.kyivpost.com/uk/post/35904",
+    "quotes": [
+      {
+        "original": "Верховна Рада ухвалила закон про обчислення часу в Україні, тим самим скасувала перехід з літнього на зимовий час і навпаки.",
+        "language": "uk",
+        "english": "The Verkhovna Rada adopted the law on calculation of time in Ukraine, thereby abolishing the switch from summer to winter time and vice versa.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-buhgalter-2026",
+    "title": "Перехід на літній час 2026: коли переводити годинники",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "buhgalter.com.ua",
+    "summary": "Still unsigned in 2026; DST on 2026-03-29.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://buhgalter.com.ua/news/other/perehid-na-litniy-chas-2026-koli-perevoditi-godinniki/",
+    "quotes": [
+      {
+        "original": "Попри те, що Верховна Рада ще у 2024 році ухвалила законопроєкт № 4201 про скасування сезонного переведення часу, документ досі не підписаний Президентом.",
+        "language": "uk",
+        "english": "Although the Verkhovna Rada adopted bill No. 4201 on abolishing seasonal time changes back in 2024, the document has still not been signed by the President.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-slovoidilo-2026",
+    "title": "Які країни разом з Україною перейдуть на «літній» час у 2026 році",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "Slovo i Dilo",
+    "summary": "Resolution 509 still in force. Resolution 509 (1996) keeps EET/EEST with changes on the last Sundays of March and October; the primary text was not retrievable on 2026-10-04.",
+    "published": "2026-03-06",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.slovoidilo.ua/2026/03/06/infografika/suspilstvo/yaki-krayiny-razom-ukrayinoyu-perejdut-litnij-chas-2026-roczi",
+    "quotes": [
+      {
+        "original": "В Україні все ще діє постанова Кабміну від 13 травня 1996 року №509 «Про порядок обчислення часу на території України».",
+        "language": "uk",
+        "english": "Cabinet of Ministers Resolution No. 509 of 13 May 1996 'On the procedure for calculating time on the territory of Ukraine' is still in force in Ukraine.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-hr-139-actions",
+    "title": "H.R.139 - Sunshine Protection Act of 2025: Actions",
+    "kind": "bill",
+    "authority": "primary",
+    "status": "pending_bill",
+    "jurisdiction": "jur-us",
+    "publisher": "Congress.gov (Library of Congress) API",
+    "summary": "Passed House 2026-07-14.",
+    "published": "2026-07-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://api.congress.gov/v3/bill/119/hr/139/actions",
+    "quotes": [
+      {
+        "original": "On passage Passed by the Yeas and Nays: 308 - 117 (Roll no. 238).",
+        "language": "en",
+        "locator": "Action 2026-07-14"
+      },
+      {
+        "original": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "language": "en",
+        "locator": "Action 2026-07-15"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-hr-139-engrossed",
+    "title": "H.R. 139 (119th Congress) - Sunshine Protection Act of 2025, Engrossed in House",
+    "kind": "bill",
+    "authority": "primary",
+    "status": "pending_bill",
+    "jurisdiction": "jur-us",
+    "publisher": "U.S. Government Publishing Office / Congress.gov",
+    "summary": "Repeals 15 U.S.C. 260a (the DST period) and advances every standard time by one hour (Calder Act, 15 U.S.C. 261); states that had exempted themselves may keep either the new or the previous standard time. No delayed effective date. Passed the House 2026-07-14; not enacted.",
+    "published": "2026-07-14",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.congress.gov/119/bills/hr139/BILLS-119hr139eh.htm",
+    "quotes": [
+      {
+        "original": "Section 3 of the Uniform Time Act of 1966 (15 U.S.C. 260a) is hereby repealed.",
+        "language": "en",
+        "locator": "Sec. 2(a)"
+      },
+      {
+        "original": "Passed the House of Representatives July 14, 2026.",
+        "language": "en",
+        "locator": "Attestation"
+      },
+      {
+        "original": "(b) Advancement of Standard Time.-- (1) In general.--The second sentence of subsection (a) of section 1 of the Act of March 19, 1918 (commonly known as the ``Calder Act'') (15 U.S.C. 261), is amended-- (A) by striking ``4 hours'' and inserting ``3 hours'';",
+        "language": "en",
+        "locator": "Sec. 2(b)(1)(A)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-house-roll-238-2026",
+    "title": "Roll Call 238 - Sunshine Protection Act",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "pending_bill",
+    "jurisdiction": "jur-us",
+    "publisher": "Office of the Clerk, U.S. House",
+    "summary": "Vote record.",
+    "published": "2026-07-14",
+    "reviewedAt": "2026-10-04",
+    "url": "https://clerk.house.gov/evs/2026/roll238.xml",
+    "quotes": [
+      {
+        "original": "<vote-result>Passed</vote-result> <action-date>14-Jul-2026</action-date>",
+        "language": "en",
+        "locator": "Roll call XML"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-s-623-2022",
+    "title": "S.623 (117th) - Sunshine Protection Act of 2021: Actions",
+    "kind": "bill",
+    "authority": "primary",
+    "status": "vetoed_or_lapsed",
+    "jurisdiction": "jur-us",
+    "publisher": "Congress.gov API",
+    "summary": "2022 Senate passage; last action 'Held at the desk.' (House) -> died with 117th Congress.",
+    "published": "2022-03-16",
+    "reviewedAt": "2026-10-04",
+    "url": "https://api.congress.gov/v3/bill/117/s/623/actions",
+    "quotes": [
+      {
+        "original": "Passed Senate with an amendment by Unanimous Consent.",
+        "language": "en",
+        "locator": "Action 2022-03-15"
+      },
+      {
+        "original": "Held at the desk.",
+        "language": "en",
+        "locator": "Last action (House)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-govtrack-s29",
+    "title": "S. 29: Sunshine Protection Act of 2025",
+    "kind": "news",
+    "authority": "community",
+    "status": "pending_bill",
+    "jurisdiction": "jur-us",
+    "publisher": "GovTrack.us",
+    "summary": "Senate companion still in committee.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.govtrack.us/congress/bills/119/s29",
+    "quotes": [
+      {
+        "original": "This bill is in the first stage of the legislative process. It was introduced into Congress on January 7, 2025.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      },
+      {
+        "original": "Passed House (Senate next) — July 14, 2026",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-15-usc-260a",
+    "title": "15 U.S.C. 260a - Advancement of time or changeover dates (Uniform Time Act of 1966, s. 3)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "Legal Information Institute, Cornell Law School (U.S. Code text)",
+    "summary": "US daylight saving time runs from 2:00 a.m. on the second Sunday of March to 2:00 a.m. on the first Sunday of November (since the Energy Policy Act of 2005); a State may exempt itself (e.g. Arizona, Hawaii).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.law.cornell.edu/uscode/text/15/260a",
+    "quotes": [
+      {
+        "original": "During the period commencing at 2 o’clock antemeridian on the second Sunday of March of each year and ending at 2 o’clock antemeridian on the first Sunday of November of each year, the standard time of each zone established by sections 261 to 264 of this title, as modified by section 265 of this title , shall be advanced one hour",
+        "language": "en",
+        "locator": "15 U.S.C. 260a(a)"
+      },
+      {
+        "original": "2005—Subsec. (a). Pub. L. 109–58 substituted “second Sunday of March” for “first Sunday of April” and “first Sunday of November” for “last Sunday of October”.",
+        "language": "en",
+        "locator": "Amendments note"
+      }
+    ]
+  },
+  {
+    "_id": "ins-fl-stat-1-025",
+    "title": "Florida Statutes 1.025 Sunshine Protection Act",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "conditional",
+    "jurisdiction": "jur-us-fl",
+    "publisher": "The Florida Senate",
+    "summary": "Conditional statute.",
+    "condition": "The United States Congress amends 15 U.S.C. s. 260a to authorize states to observe daylight saving time year-round.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://flsenate.gov/Laws/Statutes/2025/0001.025",
+    "quotes": [
+      {
+        "original": "(2) If the United States Congress amends 15 U.S.C. s. 260a to authorize states to observe daylight saving time year-round, it is the intent of the Legislature that daylight saving time shall be the year-round standard time of the entire state and all of its political subdivisions.",
+        "language": "en",
+        "locator": "s. 1.025(2)"
+      },
+      {
+        "original": "History. — s. 1, ch. 2018-99.",
+        "language": "en",
+        "locator": "History"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ncsl-dst",
+    "title": "Daylight Saving Time State Legislation",
+    "kind": "encyclopedia",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "National Conference of State Legislatures",
+    "summary": "List of states with contingent year-round DST laws. HTTP 403 on 2026-10-04; no quote recorded.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.ncsl.org/transportation/daylight-saving-time-state-legislation",
+    "quotes": []
+  },
+  {
+    "_id": "ins-eu-directive-2000-84-ec",
+    "title": "Directive 2000/84/EC of the European Parliament and of the Council of 19 January 2001 on summer-time arrangements",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-eu",
+    "publisher": "Official Journal of the European Communities (copy on legislation.gov.uk)",
+    "summary": "Summer time begins in every Member State at 1.00 a.m. GMT on the last Sunday in March and ends at 1.00 a.m. GMT on the last Sunday in October.",
+    "published": "2001-02-02",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.legislation.gov.uk/eudr/2000/84/pdfs/eudr_20000084_adopted_en.pdf",
+    "quotes": [
+      {
+        "original": "From 2002 onwards, the summer-time period shall begin, in every Member State, at 1.00 a.m., Greenwich Mean Time, on the last Sunday in March.",
+        "language": "en",
+        "locator": "Art. 2"
+      },
+      {
+        "original": "From 2002 onwards, the summer-time period shall end, in every Member State, at 1.00 a.m., Greenwich Mean Time, on the last Sunday in October.",
+        "language": "en",
+        "locator": "Art. 3"
+      }
+    ]
+  },
+  {
+    "_id": "ins-eu-oeil-2018-0332-cod",
+    "title": "Proposal for a Directive discontinuing seasonal changes of time, COM(2018)639 - procedure 2018/0332(COD)",
+    "kind": "bill",
+    "authority": "primary",
+    "status": "proposed",
+    "jurisdiction": "jur-eu",
+    "publisher": "European Parliament Legislative Observatory",
+    "summary": "Current stage of the procedure. European Parliament first-reading position 2019-03-26; no Council position, so Directive 2000/84/EC still applies.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2018/0332(COD)",
+    "quotes": [
+      {
+        "original": "Awaiting Council's 1st reading position",
+        "language": "en",
+        "locator": "Procedure file, stage"
+      }
+    ]
+  },
+  {
+    "_id": "ins-eu-ep-press-2019-03-26",
+    "title": "Parliament backs proposal to end switch between summer and winter time in 2021",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "proposed",
+    "jurisdiction": "jur-eu",
+    "publisher": "European Parliament press room",
+    "summary": "EP position (not law).",
+    "published": "2019-03-26",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20190321IPR32107/parliament-backs-proposal-to-end-switch-between-summer-and-winter-time-in-2021",
+    "quotes": [
+      {
+        "original": "MEPs voted to end the practice of adjusting clocks by an hour in spring and autumn from 2021.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-es-eldiario-2025-10-20",
+    "title": "Sánchez propondrá a la UE acabar con el cambio de hora en 2026",
+    "kind": "news",
+    "authority": "community",
+    "status": "proposed",
+    "jurisdiction": "jur-es",
+    "publisher": "elDiario.es",
+    "summary": "Spain proposes ending changes in 2026.",
+    "published": "2025-10-20",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.eldiario.es/politica/sanchez-propondra-ue-acabar-cambio-hora-2026-no-sentido-afecta-negativamente-salud_1_12697057.html",
+    "quotes": [
+      {
+        "original": "El presidente del Gobierno, Pedro Sánchez, propondrá este lunes en el Consejo Europeo acabar con el cambio de hora estacional, esgrimiendo que “ya no tiene sentido”",
+        "language": "es",
+        "english": "Prime Minister Pedro Sánchez will propose this Monday at the European Council to end seasonal clock changes, arguing that 'it no longer makes sense'.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ir-wikipedia-dst",
+    "title": "Daylight saving time in Iran",
+    "kind": "encyclopedia",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ir",
+    "publisher": "Wikipedia",
+    "summary": "Claims partial DST restoration (unsupported by its own citation).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://en.wikipedia.org/wiki/Daylight_saving_time_in_Iran",
+    "quotes": [
+      {
+        "original": "In May 2025, the Iranian government partially restored daylight saving time in Tehran, despite opposition from the Parliament.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ir-etemad-2025",
+    "title": "تغییر ساعت کاری ادارات استان تهران و تعطیلی پنج‌شنبه‌ها",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ir",
+    "publisher": "Etemad Online (archived by Wayback Machine 2025-05-11)",
+    "summary": "Office hours change only (source cited by Wikipedia).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://web.archive.org/web/20250511021057/https://www.etemadonline.com/%D8%A8%D8%AE%D8%B4-%D8%B3%DB%8C%D8%A7%D8%B3%DB%8C-9/712272-%D8%B3%D8%A7%D8%B9%D8%AA-%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AA%D8%B9%D8%B7%DB%8C%D9%84%DB%8C-%D9%BE%D9%86%D8%AC%D8%B4%D9%86%D8%A8%D9%87-%D8%AA%D9%87%D8%B1%D8%A7%D9%86",
+    "quotes": [
+      {
+        "original": "ادارات استان از روز شنبه ۲۰ اردیبهشت‌ماه ۱۴۰۴ تا پایان شهریور، از ساعت ۶ صبح تا ۱۳ تعیین شده است.",
+        "language": "fa",
+        "english": "Offices of the province, from Saturday 20 Ordibehesht 1404 [2025-05-10] until the end of Shahrivar, are set from 6 a.m. to 13:00.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tzlist-iran-2025",
+    "title": "Iran considering reintroducing daylight saving",
+    "kind": "news",
+    "authority": "community",
+    "status": "proposed",
+    "jurisdiction": "jur-ir",
+    "publisher": "tz mailing list (lists.iana.org)",
+    "summary": "2025 discussion, no law change.",
+    "published": "2025-04-11",
+    "reviewedAt": "2026-10-04",
+    "url": "https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/C4DESKIQXMUJ3NLC7LXZ7CQJQZGLPXBJ/",
+    "quotes": [
+      {
+        "original": "the government is requesting that the parliament let it set daylight saving at its own pleasure, as opposed to the parliament controlling the rules.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jo-arabiaweather-2022",
+    "title": "A government decision to install daylight saving time in Jordan throughout the year",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-jo",
+    "publisher": "ArabiaWeather",
+    "summary": "Jordan cabinet decision.",
+    "published": "2022-10-05",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.arabiaweather.com/en/content/a-government-decision-to-install-daylight-saving-time-in-jordan-throughout-the-year",
+    "quotes": [
+      {
+        "original": "The Council of Ministers, in its session held today, Wednesday, headed by the Acting Prime Minister, Tawfiq Krishan, decided to install summer time throughout the year.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jo-petra-2022",
+    "title": "Petra news item 45567",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-jo",
+    "publisher": "Jordan News Agency (Petra)",
+    "summary": "Primary link cited by tzdata now returns 'Content not available' (link rot).",
+    "published": "2022-10-05",
+    "reviewedAt": "2026-10-04",
+    "url": "https://petra.gov.jo/Include/InnerPage.jsp?ID=45567&lang=en&name=en_news",
+    "quotes": [
+      {
+        "original": "This item is not available in English",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cl-decreto-93-2025",
+    "title": "Decreto 93 - Modifica DS 1.286 de 2018 respecto de la hora oficial en la Región de Aysén",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-cl-ai",
+    "publisher": "Diario Oficial de la República de Chile",
+    "summary": "Aysén permanent -03.",
+    "published": "2025-03-20",
+    "effective": "2025-03-20T03:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/03/20/44104/01/2624263.pdf",
+    "quotes": [
+      {
+        "original": "en las Regiones de Aysén del General Carlos Ibáñez del Campo y de Magallanes y la Antártica Chilena el adelanto de la Hora Oficial de Chile Continental se extenderá de manera indefinida, y corresponderá en forma permanente al huso horario tres horas al Oeste del meridiano de Greenwich (-3).",
+        "language": "es",
+        "english": "in the Aysén and Magallanes regions the advance of Continental Chile official time will extend indefinitely and will permanently correspond to the time zone three hours west of Greenwich (-3).",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-md-logos-2026",
+    "title": "Moldova abandons the \"Soviet era\" (page title: Moldova Adopts Permanent UTC+2 Time, Ending Soviet-Era Rules)",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-md",
+    "publisher": "Logos Press",
+    "summary": "New government decision fixes EU-style transitions (DST continues despite the headline).",
+    "published": "2026-02-21",
+    "reviewedAt": "2026-10-04",
+    "url": "https://logos-pres.md/en/news/moldova-abandons-the-soviet-era/",
+    "quotes": [
+      {
+        "original": "The start of daylight saving time is the last Sunday of March and the clocks are moved from 3:00 to 4:00. The return to standard time is the last Sunday in October, the clocks are moved from 4:00 to 3:00.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-md-monitorul-2026",
+    "title": "Monitorul Oficial (2026) - government decision on time calculation",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-md",
+    "publisher": "Monitorul Oficial al Republicii Moldova",
+    "summary": "Formal adoption of EU rule. Only a JavaScript viewer shell was retrievable on 2026-10-04; no quote recorded.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://monitorul.gov.md/ro/monitorul/view/pdf/3234/part/2#page=27",
+    "quotes": []
+  },
+  {
+    "_id": "ins-br-decreto-9772-2019",
+    "title": "Decreto nº 9.772, de 25 de abril de 2019",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "Presidência da República (Planalto)",
+    "summary": "DST ended nationwide.",
+    "published": "2019-04-25",
+    "effective": "2019-04-25T03:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D9772.htm",
+    "quotes": [
+      {
+        "original": "Art. 1º Fica encerrada a hora de verão no território nacional.",
+        "language": "pt",
+        "english": "Art. 1 Daylight saving time is ended in the national territory.",
+        "locator": "Art. 1º"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-eixos-2024",
+    "title": "Governo descarta retorno do horário de verão em 2024",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "eixos",
+    "summary": "No DST 2024-25.",
+    "published": "2024-10-16",
+    "reviewedAt": "2026-10-04",
+    "url": "https://eixos.com.br/noticias/governo-descarta-retorno-do-horario-de-verao-em-2024/",
+    "quotes": [
+      {
+        "original": "O governo federal anunciou nesta quarta-feira (16/10) que não haverá horário de verão entre 2024 e 2025",
+        "language": "pt",
+        "english": "The federal government announced on Wednesday (16/10) that there will be no daylight saving time between 2024 and 2025",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-dgabc-2025",
+    "title": "Governo federal desmente volta do horário de verão",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "Diário do Grande ABC",
+    "summary": "MME note denies 2025 DST.",
+    "published": "2025-10-03",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.dgabc.com.br/Noticia/4260978/governo-federal-desmente-volta-do-horario-de-verao",
+    "quotes": [
+      {
+        "original": "O Governo federal esclareceu nesta sexta-feira (3) que não adotou o horário de verão em 2025.",
+        "language": "pt",
+        "english": "The federal government clarified on Friday (3rd) that it did not adopt daylight saving time in 2025.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-seucredito-2026",
+    "title": "Horário de verão muda rotina a partir de maio de 2026",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "Seu Crédito Digital",
+    "summary": "FALSE claim of DST from May 2026. The claim is false: no decree reinstates DST, tzdata 2026e has no Brazilian DST and the government denied similar rumours.",
+    "published": "2026-03-21",
+    "reviewedAt": "2026-10-04",
+    "url": "https://seucreditodigital.com.br/horario-de-verao-2026-comeca-em-maio/",
+    "quotes": [
+      {
+        "original": "o Governo Federal confirmou a volta do horário de verão para o ano de 2026. Diferente do cronograma tradicional, que historicamente iniciava entre outubro e novembro, a nova diretriz estabelece o início da medida para o mês de maio.",
+        "language": "pt",
+        "english": "the Federal Government confirmed the return of daylight saving time for 2026. Unlike the traditional schedule ... the new guideline sets the start in May.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pl-dz-u-2024-poz-1965",
+    "title": "Ustawa z dnia 6 grudnia 2024 r. o zmianie ustawy o dniach wolnych od pracy oraz niektórych innych ustaw (Dz.U. 2024 poz. 1965)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-pl",
+    "publisher": "Rządowe Centrum Legislacji – Dziennik Ustaw RP",
+    "summary": "24 December is added to the statutory list of public holidays (days off work); act in force from 2025-02-01.",
+    "published": "2024-12-30",
+    "effective": "2025-01-31T23:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://dziennikustaw.gov.pl/D2024000196501.pdf",
+    "quotes": [
+      {
+        "original": "Art. 1. W ustawie z dnia 18 stycznia 1951 r. o dniach wolnych od pracy (Dz. U. z 2020 r. poz. 1920) w art. 1 w pkt 1 po lit. k dodaje się lit. ka w brzmieniu: „ka) 24 grudnia – Wigilia Bożego Narodzenia,”.",
+        "language": "pl",
+        "english": "Art. 1. In the Act of 18 January 1951 on days off work (Journal of Laws 2020 item 1920), in art. 1 point 1, after letter k, letter ka is added reading: 'ka) 24 December – Christmas Eve,'.",
+        "locator": "Art. 1"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pl-act-1951-days-off",
+    "title": "Ustawa z dnia 18 stycznia 1951 r. o dniach wolnych od pracy - consolidated text, Dz.U. 2020 poz. 1920",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-pl",
+    "publisher": "Rządowe Centrum Legislacji – Dziennik Ustaw RP",
+    "summary": "Lists the statutory days off in Poland (13 holidays plus Sundays) as in force before the 2024 amendment added 24 December from 2025-02-01.",
+    "published": "2020-11-02",
+    "reviewedAt": "2026-10-04",
+    "url": "https://dziennikustaw.gov.pl/D2020000192001.pdf",
+    "quotes": [
+      {
+        "original": "Art. 1. Dniami wolnymi od pracy są: 1) dni niżej wymienione:",
+        "language": "pl",
+        "english": "Art. 1. The following are days off work: 1) the days listed below:",
+        "locator": "Art. 1 pkt 1 (opening words)"
+      },
+      {
+        "original": "2) niedziele.",
+        "language": "pl",
+        "english": "2) Sundays.",
+        "locator": "Art. 1 pkt 2"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pl-python-holidays-dev",
+    "title": "python-holidays poland.py (dev branch, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pl",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "Current python-holidays treats 24 Dec as a Polish public holiday from 2025.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/poland.py#L112-L114",
+    "quotes": [
+      {
+        "original": "if self._year >= 2025: # Christmas Eve. self._add_christmas_eve(tr(\"Wigilia Bożego Narodzenia\"))",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pl-python-holidays-v0-63",
+    "title": "python-holidays poland.py at release tag v0.63",
+    "kind": "library",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-pl",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "Release v0.63 jumps from Immaculate Conception (<=1950) straight to Christmas Day: no Christmas Eve entry for any year, so 2025-12-24/2026-12-24 are returned as ordinary days.",
+    "published": "2024-12-16",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/300a72c6c48c439d6bdf07c0590f30c4cdec157e/holidays/countries/poland.py#L101-L110",
+    "quotes": [
+      {
+        "original": "# Christmas Day. self._add_christmas_day(tr(\"Boże Narodzenie (pierwszy dzień)\")) # Second Day of Christmas. self._add_christmas_day_two(tr(\"Boże Narodzenie (drugi dzień)\"))",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pl-date-holidays",
+    "title": "date-holidays data/countries/PL.yaml (master, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pl",
+    "publisher": "commenthol/date-holidays (GitHub)",
+    "summary": "Current date-holidays data lists 24 Dec as a (public-type) holiday in Poland from 2025.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/commenthol/date-holidays/blob/d7899b084869641239cbb48522e9cc29353c9804/data/countries/PL.yaml#L193-L194",
+    "quotes": [
+      {
+        "original": "12-24 since 2025: _name: 12-24",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-law-2136-ix",
+    "title": "Law of Ukraine No. 2136-IX 'On the organisation of labour relations under martial law' (art. 6)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "Верховна Рада України – Законодавство України (archived copy)",
+    "summary": "Labour Code art. 73 (public holidays and non-working days) is not applied while martial law is in force.",
+    "published": "2022-03-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://web.archive.org/web/20250418204733/https://zakon.rada.gov.ua/laws/show/2136-20",
+    "quotes": [
+      {
+        "original": "6. У період дії воєнного стану не застосовуються норми статті 53 , частини першої статті 65, частин третьої - п’ятої статті 67, статей 71 , 73 , 78 - 1 Кодексу законів про працю України та частини другої статті 5 Закону України \"Про відпустки\".",
+        "language": "uk",
+        "english": "6. During the period of martial law, the provisions of Article 53, part one of Article 65, parts three to five of Article 67, Articles 71, 73 and 78-1 of the Labour Code of Ukraine and part two of Article 5 of the Law of Ukraine 'On Leave' do not apply.",
+        "locator": "Art. 6 part 6 (archived edition of 24.12.2023)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-martial-law-extension-2026-08-02",
+    "title": "Строк дії воєнного стану в Україні продовжено: Верховна Рада затвердила Указ Президента",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "Голос України / Пресслужба Апарату Верховної Ради України",
+    "summary": "Martial law is in force from 2026-08-02 05:30 for 90 days, i.e. through 2026-10-31 05:30 (computed), covering 2026-10-04. Current period: from 05:30 on 2026-08-02 (02:30 UTC) for 90 days, i.e. to 05:30 on 2026-10-31 (computed). No further extension found as of 2026-10-04.",
+    "published": "2026-07-14",
+    "effective": "2026-08-02T02:30:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.golos.com.ua/article/391923",
+    "quotes": [
+      {
+        "original": "Відповідно до Закону, у зв'язку з триваючою збройною агресією російської федерації проти України строк дії воєнного стану в Україні продовжено ще на 90 діб — із 05:30 2 серпня 2026 року.",
+        "language": "uk",
+        "english": "Under the Law, in connection with the ongoing armed aggression of the Russian Federation against Ukraine, martial law in Ukraine has been extended for another 90 days – from 05:30 on 2 August 2026.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-law-4928-ix",
+    "title": "Law of Ukraine No. 4928-IX of 14.07.2026 approving Presidential Decree No. 596/2026 extending martial law",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "Голос України (official newspaper of the Verkhovna Rada)",
+    "summary": "Approves Decree No. 596/2026 extending martial law (published 25.07.2026).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.golos.com.ua/article/392071",
+    "quotes": [
+      {
+        "original": "1. Затвердити Указ Президента України від 13 липня 2026 року № 596/2026 \"Про продовження строку дії воєнного стану в Україні\".",
+        "language": "uk",
+        "english": "1. To approve Decree of the President of Ukraine of 13 July 2026 No. 596/2026 'On extending the period of martial law in Ukraine'.",
+        "locator": "Art. 1"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-labour-code-art-73",
+    "title": "Кодекс законів про працю України, Стаття 73. Святкові і неробочі дні (consolidated, edition 14.07.2023 3258-IX)",
+    "kind": "statute",
+    "authority": "secondary",
+    "status": "suspended",
+    "jurisdiction": "jur-ua",
+    "publisher": "Factor (i.factor.ua legal database)",
+    "summary": "Current art. 73 lists 25 December as the (only) Christmas holiday, in the edition of Law 3258-IX of 14.07.2023. Not applied while martial law lasts (Law 2136-IX art. 6(6)).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://i.factor.ua/law-40/section-205/article-34892/",
+    "quotes": [
+      {
+        "original": "24 серпня — День незалежності України 1 жовтня — День захисників і захисниць України 25 грудня — Різдво Христове.",
+        "language": "uk",
+        "english": "24 August – Independence Day of Ukraine; 1 October – Day of Defenders of Ukraine; 25 December – Christmas.",
+        "locator": "Art. 73 (edition of 14.07.2023, 3258-IX)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-date-holidays",
+    "title": "date-holidays data/countries/UA.yaml (master, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "commenthol/date-holidays (GitHub)",
+    "summary": "25 December is a Ukrainian public holiday every year since 2017 (with Monday substitute), with no martial-law exception.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/commenthol/date-holidays/blob/d7899b084869641239cbb48522e9cc29353c9804/data/countries/UA.yaml#L86-L87",
+    "quotes": [
+      {
+        "original": "12-25 and if saturday, sunday then next monday since 2017: _name: 12-25",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-dtkt-law-3258",
+    "title": "Відтепер в Україні одне Різдво та змінено дати двох свят: опубліковано закон",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "dtkt.ua (Дебет-Кредит)",
+    "summary": "Law No. 3258-IX (Christmas only on 25 December; Statehood Day 15 July; Defenders Day 1 October) was published on 29.07.2023 and applies from 30.07.2023.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://news.dtkt.ua/society/community/84746-vidteper-v-ukrayini-odne-rizdvo-ta-zmineno-dati-dvox-sviat-opublikovano-zakon",
+    "quotes": [
+      {
+        "original": "29 липня Закон опубліковано в \"Голосі України\", тож з 30 липня його норми почнуть діяти.",
+        "language": "uk",
+        "english": "On 29 July the Law was published in 'Holos Ukrainy', so its provisions take effect from 30 July.",
+        "locator": "Article body"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-dtkt-derzhpraci-2025",
+    "title": "Чи передбачені додаткові вихідні на різдвяні та новорічні свята під час війни: нагадування від Держпраці",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "dtkt.ua citing Держпраці (State Labour Service)",
+    "summary": "State Labour Service reminder: while martial law lasts, Labour Code art. 73 does not apply, so there are no official holidays or non-working days.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://news.dtkt.ua/labor/labor-relations/106301-ci-peredbaceni-dodatkovi-vixidni-na-rizdviani-ta-novoricni-sviata-pid-cas-viini-nagaduvannia-vid-derzpraci",
+    "quotes": [
+      {
+        "original": "На період дії воєнного стану ст. 73 КЗпП не застосовується. Отже, офіційних святкових та неробочих днів у нас наразі немає.",
+        "language": "uk",
+        "english": "For the period of martial law, art. 73 of the Labour Code does not apply. Therefore we currently have no official holidays or non-working days.",
+        "locator": "Article body"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ua-ccu-3-r-2026",
+    "title": "Constitutional Court of Ukraine decision No. 3-р/2026 of 19 May 2026 (right to leave under martial law)",
+    "kind": "court-ruling",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ua",
+    "publisher": "Конституційний Суд України",
+    "summary": "Struck down parts of Law 2136-IX art. 12 (leave); it did not concern art. 6 (holidays), whose suspension of Labour Code art. 73 still stands.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://ccu.gov.ua/novyna/pravo-na-vidpustky-v-umovah-voyennogo-stanu-sud-uhvalyv-rishennya",
+    "quotes": [
+      {
+        "original": "Велика палата Конституційного Суду України 19 травня 2026 року на пленарному засіданні ухвалила Рішення №3-р/2026 у справі за конституційним поданням Уповноваженого Верховної Ради України з прав людини (щодо права на відпустки).",
+        "language": "uk",
+        "english": "On 19 May 2026 the Grand Chamber of the Constitutional Court of Ukraine adopted Decision No. 3-r/2026 in the case on the constitutional petition of the Verkhovna Rada Commissioner for Human Rights (on the right to leave).",
+        "locator": "Press release"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gb-bank-holidays-json",
+    "title": "UK bank holidays (JSON feed)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-gb",
+    "publisher": "GOV.UK",
+    "summary": "2022 Spring bank holiday on 2022-06-02 plus Platinum Jubilee 2022-06-03 (no 2022-05-30); also lists 2022-09-19 State Funeral, 2023-05-08 Coronation (all regions) and, under 'scotland' only, {\"title\":\"World Cup bank holiday\",\"date\":\"2026-06-15\"}.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "quotes": [
+      {
+        "original": "{\"title\":\"Early May bank holiday\",\"date\":\"2022-05-02\",\"notes\":\"\",\"bunting\":true},{\"title\":\"Spring bank holiday\",\"date\":\"2022-06-02\",\"notes\":\"\",\"bunting\":true},{\"title\":\"Platinum Jubilee bank holiday\",\"date\":\"2022-06-03\",\"notes\":\"\",\"bunting\":true}",
+        "language": "en",
+        "locator": "england-and-wales events, 2022"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gb-proclamation-scotland-2026",
+    "title": "A Proclamation appointing Monday, 15th June 2026, as a bank holiday in Scotland",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-gb-sct",
+    "publisher": "Privy Council Office",
+    "summary": "2026-06-15 is a one-off bank holiday in Scotland only, to mark Scotland's men's team competing at the FIFA World Cup.",
+    "published": "2026-02-03",
+    "reviewedAt": "2026-10-04",
+    "url": "https://privycouncil.independent.gov.uk/wp-content/uploads/2026/02/Scotland-Bank-Holiday-Proclamation.pdf",
+    "quotes": [
+      {
+        "original": "Now, therefore, We, in pursuance of section 1(3) of the Banking and Financial Dealings Act 1971, do hereby appoint Monday, the fifteenth day of June in the year 2026 to be a bank holiday in Scotland.",
+        "language": "en",
+        "locator": "Operative paragraph"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gb-dcms-jubilee-2020",
+    "title": "Extra Bank Holiday to mark The Queen's Platinum Jubilee in 2022",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-gb",
+    "publisher": "GOV.UK – Department for Digital, Culture, Media & Sport",
+    "summary": "The late-May bank holiday of 2022 was moved from its normal Monday to Thursday 2 June, plus an extra holiday on Friday 3 June.",
+    "published": "2020-11-12",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.gov.uk/government/news/extra-bank-holiday-to-mark-the-queens-platinum-jubilee-in-2022",
+    "quotes": [
+      {
+        "original": "The May Bank Holiday Weekend will be moved to Thursday 2 June and an additional Bank Holiday on Friday 3 June will see a four-day weekend to celebrate Her Majesty The Queen’s Platinum Jubilee",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gb-date-holidays",
+    "title": "date-holidays data/countries/GB.yaml - Scotland (SCT) section (master, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-gb",
+    "publisher": "commenthol/date-holidays (GitHub)",
+    "summary": "The SCT section ends with Summer bank holiday and St Andrew's Day; there is no 2026-06-15 entry anywhere in GB.yaml, so date-holidays treats 2026-06-15 as an ordinary working day in Scotland.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/commenthol/date-holidays/blob/d7899b084869641239cbb48522e9cc29353c9804/data/countries/GB.yaml#L450-L482",
+    "quotes": [
+      {
+        "original": "1st monday in August: name: en: Summer bank holiday 11-30: name: en: St Andrew’s Day substitutes 11-30 if saturday, sunday then next monday: substitute: true name: en: St Andrew’s Day",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-gb-proclamation-ewni-2027",
+    "title": "Proclamation of 8 July 2026 appointing 2027 bank holidays in England, Wales and Northern Ireland",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-gb",
+    "publisher": "Privy Council Office",
+    "summary": "Appoints only routine and substitute days for 2027 (1 Jan, 3 May, 28 Dec; 12 Jul in Northern Ireland) - no one-off bank holiday for 2027.",
+    "published": "2026-07-08",
+    "reviewedAt": "2026-10-04",
+    "url": "https://privycouncil.independent.gov.uk/wp-content/uploads/2026/07/2026-07-08-Proclamation-England-Wales-and-Northern-Ireland-Bank-Holiday.pdf",
+    "quotes": [
+      {
+        "original": "APPOINTING FRIDAY 1ST JANUARY 2027, MONDAY 3RD MAY 2027 AND TUESDAY 28TH DECEMBER 2027 AS BANK HOLIDAYS IN ENGLAND, WALES AND NORTHERN IRELAND AND APPOINTING MONDAY 12TH JULY 2027 AS A BANK HOLIDAY IN NORTHERN IRELAND",
+        "language": "en",
+        "locator": "Title"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-pl-117-17",
+    "title": "Public Law 117-17 - Juneteenth National Independence Day Act (135 Stat. 287)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "summary": "Juneteenth (June 19) became a legal public holiday under 5 U.S.C. 6103(a) on 2021-06-17.",
+    "published": "2021-06-17",
+    "effective": "2021-06-17T04:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ17/html/PLAW-117publ17.htm",
+    "quotes": [
+      {
+        "original": "Section 6103(a) of title 5, United States Code, is amended by inserting after the item relating to Memorial Day the following: ``Juneteenth National Independence Day, June 19.''. Approved June 17, 2021.",
+        "language": "en",
+        "locator": "Sec. 2"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-opm-federal-holidays",
+    "title": "Federal Holidays (holiday schedules 2011-2030)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "U.S. Office of Personnel Management",
+    "summary": "Federal employees observe Juneteenth on Friday 2026-06-19; in 2021 it was observed Friday June 18 and in 2027 it will be observed Friday June 18 (Saturday rule).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "quotes": [
+      {
+        "original": "2026 Holiday Schedule Date Holiday Thursday, January 01 New Year’s Day Monday, January 19 Birthday of Martin Luther King, Jr. Monday, February 16 * Washington’s Birthday Monday, May 25 Memorial Day Friday, June 19 Juneteenth National Independence Day",
+        "language": "en",
+        "locator": "2026 Holiday Schedule"
+      },
+      {
+        "original": "If a holiday falls on a Saturday, for most Federal employees, the preceding Friday will be treated as a holiday for pay and leave purposes. (See 5 U.S.C. 6103(b).) If a holiday falls on a Sunday, for most Federal employees, the following Monday will be treated as a holiday for pay and leave purposes.",
+        "language": "en",
+        "locator": "Footnote ** to the 2026 schedule"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-pew-juneteenth-2026",
+    "title": "More than half of states will recognize Juneteenth as a legal holiday in 2026",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "Pew Research Center",
+    "summary": "Juneteenth is not a paid state holiday everywhere; e.g. Wyoming and West Virginia show 'No' for a paid Juneteenth day off in 2026.",
+    "published": "2026-06-11",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.pewresearch.org/short-reads/2026/06/11/more-than-half-of-states-will-recognize-juneteenth-as-a-legal-holiday-in-2026/",
+    "quotes": [
+      {
+        "original": "This year, administrative calendars show that at least 33 states and the District of Columbia will mark Juneteenth with a paid day off for most state government workers.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-python-holidays",
+    "title": "python-holidays united_states.py (dev branch, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "python-holidays adds Juneteenth (with Sat->Fri / Sun->Mon observance) for the whole US and every state subdivision from 2021.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/united_states.py#L370-L374",
+    "quotes": [
+      {
+        "original": "if self._year >= 2021: self._add_observed( # Juneteenth National Independence Day. self._add_holiday_jun_19(tr(\"Juneteenth National Independence Day\")) )",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-nyse-holidays",
+    "title": "NYSE holidays and trading hours (2026-2028 holiday table)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "New York Stock Exchange (ICE)",
+    "summary": "The exchange is closed on Juneteenth: 2026-06-19, 2027-06-18 (observed) and 2028-06-19. Authoritative for the exchange schedule only.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "quotes": [
+      {
+        "original": "Juneteenth National Independence Day Friday, June 19 Friday, June 18 (Juneteenth National Independence Day observed) Monday, June 19",
+        "language": "en",
+        "locator": "Holiday table row"
+      }
+    ]
+  },
+  {
+    "_id": "ins-us-sec-sr-nyse-2021-56",
+    "title": "SEC notice, Release No. 34-93183 (SR-NYSE-2021-56): Juneteenth added to NYSE Rule 7.2",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "Federal Register (SEC notice)",
+    "summary": "NYSE added Juneteenth to its holiday rule only in autumn 2021, so the exchange was open on Friday 2021-06-18.",
+    "published": "2021-10-05",
+    "reviewedAt": "2026-10-04",
+    "url": "https://govinfo.gov/content/pkg/FR-2021-10-05/pdf/2021-21742.pdf",
+    "quotes": [
+      {
+        "original": "The Exchange proposes to amend NYSE Rule 7.2 (Holidays) to make Juneteenth National Independence Day a holiday of the Exchange.",
+        "language": "en",
+        "locator": "Notice summary"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tradinghours-juneteenth",
+    "title": "Is the stock market closed for Juneteenth?",
+    "kind": "news",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-us",
+    "publisher": "TradingHours.com",
+    "summary": "NYSE and Nasdaq did not close for Juneteenth in 2021 and have observed it since 2022.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.tradinghours.com/publications/is-the-stock-market-closed-for-juneteenth",
+    "quotes": [
+      {
+        "original": "Given the short notice, the New York Stock Exchange (NYSE) and NASDAQ did not close in 2021. Starting in 2022, both exchanges began observing Juneteenth as a market holiday, closing on June 19th or the nearest weekday if it falls on a weekend.",
+        "language": "en",
+        "locator": "Article body"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-lei-14759-2023",
+    "title": "Lei nº 14.759, de 21 de dezembro de 2023 - Declara feriado nacional o Dia Nacional de Zumbi e da Consciência Negra",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "Presidência da República – Planalto",
+    "summary": "20 November is a national holiday from the law's publication (DOU 22.12.2023).",
+    "published": "2023-12-21",
+    "effective": "2023-12-22T03:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14759.htm",
+    "quotes": [
+      {
+        "original": "Art. 1º Fica declarado feriado nacional o dia 20 de novembro, para a celebração do Dia Nacional de Zumbi e da Consciência Negra. Art. 2º Esta Lei entra em vigor na data de sua publicação.",
+        "language": "pt",
+        "english": "Art. 1. 20 November is declared a national holiday, for the celebration of the National Day of Zumbi and Black Consciousness. Art. 2. This Law enters into force on the date of its publication.",
+        "locator": "Arts. 1º-2º"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-portaria-mgi-11460-2025",
+    "title": "Portaria MGI nº 11.460, de 29 de dezembro de 2025 (feriados nacionais e pontos facultativos 2026)",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "Ministério da Gestão e da Inovação em Serviços Públicos – Diário Oficial da União (copy hosted by UFG)",
+    "summary": "The federal government's 2026 holiday list includes 20 November 2026 as a national holiday. Lists all 2026 national holidays and optional days (ponto facultativo) for the federal administration.",
+    "published": "2025-12-30",
+    "effective": "2026-01-01T03:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://files.cercomp.ufg.br/weby/up/67/o/Portaria_MGI_N%C2%BA_11.460_2025.pdf",
+    "quotes": [
+      {
+        "original": "XVI - 20 de novembro, Dia Nacional de Zumbi e da Consciência Negra (feriado nacional);",
+        "language": "pt",
+        "english": "XVI - 20 November, National Day of Zumbi and Black Consciousness (national holiday);",
+        "locator": "Art. 1º, XVI"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-python-holidays-dev",
+    "title": "python-holidays brazil.py (dev branch, pinned commit)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-br",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "Current python-holidays has the national 20 Nov holiday from 2024.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/brazil.py#L166-L168",
+    "quotes": [
+      {
+        "original": "if self._year >= 2024: # National Day of Zumbi and Black Awareness. self._add_holiday_nov_20(tr(\"Dia Nacional de Zumbi e da Consciência Negra\"))",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-br-python-holidays-v0-50",
+    "title": "python-holidays brazil.py at release tag v0.50",
+    "kind": "library",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-br",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "Release v0.50 (published ~5.5 months after the law) has no national 20 November: national list jumps from 15 Nov to 25 Dec.",
+    "published": "2024-06-03",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/760816621d313a204ad90ea135ff7184e4cad934/holidays/countries/brazil.py#L109-L114",
+    "quotes": [
+      {
+        "original": "# Republic Proclamation Day. self._add_holiday_nov_15(\"Proclamação da República\") if self._year >= 1922: # Christmas Day. self._add_christmas_day(\"Natal\")",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ru-decree-1466-2025",
+    "title": "Постановление Правительства РФ от 24.09.2025 № 1466 «О переносе выходных дней в 2026 году»",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ru",
+    "publisher": "Официальный интернет-портал правовой информации (publication.pravo.gov.ru)",
+    "summary": "2026 transfers: Sat 3 Jan -> Fri 9 Jan, Sun 4 Jan -> Thu 31 Dec; no other transfers (so no working Saturdays).",
+    "published": "2025-09-24",
+    "reviewedAt": "2026-10-04",
+    "url": "http://publication.pravo.gov.ru/document/0001202509240023",
+    "quotes": [
+      {
+        "original": "Перенести в 2026 году следующие выходные дни: с субботы 3 января на пятницу 9 января; с воскресенья 4 января на четверг 31 декабря.",
+        "language": "ru",
+        "english": "To transfer the following days off in 2026: from Saturday 3 January to Friday 9 January; from Sunday 4 January to Thursday 31 December.",
+        "locator": "Item 1 (transcribed from the scanned PDF)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ru-decree-1187-2026",
+    "title": "Постановление Правительства РФ от 17.09.2026 № 1187 «О переносе выходных дней в 2027 году»",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "enacted_not_effective",
+    "jurisdiction": "jur-ru",
+    "publisher": "Официальный интернет-портал правовой информации (publication.pravo.gov.ru)",
+    "summary": "2027 transfers, including a working Saturday on 2027-02-20. Applies to calendar year 2027.",
+    "published": "2026-09-18",
+    "reviewedAt": "2026-10-04",
+    "url": "http://publication.pravo.gov.ru/document/0001202609180037",
+    "quotes": [
+      {
+        "original": "Перенести в 2027 году следующие выходные дни: с субботы 2 января на пятницу 5 ноября; с воскресенья 3 января на пятницу 31 декабря; с субботы 20 февраля на понедельник 22 февраля.",
+        "language": "ru",
+        "english": "To transfer the following days off in 2027: from Saturday 2 January to Friday 5 November; from Sunday 3 January to Friday 31 December; from Saturday 20 February to Monday 22 February.",
+        "locator": "Item 1 (transcribed from the scanned PDF)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ru-consultant-calendar-2026",
+    "title": "Производственный календарь на 2026 год",
+    "kind": "encyclopedia",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-ru",
+    "publisher": "КонсультантПлюс",
+    "summary": "Pre-holiday shortened days in 2026 (Labour Code art. 95 part 1) and the resulting rest periods (12-day New Year break 31 Dec 2025 - 11 Jan 2026; 21-23 Feb; 7-9 Mar; 1-3 and 9-11 May; 12-14 Jun; 4 Nov; 31 Dec 2026).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.consultant.ru/law/ref/calendar/proizvodstvennye/2026/",
+    "quotes": [
+      {
+        "original": "В 2026 году работники будут работать на один час меньше 30 апреля, 8 мая, 11 июня, 3 ноября (накануне праздников 1 и 9 мая, 12 июня, 4 ноября).",
+        "language": "ru",
+        "english": "In 2026 employees will work one hour less on 30 April, 8 May, 11 June and 3 November (on the eve of the holidays of 1 and 9 May, 12 June, 4 November).",
+        "locator": "Commentary: shortened pre-holiday days"
+      },
+      {
+        "original": "1, 2, 3, 4, 5, 6 и 8 января — Новогодние каникулы; 7 января — Рождество Христово; 23 февраля — День защитника Отечества; 8 марта — Международный женский день; 1 мая — Праздник Весны и Труда; 9 мая — День Победы; 12 июня — День России; 4 ноября — День народного единства.",
+        "language": "ru",
+        "english": "1, 2, 3, 4, 5, 6 and 8 January - New Year holidays; 7 January - Christmas; 23 February - Defender of the Fatherland Day; 8 March - International Women's Day; 1 May - Spring and Labour Day; 9 May - Victory Day; 12 June - Russia Day; 4 November - National Unity Day.",
+        "locator": "Restatement of Labour Code art. 112"
+      },
+      {
+        "original": "В мае 2026 года работники будут отдыхать с 1 по 3 мая в связи с празднованием Праздника Весны и Труда, а также с 9 по 11 мая в связи с празднованием Дня Победы.",
+        "language": "ru",
+        "english": "In May 2026 employees will rest from 1 to 3 May for Spring and Labour Day, and from 9 to 11 May for Victory Day.",
+        "locator": "Commentary: rest periods"
+      },
+      {
+        "original": "пятидневной рабочей недели с двумя выходными днями в субботу и воскресенье",
+        "language": "ru",
+        "english": "a five-day working week with two days off on Saturday and Sunday",
+        "locator": "Commentary: working-time norm"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ru-python-holidays",
+    "title": "python-holidays russia.py (dev branch, pinned commit) - last substituted-holiday entry",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ru",
+    "publisher": "vacanza/holidays (GitHub)",
+    "summary": "python-holidays' substituted-days table ends with 2025: there are no 2026 (or 2027) transfers, so the library treats 2026-01-09 and 2026-12-31 as working days.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/russia.py#L356-L365",
+    "quotes": [
+      {
+        "original": "# Substituted Holidays 2025 # src: https://web.archive.org/web/20250414071812/https://www.consultant.ru/document/cons_doc_LAW_481586/ 2025: ( (MAY, 2, JAN, 4), (MAY, 8, FEB, 23), (JUN, 13, MAR, 8), (NOV, 3, NOV, 1), (DEC, 31, JAN, 5), ), }",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cn-notice-2026-holidays",
+    "title": "国务院办公厅关于2026年部分节假日安排的通知（国办发明电〔2025〕7号）",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-cn",
+    "publisher": "国务院办公厅 (General Office of the State Council), www.gov.cn",
+    "summary": "Official 2026 schedule: 7 holiday blocks (Jan 1-3, Feb 15-23, Apr 4-6, May 1-5, Jun 19-21, Sep 25-27, Oct 1-7) and 6 make-up working days (Jan 4, Feb 14, Feb 28, May 9, Sep 20, Oct 10).",
+    "published": "2025-11-04",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.gov.cn/zhengce/content/202511/content_7047090.htm",
+    "quotes": [
+      {
+        "original": "七、国庆节： 10月1日（周四）至7日（周三）放假调休，共7天。9月20日（周日）、10月10日（周六）上班。",
+        "language": "zh",
+        "english": "7. National Day: Oct 1 (Thu) to Oct 7 (Wed) off with adjusted rest days, 7 days in total. Work on Sep 20 (Sun) and Oct 10 (Sat).",
+        "locator": "Item 7 (国庆节)"
+      },
+      {
+        "original": "二、春节： 2月15日（农历腊月二十八、周日）至23日（农历正月初七、周一）放假调休，共9天。2月14日（周六）、2月28日（周六）上班。",
+        "language": "zh",
+        "english": "2. Spring Festival: Feb 15 (12th lunar month day 28, Sunday) to Feb 23 (1st lunar month day 7, Monday) off with adjusted rest days, 9 days in total. Work on Feb 14 (Sat) and Feb 28 (Sat).",
+        "locator": "Item 2 (春节)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cn-decree-795",
+    "title": "国务院关于修改《全国年节及纪念日放假办法》的决定（国令第795号）",
+    "kind": "decree",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-cn",
+    "publisher": "国务院 (State Council), www.gov.cn",
+    "summary": "Since 2025-01-01 the statutory holidays total 13 days: Spring Festival 4 days incl. 除夕, Labour Day May 1-2; new Art. 7 allows 调休 and caps consecutive work around holidays at generally 6 days.",
+    "published": "2024-11-12",
+    "effective": "2024-12-31T16:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202411/content_6986381.htm",
+    "quotes": [
+      {
+        "original": "一、将第二条第二项修改为“（二）春节，放假4天（农历除夕、正月初一至初三）”，第四项修改为“（四）劳动节，放假2天（5月1日、2日）”。",
+        "language": "zh",
+        "english": "1. Article 2 item 2 is amended to '(2) Spring Festival, 4 days off (lunar New Year's Eve and the 1st to 3rd days of the first lunar month)'; item 4 to '(4) Labour Day, 2 days off (May 1 and 2)'.",
+        "locator": "Decision item 1"
+      },
+      {
+        "original": "第六条 　全体公民放假的假日，如果适逢周六、周日，应当在工作日补假。部分公民放假的假日，如果适逢周六、周日，则不补假。",
+        "language": "zh",
+        "english": "Art. 6: If a holiday for all citizens falls on a Saturday or Sunday, a make-up day off shall be given on a working day. Holidays for some citizens falling on a Saturday or Sunday get no make-up day.",
+        "locator": "Consolidated 放假办法, Art. 6"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cn-date-holidays",
+    "title": "date-holidays data/countries/CN.yaml (Spring Festival rule)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-cn",
+    "publisher": "commenthol/date-holidays (open-source npm library)",
+    "summary": "Library encodes Spring Festival as only eve + day 1 + day 2 (3 days), has May 1 only (no May 2), no year-specific entries after 2021 and no make-up working days. npm date-holidays@3.37.0 (installed 2026-10-04) returns for CN 2026: 春节 2026-02-16..18 only, National Day Oct 1-3 only, and isHoliday() = false for 2026-02-19, 2026-02-20, 2026-02-23, 2026-05-05, 2026-10-06, 2026-10-08.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/commenthol/date-holidays/blob/d7899b084869641239cbb48522e9cc29353c9804/data/countries/CN.yaml#L50-L61",
+    "quotes": [
+      {
+        "original": "chinese 01-0-00: # Spring Festival Eve name: en: Spring Festival zh: 春节 chinese 01-0-01: # 1st day of 1st lunar month name: en: Spring Festival zh: 春节 chinese 01-0-02:",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-cn-python-holidays",
+    "title": "python-holidays holidays/countries/china.py (2026 substituted days)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-cn",
+    "publisher": "vacanza/holidays (open-source Python library)",
+    "summary": "python-holidays encodes all six 2026 swaps (rest day <- working weekend day), adds 除夕 from 2025 (L125-L126) and May 2 from 2025 (L144-L145); holidays 0.105 CN(years=2026).is_working_day() returns True for 2026-01-04, 02-14, 02-28, 05-09, 09-20, 10-10 and 10-08. Consistent with the notice.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/china.py#L462-L469",
+    "quotes": [
+      {
+        "original": "2026: ( (JAN, 2, JAN, 4), # New Year's Day (FEB, 20, FEB, 14), # Spring Festival (FEB, 23, FEB, 28), # Spring Festival (MAY, 5, MAY, 9), # Labor Day (OCT, 6, SEP, 20), # National Day (OCT, 7, OCT, 10), # National Day",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-portal-public-sector-hours",
+    "title": "Working hours in the public sector",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "The Official Portal of the UAE Government (u.ae)",
+    "summary": "Federal government: Mon-Thu 07:30-15:30, Fri 07:30-12:00, weekend Sat-Sun, effective 2022-01-01; other emirates similar; Sharjah government Mon-Thu with Fri-Sat-Sun weekend.",
+    "published": "2026-08-12",
+    "effective": "2021-12-31T20:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://u.ae/en/information-and-services/jobs/Sector-of-employment/working-in-uae-government-sector/working-hours-in-the-public-sector",
+    "quotes": [
+      {
+        "original": "Saturdays and Sundays are the official weekends for the federal government sector. Note: The above work week system was announced in December 2021 and became effective from 1 January 2022.",
+        "language": "en",
+        "locator": "Federal government section"
+      },
+      {
+        "original": "However, employees of the Government of Sharjah work four days a week; from Monday to Thursday ; 7.30 am to 3.30 pm.  Official weekend in Sharjah is for three days: Friday, Saturday and Sunday.",
+        "language": "en",
+        "locator": "Sharjah section"
+      },
+      {
+        "original": "The UAE federal government has adopted a four and a half-day working week . Hence, employees work eight hours, from 7.30 am to 3.30 pm from Monday to Thursday, and from 7.30 am to 12.00 pm on Fridays.",
+        "language": "en",
+        "locator": "Federal government section"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-decree-law-33-2021",
+    "title": "Federal Decree-Law No. (33) of 2021 Regarding the Regulation of Employment Relationships (English translation)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "UAE Government (u.ae assets)",
+    "summary": "Private-sector weekly rest (Art. 21 'Weekend') is at least one paid day as set by contract/work regulation - the federal Sat-Sun weekend is not automatically a private-sector rule.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://assets.u.ae/api/public/content/eb65a60bbff949fa912eddd566613014?v=7174ed78",
+    "quotes": [
+      {
+        "original": "shall be granted a paid weekend of not less than one day, according to the employment contract or the work regulation. It is permissible under a resolution of the Cabinet to increase the weekend day stipulated in this Article.",
+        "language": "en",
+        "locator": "Art. 21 (Weekend)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-cldr-release-40",
+    "title": "CLDR release-40 common/supplemental/supplementalData.xml weekData",
+    "kind": "library",
+    "authority": "secondary",
+    "status": "superseded",
+    "jurisdiction": "jur-ae",
+    "publisher": "Unicode CLDR (unicode-org/cldr)",
+    "summary": "CLDR v40 (latest CLDR release when the UAE change took effect) lists AE with weekendStart=fri (L4745) and weekendEnd=sat (L4749).",
+    "published": "2021-10-27",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/unicode-org/cldr/blob/3456b97c6b89657b62bda2ea3389dd9dabc0e1b0/common/supplemental/supplementalData.xml#L4745-L4749",
+    "quotes": [
+      {
+        "original": "<weekendStart day=\"fri\" territories=\"AE BH DZ EG IL IQ IR JO KW LY OM QA SA SD SY YE\"/>",
+        "language": "en",
+        "locator": "supplementalData.xml L4745"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-python-holidays",
+    "title": "python-holidays holidays/countries/united_arab_emirates.py (_get_weekend)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "vacanza/holidays (open-source Python library)",
+    "summary": "Library has one nationwide weekend (Sat-Sun from 2022, Fri-Sat before) and no subdivisions; holidays 0.105 AE().is_working_day(2026-10-09 Fri) = True.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/united_arab_emirates.py#L88-L91",
+    "quotes": [
+      {
+        "original": "def _get_weekend(self, dt: date) -> set[int]: # The resting days are Saturday and Sunday since Jan 1, 2022. # https://web.archive.org/web/20250216144205/https://time.com/6126260/uae-working-days-weekend/ return {SAT, SUN} if dt.year >= 2022 else {FRI, SAT}",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-fahr-eid-al-fitr-2026",
+    "title": "Eid Al Fitr Holiday in the Federal Government from 19 to 22 March 2026",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Federal Authority for Government Human Resources (FAHR)",
+    "summary": "UAE federal government: Eid al-Fitr holiday fixed in advance as Thu 19 - Sun 22 March 2026 (issued under Cabinet Resolution No. 27 of 2024).",
+    "published": "2026-02-23",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/",
+    "quotes": [
+      {
+        "original": "the Eid Al-Fitr holiday for the UAE federal government for the year 1447 AH will commence on Thursday, 19 March 2026, and continue until Sunday, 22 March 2026. Official working hours will resume on Monday, 23 March 2026.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-fahr-eid-al-adha-2026",
+    "title": "The Authority Announces Arafat Day and Eid Al Adha Holidays for the Federal Government 2026",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Federal Authority for Government Human Resources (FAHR)",
+    "summary": "UAE federal government: Mon 25 - Fri 29 May 2026 (includes 25 May = 8 Dhu al-Hijjah, which is neither Arafat nor Eid).",
+    "published": "2026-05-12",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/",
+    "quotes": [
+      {
+        "original": "the Arafat Day and Eid Al Adha holiday for ministries and federal entities in 2026 will begin on Monday, 25 May and continue until Friday, 29 May. Official working hours will resume on Monday, 1 June 2026.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-wam-eid-al-fitr-2026",
+    "title": "BREAKING: Thursday completes Ramadan; Friday marks first day of Eid Al-Fitr in UAE: Presidential Court",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Emirates News Agency (WAM)",
+    "summary": "UAE: Moon-sighting Committee (UAE Council for Fatwa) did not sight the Shawwal crescent on 29 Ramadan (18 March); Eid al-Fitr = Fri 2026-03-20.",
+    "published": "2026-03-18",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.wam.ae/en/article/bz9l2ze-breaking-thursday-completes-ramadan-friday-marks",
+    "quotes": [
+      {
+        "original": "Accordingly, Thursday, 19th March 2026, will be the final day of Ramadan, and Friday, 20th March 2026, will be the first day of Eid Al-Fitr in the UAE.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-wam-eid-al-adha-2026",
+    "title": "UAE Council for Fatwa confirms sighting of Dhul Hijjah crescent, Eid Al Adha to begin on 27 May",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Emirates News Agency (WAM)",
+    "summary": "UAE: crescent sighted 17 May; 1 Dhul Hijjah = 18 May; Eid al-Adha = Wed 2026-05-27. Note WAM calls 17 May '29th Dhul Qa’dah 1447 AH' while Umm al-Qura/SPA call it 30 Dhul Qa'dah.",
+    "published": "2026-05-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.wam.ae/en/article/c09b3a1-uae-council-for-fatwa-confirms-sighting-dhul",
+    "quotes": [
+      {
+        "original": "the council announced that tomorrow, Monday, 18th May, 2026, will mark the first day of Dhul Hijjah 1447 AH, while Wednesday, 27th May, 2026, will be the first day of Eid Al Adha in the United Arab Emirates.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-wam-ramadan-2026",
+    "title": "BREAKING: Wednesday first day of Ramadan in UAE",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Emirates News Agency (WAM)",
+    "summary": "UAE: Moon Sighting Committee confirmed a sighting on 17 Feb; 1 Ramadan = Wed 2026-02-18.",
+    "published": "2026-02-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.wam.ae/en/article/bysbidd-breaking-wednesday-first-day-ramadan-uae",
+    "quotes": [
+      {
+        "original": "corresponding to 17th February 2026, it confirms sighting of the crescent moon of the month of Ramadan.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-aletihad-eid-al-fitr-2026",
+    "title": "UAE: Eid Al Fitr holiday announced for public and private sector employees",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Aletihad News Center",
+    "summary": "UAE private sector (MoHRE): paid holiday Thu 19 - Sat 21 March 2026, extended to Sun 22 March if Ramadan has 30 days (it did: 18 Feb - 19 Mar), so 19-22 March.",
+    "published": "2026-02-23",
+    "reviewedAt": "2026-10-04",
+    "url": "https://en.aletihad.ae/news/uae/4646772/eid-al-fitr-holiday-announced-for-public-sector-in-uae",
+    "quotes": [
+      {
+        "original": "The statement further clarified that if the month of Ramadan completes 30 days, the holiday will be extended to include Sunday, March 22, 2026.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-ae-aletihad-eid-al-adha-2026",
+    "title": "UAE announces paid Eid Al Adha holiday for private sector from May 26-29",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-ae",
+    "publisher": "Aletihad News Center",
+    "summary": "UAE private sector: Tue 26 - Fri 29 May 2026; Mon 25 May was a working day for the private sector.",
+    "published": "2026-05-18",
+    "reviewedAt": "2026-10-04",
+    "url": "https://en.aletihad.ae/news/uae/4666606/uae-announces-paid-eid-al-adha-holiday-for-private-sector-fr",
+    "quotes": [
+      {
+        "original": "The Ministry of Human Resources and Emiratisation (MoHRE) has announced that May 26-29, 2026 will be a paid holiday for all private sector employees in the UAE on the occasion of Arafat Day and Eid Al Adha.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-hrsd-founding-day-2026",
+    "title": "Ministry of Human Resources and Social Development announces the Founding Day holiday for Private and Non-profit Sectors",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Ministry of Human Resources and Social Development (HRSD)",
+    "summary": "2026-02-22 (Sunday) is an official holiday for public, private and non-profit sectors.",
+    "published": "2026-03-08",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.hrsd.gov.sa/en/media-center/news/%D8%A5%D8%AC%D8%A7%D8%B2%D8%A9-%E2%81%A7%E2%80%AB%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3",
+    "quotes": [
+      {
+        "original": "The Ministry of Human Resources and Social Development announces that the Founding Day of the Kingdom of Saudi Arabia for this year, which is on Sunday, 5 Ramadan 1447 AH, corresponding to 22 February 2026, is an official holiday for the public, private and non-profit sectors.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-hrsd-holidays-and-leaves",
+    "title": "HOLIDAYS AND LEAVES (HRSD Labor Education article 322)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Ministry of Human Resources and Social Development (HRSD)",
+    "summary": "Private-sector worker holidays: 4 days Eid al-Fitr from the day after 29 Ramadan (Umm al-Qura), 4 days Eid al-Adha from Arafat day, and National Day. Authored 2019, modified 2023; it omits Founding Day (22 Feb), which HRSD declared an official holiday in 2026.",
+    "published": "2019-11-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.hrsd.gov.sa/en/knowledge-centre/articles/322",
+    "quotes": [
+      {
+        "original": "• The worker shall be entitled to a 4-day EID AL-ADHA holiday, starting from the ARAFAT day. • The worker shall be entitled to the National Holiday of the Kingdom on the first day of the Libra according to the UMM AL-QURA calendar;",
+        "language": "en",
+        "locator": "Eid al-Adha and National Day bullets"
+      },
+      {
+        "original": "The worker shall be entitled to a 4-day EID AL-FITR holiday, starting from the day following 29 of Ramadan, according to the UMM AL-QURA calendar.",
+        "language": "en",
+        "locator": "Eid al-Fitr bullet"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-sama-founding-day-1446",
+    "title": "The Saudi Founding Day holiday for the year 1446 H (SAMA circular No. 106885359)",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "expired",
+    "jurisdiction": "jur-sa",
+    "publisher": "Saudi Central Bank (SAMA) Rulebook",
+    "summary": "For SAMA-supervised entities, Sunday 2025-02-23 was an official holiday in lieu of Founding Day (Sat 2025-02-22); the circular cites royal decree A/371 of 24/6/1443H approving 22 February every year as Founding Day and an official holiday.",
+    "published": "2025-02-05",
+    "reviewedAt": "2026-10-04",
+    "url": "https://rulebook.sama.gov.sa/en/node/10372",
+    "quotes": [
+      {
+        "original": "First : Sunday, 24/8/1446H, corresponding to 23/2/2025G, will be an official holiday.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-hrsd-worker-rights",
+    "title": "الصحة والسلامة في بيئة العمل (HRSD worker-provisions page; section on working hours and rest periods)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Ministry of Human Resources and Social Development (HRSD)",
+    "summary": "Private-sector statutory weekly rest is one day (Friday); Saturday is not a legally guaranteed day off.",
+    "published": "2026-06-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.hrsd.gov.sa/care-about-you/health-and-safety",
+    "quotes": [
+      {
+        "original": "بالنسبة للراحة الأسبوعية فإن يوم الجمعة هو يوم الراحة الأسبوعية لجميع العمال، ويمكن أن يستبدل هذا اليوم لبعض أنواع العمل أي يوم من أيام الأسبوع بعد إبلاغ مكتب العمل المختص.",
+        "language": "ar",
+        "english": "As for the weekly rest, Friday is the weekly rest day for all workers, and for some types of work this day may be replaced by any day of the week after notifying the competent labour office.",
+        "locator": "Section on working hours and rest periods"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-crowell-weekend-2013",
+    "title": "Saudi Arabia Changes Weekend to Friday/Saturday from 29 June 2013",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Crowell & Moring LLP (client alert)",
+    "summary": "Royal Order O/185 (23 Jun 2013) moved the weekend of ministries, SAMA and financial institutions from Thursday-Friday to Friday-Saturday from 29 Jun 2013.",
+    "published": "2013-06-24",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.crowell.com/en/insights/client-alerts/saudi-arabia-changes-weekend-to-friday-saturday-from-29-june-2013",
+    "quotes": [
+      {
+        "original": "On June 23, 2013, H.M. King Abdullah bin Abdulaziz Al Saud issued Royal Order No. O/185 changing the Saudi Arabian weekend from the current Thursday - Friday to Friday -Saturday.",
+        "language": "en",
+        "locator": "Alert body"
+      },
+      {
+        "original": "1.) Effective Saturday June 29, 2013, the new Friday / Saturday weekend will apply to all Saudi Arabian Ministries, the Saudi Arabian Monetary Agency and all financial institutions, as well as the Capital Markets Authority and Saudi Stock Exchange (Tadawul);",
+        "language": "en",
+        "locator": "Alert body, point 1"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-spa-eid-al-fitr-2026",
+    "title": "Supreme Court Announces Friday First Day of Eid Al-Fitr",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Saudi Press Agency (SPA)",
+    "summary": "Saudi Arabia: Eid al-Fitr 1447 = Fri 2026-03-20; announced Wed 2026-03-18 (19:04 local) after the Shawwal crescent sighting call for the evening of 29 Ramadan (18 March); Ramadan completed 30 days.",
+    "published": "2026-03-18",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.spa.gov.sa/en/N2541040",
+    "quotes": [
+      {
+        "original": "the Supreme Court has decided that tomorrow, Thursday, March 19, 2026, is the final day of Ramadan, and Friday, March 20, 2026, is the first day of the blessed Eid Al-Fitr 1447 AH.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-spa-eid-al-adha-2026",
+    "title": "Supreme Court: Monday Marks Start of Dhul-Hijjah, Arafat Day on Tuesday, May 26",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Saudi Press Agency (SPA)",
+    "summary": "Saudi Arabia: 1 Dhu al-Hijjah = Mon 2026-05-18 (sighting matched Umm al-Qura), Arafat Tue 2026-05-26, Eid al-Adha Wed 2026-05-27; announced Sun 2026-05-17.",
+    "published": "2026-05-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.spa.gov.sa/en/N2587986",
+    "quotes": [
+      {
+        "original": "The Supreme Court has announced that Monday, Dhul-Hijjah 1, 1447 AH—corresponding to May 18, 2026, according to the Umm Al-Qura calendar—marks the beginning of the month of Dhul-Hijjah.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-spa-ramadan-2026",
+    "title": "Royal Court: Ramadan Begins in Saudi Arabia Tomorrow, February 18, 2026",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "Saudi Press Agency (SPA)",
+    "summary": "Saudi Arabia: 1 Ramadan 1447 = Wed 2026-02-18, declared on Tue 17 Feb by the Supreme Court moon sighting committee (Diyanet's rebuttal cites the Supreme Court as reporting a sighting in Riyadh on 17 Feb).",
+    "published": "2026-02-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.spa.gov.sa/en/N2516805",
+    "quotes": [
+      {
+        "original": "The Royal Court announced today that the Supreme Court's moon sighting committee has declared February 18, 2026, the first day of Ramadan 1447 AH.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-sa-umm-al-qura-calendar",
+    "title": "Umm al-Qura calendar date-conversion API (KACST), queries for 2026-02-18, 2026-03-20 and 2026-05-27",
+    "kind": "official-announcement",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-sa",
+    "publisher": "KACST / Umm Al-Qura Calendar (umqserv.kacst.gov.sa)",
+    "summary": "Umm al-Qura tables: 2026-02-18 = 1 Ramadan 1447, 2026-03-19 = 30 Ramadan, 2026-03-20 = 1 Shawwal, 2026-05-17 = 30 Dhu al-Qadah, 2026-05-27 = 10 Dhu al-Hijjah 1447. Calculated calendar; agreed with the 2026 Saudi sighting decisions.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://umqserv.kacst.gov.sa/api/v1/Prayer/GetPrayers?lang=en&format=12&yg=2026&mg=2&dg=18&lon=0&lat=0&zone=0",
+    "quotes": [
+      {
+        "original": "\"hijriDate\":{\"year\":1447,\"month\":9,\"day\":1,\"dayWeek\":3,\"name\":\"Ramadan\"",
+        "language": "en",
+        "locator": "Query yg=2026&mg=2&dg=18"
+      },
+      {
+        "original": "\"hijriDate\":{\"year\":1447,\"month\":10,\"day\":1,\"dayWeek\":5,\"name\":\"Shawwal\"",
+        "language": "en",
+        "locator": "Query yg=2026&mg=3&dg=20"
+      },
+      {
+        "original": "\"hijriDate\":{\"year\":1447,\"month\":12,\"day\":10,\"dayWeek\":3,\"name\":\"DhulHijjah\"",
+        "language": "en",
+        "locator": "Query yg=2026&mg=5&dg=27"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jp-cao-national-holidays",
+    "title": "国民の祝日について - 内閣府 (section: 令和２年（２０２０年）及び３年（２０２１年）における「国民の祝日」の移動について)",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-jp",
+    "publisher": "内閣府 (Cabinet Office, Government of Japan)",
+    "summary": "For 2020 and 2021 only, Marine Day, Sports Day and Mountain Day were moved under the Tokyo Olympic/Paralympic Special Measures Act; 2021 dates Jul 22, Jul 23, Aug 8 (+ Aug 9 substitute).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "quotes": [
+      {
+        "original": "令和３年（２０２１年） 　海の日　　　　　　７月２２日 　スポーツの日　　　７月２３日 　山の日　　　　　　８月８日（※） （※）国民の祝日に関する法律（昭和23年法律第178号）第3条第2項の規定に基づき、8月9日は休日となりました。",
+        "language": "ja",
+        "english": "2021: Marine Day July 22; Sports Day July 23; Mountain Day August 8 (*). (*) Under Art. 3(2) of the Act on National Holidays (Act No. 178 of 1948), August 9 became a holiday.",
+        "locator": "Section on the 2020/2021 moves"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jp-cao-holidays-csv",
+    "title": "国民の祝日（昭和30年（1955年）から令和9年（2027年））CSV",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-jp",
+    "publisher": "内閣府 (Cabinet Office, Government of Japan)",
+    "summary": "Machine-readable official list: 2021 holidays include 7/22, 7/23, 8/8, 8/9; no row for 2021/7/19, 2021/8/11 or any October 2021 date.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+    "quotes": [
+      {
+        "original": "2021/7/22,海の日 2021/7/23,スポーツの日 2021/8/8,山の日 2021/8/9,休日",
+        "language": "ja",
+        "english": "2021-07-22 Marine Day; 2021-07-23 Sports Day; 2021-08-08 Mountain Day; 2021-08-09 holiday (substitute).",
+        "locator": "CSV lines 953-956"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jp-sorachi-notice-2020",
+    "title": "令和3年（2021年）版カレンダー等の祝日表記について",
+    "kind": "vendor-notice",
+    "authority": "community",
+    "status": "superseded",
+    "jurisdiction": "jur-jp",
+    "publisher": "空知信用金庫 (Sorachi Shinkin Bank)",
+    "summary": "Printed 2021 calendars/planners distributed by the bank show the pre-amendment holidays: Marine Day 2021-07-19, Sports Day 2021-10-11, Mountain Day 2021-08-11 (the notice's table maps them to Jul 22, Jul 23, Aug 8 + Aug 9). It states the amendment passed the Diet on 令和2年11月27日.",
+    "published": "2020-12-11",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.shinkin.co.jp/sorachi/info/pdf/20201211.pdf",
+    "quotes": [
+      {
+        "original": "当金庫作成の令和3 年（2021 年）版カレンダーおよび手帳につきましては、法案改正前の内容となっておりますので、誠に恐れ入りますがご了承くださいますようお願い申し上げます。",
+        "language": "ja",
+        "english": "The 2021 calendars and planners produced by our bank reflect the content before the law amendment; we apologise and ask for your understanding.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-jp-python-holidays",
+    "title": "python-holidays holidays/countries/japan.py (Sports Day dates)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-jp",
+    "publisher": "vacanza/holidays (open-source Python library)",
+    "summary": "Library hard-codes the Olympic moves (Marine Day L144-L147, Mountain Day L153-L156, Sports Day L183-L186); holidays 0.105 JP(2021) gives 07-22, 07-23, 08-08 and substitute 08-09 - consistent with CAO.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/70b65398e536de6e45cb634c65df857ee56e976f/holidays/countries/japan.py#L183-L189",
+    "quotes": [
+      {
+        "original": "dates = { 2020: (JUL, 24), 2021: (JUL, 23), } dts_observed.add(self._add_holiday(name, dt)) if ( dt := dates.get(self._year) ) else dts_observed.add(self._add_holiday_2nd_mon_of_oct(name))",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-kr-regulation-public-holidays",
+    "title": "관공서의 공휴일에 관한 규정 [시행 2026. 5. 11.] [대통령령 제36290호, 2026. 4. 30., 일부개정]",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-kr",
+    "publisher": "국가법령정보센터 (Korea Ministry of Government Legislation, law.go.kr)",
+    "summary": "Current substitute-holiday rule covering national days, Buddha's Birthday, Labour Day, Children's Day and Christmas (Sat/Sun), and Seollal/Chuseok (Sunday); amended 2023-05-04 and 2026-04-30.",
+    "published": "2026-04-30",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B4%80%EA%B3%B5%EC%84%9C%EC%9D%98%EA%B3%B5%ED%9C%B4%EC%9D%BC%EC%97%90%EA%B4%80%ED%95%9C%EA%B7%9C%EC%A0%95",
+    "quotes": [
+      {
+        "original": "제3조(대체공휴일) ① 제2조 제2호부터 제10호 까지의 공휴일이 다음 각 호의 어느 하나에 해당하는 경우에는 그 공휴일 다음의 첫 번째 비공휴일( 제2조 각 호의 공휴일이 아닌 날을 말한다. 이하 같다)을 대체공휴일로 한다. <개정 2023. 5. 4., 2026. 4. 30.> 1. 제2조 제2호 , 제5호 부터 제7호까지 또는 제10호의 공휴일이 토요일이나 일요일과 겹치는 경우",
+        "language": "ko",
+        "english": "Art. 3 (Substitute holidays) (1) Where a holiday under Art. 2 items 2-10 falls under any of the following, the first non-holiday after it becomes a substitute holiday: 1. a holiday under item 2 (national days), items 5-7 (Buddha's Birthday, Labour Day, Children's Day) or item 10 (Christmas) coincides with Saturday or Sunday.",
+        "locator": "Art. 3(1)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-kr-act-21543",
+    "title": "공휴일에 관한 법률 [시행 2026. 5. 1.] [법률 제21543호, 2026. 4. 9., 일부개정] 제정·개정이유 및 개정문",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-kr",
+    "publisher": "국가법령정보센터 (law.go.kr)",
+    "summary": "Labour Day (May 1) is a statutory public holiday from 2026-05-01 (previously a holiday only for private-sector workers).",
+    "published": "2026-04-09",
+    "effective": "2026-04-30T15:00:00Z",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.law.go.kr/LSW/lsRvsDocInfoR.do?lsiSeq=285439&chrClsCd=010202",
+    "quotes": [
+      {
+        "original": "제2조제5호부터 제10호까지를 각각 제6호부터 제11호까지로 하고, 같은 조에 제5호를 다음과 같이 신설한다. 5. 노동절(5월 1일) 부칙 이 법은 2026년 5월 1일부터 시행한다.",
+        "language": "ko",
+        "english": "Art. 2 items 5-10 are renumbered 6-11 and a new item 5 is inserted: '5. Labour Day (May 1)'. Addendum: This Act enters into force on 1 May 2026.",
+        "locator": "Amendment text and addendum"
+      }
+    ]
+  },
+  {
+    "_id": "ins-kr-temporary-holiday-2025-01-27",
+    "title": "'1월 27일' 설 임시공휴일로 지정…엿새 '황금연휴'",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-kr",
+    "publisher": "대한민국 정책브리핑 (korea.kr, Ministry of Culture, Sports and Tourism) reporting 인사혁신처 (MPM)",
+    "summary": "Monday 2025-01-27 was designated a temporary public holiday by the Cabinet (2025-01-14).",
+    "published": "2025-01-14",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148938559",
+    "quotes": [
+      {
+        "original": "인사처는 27일 임시공휴일 지정안이 국무회의를 통과함에 따라 임시공휴일 확정을 위해 관보 공고 등 후속 조치에 즉시 착수했다.",
+        "language": "ko",
+        "english": "As the bill designating the 27th as a temporary public holiday passed the Cabinet, the MPM immediately began follow-up steps such as the official-gazette notice to finalise the temporary holiday.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-kr-date-holidays",
+    "title": "date-holidays data/countries/KR.yaml (Mar 1 to May 5 entries)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-kr",
+    "publisher": "commenthol/date-holidays (open-source npm library)",
+    "summary": "The library goes straight from Mar 1 to May 5 - no May 1 Labour Day entry; it also has no 2025-01-27 temporary holiday and no election days. npm date-holidays@3.37.0: isHoliday() = false for 2025-01-27, 2025-06-03, 2026-05-01, 2026-06-03 (it does list 2026-07-17 Constitution Day and the 2026-08-17 substitute).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/commenthol/date-holidays/blob/d7899b084869641239cbb48522e9cc29353c9804/data/countries/KR.yaml#L20-L41",
+    "quotes": [
+      {
+        "original": "substitutes 03-01 if Saturday,Sunday then next Monday: substitute: true name: en: Independence Movement Day ko: 3·1절 active: - from: \"2021-01-01\" 05-05: name: en: Children's Day ko: 어린이날",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-app-eid-al-fitr-2026",
+    "title": "Eid-ul-Fitr on Saturday as Shawwal Moon not sighted",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "Associated Press of Pakistan (APP, state news agency)",
+    "summary": "Pakistan: Central Ruet-e-Hilal Committee (chair Maulana Abdul Khabir Azad) - no sighting on 19 March; Eid al-Fitr = Sat 2026-03-21, one day after Saudi/UAE/Turkey.",
+    "published": "2026-03-19",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.app.com.pk/?p=1180682",
+    "quotes": [
+      {
+        "original": "The crescent moon of Shawwal was not sighted on Thursday evening, and Eid-ul-Fitr will therefore be observed across Pakistan on Saturday, March 21, 2026.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-app-eid-al-adha-2026",
+    "title": "Zil Hajj moon sighted, Eid ul Azha to be celebrated on May 27 in Pakistan",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "Associated Press of Pakistan (APP, state news agency)",
+    "summary": "Pakistan: Zil Hajj crescent sighted Sun 17 May; 1 Zil Hajj = Mon 18 May; Eid al-Adha = Wed 2026-05-27 (same day as SA/AE/ID/TR this time).",
+    "published": "2026-05-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.app.com.pk/national/zil-hajj-moon-sighted-eid-ul-azha-to-be-celebrated-on-may-27-in-pakistan/",
+    "quotes": [
+      {
+        "original": "Pakistan will celebrate Eid ul Azha on May 27 after the Zil Hajj moon was sighted on Sunday, according to an announcement made by the Central Ruet-e-Hilal Committee following its meeting in Karachi.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-arabnews-2026-03-15",
+    "title": "Pakistan announces two-day Eid Al-Fitr holiday on Mar. 20-21",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "Arab News Pakistan",
+    "summary": "Pakistan federal Eid al-Fitr public holidays were notified by the Cabinet Division on 15 March (before the moon sighting) as Fri 20 + Sat 21 March 2026; same article: 'In Pakistan, Ramadan began on Feb. 19'. Pakistan: Ramadan 1447 began Thu 2026-02-19.",
+    "published": "2026-03-15",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.arabnews.pk/node/2636481",
+    "quotes": [
+      {
+        "original": "The Prime Minister has been pleased to declare 20th and 21st March, 2026 (Friday and Saturday) as public holidays on the occasion of Eid-ul-Fitr",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      },
+      {
+        "original": "In Pakistan, Ramadan began on Feb. 19, a day after most other Muslims nations",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-thenews-peshawar-2026",
+    "title": "Eidul Fitr celebrated in KP with religious fervour",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "The News International",
+    "summary": "Negative control: in 2026 Peshawar's unofficial Masjid Qasim Ali Khan committee did NOT diverge - Khyber Pakhtunkhwa also celebrated on Saturday 21 March.",
+    "published": "2026-03-23",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.thenews.pk/print/1405720-eidul-fitr-celebrated-in-kp-with-religious-fervour",
+    "quotes": [
+      {
+        "original": "the official Ruet-e-Hilal Committee and a private moon-sighting body at Qasim Khan Mosque unanimously declared that Eidul Fitr would be observed on the same day.",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-thenews-adha-holidays-2026",
+    "title": "Govt announces three-day public holiday for Eid ul Adha",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "The News International",
+    "summary": "Pakistan federal Eid al-Adha public holidays: Tue 26, Wed 27, Thu 28 May 2026 (Cabinet Division notification). Fri 29 May was NOT a federal holiday.",
+    "published": "2026-05-20",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.thenews.pk/story/1416469-govt-announces-three-day-public-holiday-for-eid-ul-adha",
+    "quotes": [
+      {
+        "original": "The prime minister has been pleased to declare May 26, 27 and 28, 2026 (Tuesday, Wednesday and Thursday) as public holidays on the occasion of [Eid ul Adha]",
+        "language": "en",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-pk-establishment-office-timings-2024",
+    "title": "Establishment Division notification on federal government office timings (April 2024)",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "Government of Pakistan, Cabinet Secretariat, Establishment Division (copy hosted by FBR)",
+    "summary": "Federal government offices work either on a 5-day basis (Monday to Friday) or on a 6-day basis; the notification (dated April 2024, received-stamp 22 Apr 2024; scanned copy, OCR text) sets timings for both.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://download1.fbr.gov.pk/Docs/2024424154451311notification-office-hours.pdf",
+    "quotes": [
+      {
+        "original": "OFFICES WORKING ON 5 DAYS A WEEK BASIS",
+        "language": "en",
+        "locator": "Notification table heading"
+      },
+      {
+        "original": "Monday to Friday 08:30 am to 04:30 pm",
+        "language": "en",
+        "locator": "Notification table, 5-day offices"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-kemenag-jateng-syawal-1447",
+    "title": "Pemerintah Tetapkan 1 Syawal 1447 H Bertepatan 21 Maret 2026",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Kanwil Kementerian Agama Provinsi Jawa Tengah",
+    "summary": "Indonesia (government): sidang isbat chaired by Minister of Religious Affairs Nasaruddin Umar on Thu 19 March 2026 (29 Ramadan) - hilal 0.91-3.13 deg altitude, elongation 4.54-6.1 deg, below MABIMS (3 deg / 6.4 deg); no sighting at 117 points; 1 Syawal = Sat 2026-03-21.",
+    "published": "2026-03-20",
+    "reviewedAt": "2026-10-04",
+    "url": "https://jateng.kemenag.go.id/pemerintah-tetapkan-1-syawal-1447-h-bertepatan-21-maret-2026/",
+    "quotes": [
+      {
+        "original": "Berdasarkan hasil hisab dan tidak adanya laporan rukyat hilal, disepakati bahwa 1 Syawal 1447 Hijriah jatuh pada hari Sabtu, 21 Maret 2026,",
+        "language": "id",
+        "english": "Based on the calculation results and the absence of any crescent-sighting report, it was agreed that 1 Shawwal 1447 H falls on Saturday, 21 March 2026,",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-skb-2026",
+    "title": "Keputusan Bersama Menteri Agama, Menteri Ketenagakerjaan dan Menteri PANRB No. 1497/2/5 Tahun 2025 - Hari Libur Nasional dan Cuti Bersama Tahun 2026",
+    "kind": "regulation",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Kemenko PMK (signed by Menteri Agama, Menteri Ketenagakerjaan, Menteri PANRB)",
+    "summary": "Indonesia: Idul Fitri national holidays (libur nasional) were pre-set to Sat 21 + Sun 22 March 2026; Fri 20, Mon 23, Tue 24 March were cuti bersama (collective leave), not national holidays.",
+    "published": "2025-09-19",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+    "quotes": [
+      {
+        "original": "21-22 Maret Sabtu-Minggu Idul Fitri 1447 Hijriah ... 20, 23, dan 24 Maret Jumat, Senin, dan Selasa Idul Fitri 1447 Hijriah",
+        "language": "id",
+        "english": "21-22 March, Saturday-Sunday, Idul Fitri 1447 H [national holidays] ... 20, 23 and 24 March, Friday, Monday and Tuesday, Idul Fitri 1447 H [cuti bersama / collective leave]",
+        "locator": "Lampiran, page 3 (visual transcription)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-muhammadiyah-maklumat-1447",
+    "title": "Maklumat PP Muhammadiyah Nomor 2/MLM/I.0/E/2025 tentang Penetapan Hasil Hisab Ramadan, Syawal, dan Zulhijah 1447 H",
+    "kind": "official-announcement",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Pimpinan Pusat Muhammadiyah",
+    "summary": "Muhammadiyah (hisab, KHGT): 1 Syawal 1447 = Fri 2026-03-20 - one day BEFORE the government's isbat date; fixed ~5 months in advance.",
+    "published": "2025-10-22",
+    "reviewedAt": "2026-10-04",
+    "url": "https://muhammadiyah.or.id/2025/10/maklumat-pp-muhammadiyah-tentang-penetapan-hasil-hisab-ramadan-syawal-dan-zulhijah-1447-h/",
+    "quotes": [
+      {
+        "original": "2. 1 Syawal 1447 H jatuh pada hari Jumat Legi, 20 Maret 2026 M.",
+        "language": "id",
+        "english": "2. 1 Shawwal 1447 H falls on Friday (Legi), 20 March 2026 CE.",
+        "locator": "Item 2"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-muhammadiyah-penjelasan-2026",
+    "title": "Penjelasan Muhammadiyah tentang 1 Syawal 1447 H dan Potensi Perbedaan",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Muhammadiyah (muhammadiyah.or.id)",
+    "summary": "Muhammadiyah itself anticipated the split (KHGT vs MABIMS) before the isbat.",
+    "published": "2026-03-19",
+    "reviewedAt": "2026-10-04",
+    "url": "https://muhammadiyah.or.id/2026/03/penjelasan-muhammadiyah-tentang-1-syawal-1447-h-dan-potensi-perbedaan/",
+    "quotes": [
+      {
+        "original": "Dengan demikian, terbuka kemungkinan perbedaan: Muhammadiyah berlebaran pada Jumat (20 Maret), sementara pemerintah pada Sabtu (21 Maret).",
+        "language": "id",
+        "english": "Thus a difference is possible: Muhammadiyah celebrates Eid on Friday (20 March), while the government on Saturday (21 March).",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-antara-ramadan-2026",
+    "title": "Pemerintah tetapkan awal Ramadhan 2026 jatuh pada Kamis",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "ANTARA News Yogyakarta",
+    "summary": "Indonesia (government, sidang isbat 17 Feb): 1 Ramadan = Thu 2026-02-19; hilal on 17 Feb was below the horizon (-2 deg 24' to -0 deg 55'); Muhammadiyah started Wed 18 Feb.",
+    "published": "2026-02-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://jogja.antaranews.com/berita/806358/pemerintah-tetapkan-awal-ramadhan-2026-jatuh-pada-kamis",
+    "quotes": [
+      {
+        "original": "Keputusan ini berbeda dengan Pimpinan Pusat (PP) Muhammadiyah yang menetapkan awal Ramadhan lebih cepat satu hari atau jatuh pada Rabu (18/2).",
+        "language": "id",
+        "english": "This decision differs from PP Muhammadiyah, which set the start of Ramadan one day earlier, on Wednesday (18/2).",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-investortrust-adha-2026",
+    "title": "Pemerintah Tetapkan Iduladha 1447 Hijriah Jatuh pada Rabu 27 Mei 2026",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Investortrust.id",
+    "summary": "Indonesia government (Menag Nasaruddin Umar after sidang isbat): 1 Zulhijah = Mon 18 May (hilal sighted, MABIMS exceeded), Iduladha Wed 27 May 2026 - same as Muhammadiyah.",
+    "published": "2026-05-17",
+    "reviewedAt": "2026-10-04",
+    "url": "https://investortrust.id/national/103507/pemerintah-tetapkan-iduladha-1447-hijriah-jatuh-pada-rabu-27-mei-2026",
+    "quotes": [
+      {
+        "original": "Hari Raya Iduladha tanggal 10 Zulhijah 1447 Hijriah jatuh pada hari Rabu, tanggal 27 Mei 2026 Masehi.",
+        "language": "id",
+        "english": "Eid al-Adha, 10 Dhu al-Hijjah 1447 H, falls on Wednesday, 27 May 2026 CE.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-id-kontan-perpres-21-2023",
+    "title": "Perpres 21 Tahun 2023: Hari Kerja PNS Hanya 5 Hari, ASN Bisa Kerja dari Mana Saja",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-id",
+    "publisher": "Kontan",
+    "summary": "Presidential Regulation 21/2023: government agencies work five days a week, Monday to Friday.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://nasional.kontan.co.id/news/perpres-21-tahun-2023-hari-kerja-pns-hanya-5-hari-asn-bisa-kerja-darimana-saja",
+    "quotes": [
+      {
+        "original": "Hari kerja instansi pemerintah atau hari operasional bagi instansi pemerintah untuk kepentingan pelayanan publik adalah sebanyak lima hari kerja dalam satu minggu, yaitu hari Senin, Selasa, Rabu, Kamis, dan Jumat.",
+        "language": "id",
+        "english": "Working days of government agencies, or operational days of government agencies for public services, are five working days a week: Monday, Tuesday, Wednesday, Thursday and Friday.",
+        "locator": "Article body"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tr-diyanet-dini-gunler-2026",
+    "title": "2026 dini günler listesi - Vakit Hesaplama",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-tr",
+    "publisher": "Diyanet İşleri Başkanlığı (Presidency of Religious Affairs)",
+    "summary": "Turkey: Diyanet's calculated calendar - arefe Thu 19 March, Ramazan Bayramı Fri 20 - Sun 22 March 2026 (Ramadan in Turkey had only 29 days, 19 Feb - 19 Mar).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+    "quotes": [
+      {
+        "original": "29 RAMAZAN 1447 19 MART-2026 PERŞEMBE AREFE 01 ŞEVVAL 1447 20 MART-2026 CUMA RAMAZAN BAYRAMI (1. Gün)",
+        "language": "tr",
+        "english": "29 Ramadan 1447, 19 March 2026, Thursday, Eve (arefe); 1 Shawwal 1447, 20 March 2026, Friday, Ramadan Feast (day 1)",
+        "locator": "Table rows, Ramazan"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tr-law-2429",
+    "title": "Ulusal Bayram ve Genel Tatiller Hakkında Kanun (Kanun No. 2429)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-tr",
+    "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+    "summary": "Turkey: the arefe (19 March 2026) is a public holiday only from 13:00; Ramazan Bayramı 2026 = 19 Mar 13:00 through 22 Mar.",
+    "published": "1981-03-19",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2429.pdf",
+    "quotes": [
+      {
+        "original": "Ramazan Bayramı; Arefe günü saat 13.00'ten itibaren 3,5 gündür.",
+        "language": "tr",
+        "english": "Ramadan Feast: 3.5 days, from 13:00 on the eve (arefe).",
+        "locator": "Madde 2(B)(1)"
+      },
+      {
+        "original": "C) (Değişik: 25/10/2016-6752/2 md.) 1 Ocak günü yılbaşı tatili, 1 Mayıs günü Emek ve Dayanışma Günü ve 15 Temmuz günü Demokrasi ve Milli Birlik Günü tatilidir.",
+        "language": "tr",
+        "english": "C) 1 January is the New Year holiday, 1 May Labour and Solidarity Day and 15 July Democracy and National Unity Day.",
+        "locator": "Madde 2(C)"
+      },
+      {
+        "original": "Madde 3 – A) Hafta tatili Pazar günüdür. Bu tatil 35 saatten az olmamak üzere Cumartesi günü en geç saat 13.00'ten itibaren başlar.",
+        "language": "tr",
+        "english": "Art. 3(A): The weekly holiday is Sunday. This holiday, of not less than 35 hours, begins no later than 13:00 on Saturday.",
+        "locator": "Madde 3(A)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tr-diyanet-ramazan-2026",
+    "title": "1447 (2026) Yılı Ramazan Ayı Başlangıcına İlişkin Açıklama",
+    "kind": "official-announcement",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-tr",
+    "publisher": "Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+    "summary": "Turkey's Diyanet explicitly rejects the Saudi Supreme Court's reported 17 Feb sighting in Riyadh (moon set 2 min after the sun, altitude 0 deg 13', elongation 1 deg 39'; annular solar eclipse that day; 111 observations from Australia to America saw nothing) and fixes 1 Ramadan 1447 = Thu 2026-02-19.",
+    "published": "2026-02-18",
+    "reviewedAt": "2026-10-04",
+    "url": "https://kurul.diyanet.gov.tr/tr/duyuru/2026-ramazan/019c7121-78c4-775c-964e-e581a8efa2c8",
+    "quotes": [
+      {
+        "original": "Bu astronomik değerlere sahip olan ayın en gelişmiş optik cihazlarla dahi hilal şeklinde görülmesi mümkün değildir. Dolayısıyla bu şartlar altında hilalin görülebilir olduğu yönündeki beyan, ilmî kriterler bakımından mümkün görünmemektedir.",
+        "language": "tr",
+        "english": "A moon with these astronomical values cannot be seen as a crescent even with the most advanced optical instruments. Therefore, under these conditions the claim that the crescent was visible does not appear possible by scientific criteria.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-tr-aa-idari-izin-2026",
+    "title": "Cumhurbaşkanı Erdoğan, Kurban Bayramı tatilinin 9 gün olacağını açıkladı",
+    "kind": "news",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-tr",
+    "publisher": "Anadolu Ajansı",
+    "summary": "Turkey: public employees received administrative leave (idari izin) on Mon 25 May and Tue 26 May morning; this is not a statutory public holiday and does not apply to the private sector.",
+    "published": "2026-05-04",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-kurban-bayrami-tatilinin-9-gun-olacagini-acikladi/3926721",
+    "quotes": [
+      {
+        "original": "Böylece pazartesi tam gün ve salı öğleye kadar olmak üzere bayram öncesi 1,5 günü idari izin kapsamına alarak toplamda 9 günlük bir tatil imkanı vermiş oluyoruz.",
+        "language": "tr",
+        "english": "Thus, by placing the 1.5 days before the feast - Monday full day and Tuesday until noon - under administrative leave, we provide a 9-day holiday in total.",
+        "locator": "Quoted passage (page text)"
+      }
+    ]
+  },
+  {
+    "_id": "ins-python-holidays-islamic-v0-105",
+    "title": "python-holidays v0.105 holidays/calendars/islamic.py (Eid al-Fitr, MABIMS and Ramadan tables)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "publisher": "vacanza/holidays (python-holidays)",
+    "summary": "python-holidays' base (Umm al-Qura-style) table puts Eid al-Fitr 2026 on 20 March; Saudi (saudi_arabia.py L134 confirmed years 2001-2025), UAE (united_arab_emirates.py L158, 2017-2025) and Pakistan (pakistan.py L143, 2005-2025) mark 2026 as estimated and inherit 20 March - wrong for Pakistan (actual 21 March). python-holidays' MABIMS table (used for Indonesia, confirmed years 1963-2026 at indonesia.py L273) gives 21 March - matches the Indonesian government, and indonesia.py L639-641 lists 20, 23, 24 March as eid_al_fitr_joint_holiday (government category). Muhammadiyah's 20 March is not represented. python-holidays base calendar: Ramadan begins 18 Feb 2026; its MABIMS table (islamic.py L5365, '2026: (FEB, 19),') gives 19 Feb. Turkey and Pakistan (19 Feb) are not MABIMS countries, so a library user taking the base table gets the wrong day for them.",
+    "published": "2026-09-21",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/532c3cedf7a5af36fee4aadea80b8e59ab6e5bf3/holidays/calendars/islamic.py",
+    "quotes": [
+      {
+        "original": "2026: (MAR, 20),",
+        "language": "en",
+        "locator": "L1103 EID_AL_FITR_DATES"
+      },
+      {
+        "original": "2026: (MAR, 21),",
+        "language": "en",
+        "locator": "L4579 _IslamicMabimsLunar.EID_AL_FITR_DATES"
+      },
+      {
+        "original": "2026: (FEB, 18),",
+        "language": "en",
+        "locator": "L3607 RAMADAN_BEGINNING_DATES"
+      }
+    ]
+  },
+  {
+    "_id": "ins-python-holidays-pakistan-v0-105",
+    "title": "holidays/countries/pakistan.py - PakistanIslamicHolidays (python-holidays v0.105)",
+    "kind": "library",
+    "authority": "community",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "vacanza/holidays (python-holidays)",
+    "summary": "Pakistan Eid al-Adha is confirmed only through 2025, so 2026 uses islamic.py L947 '2026: (MAY, 27),' and pakistan.py L86-88 adds days 1-3 -> 27, 28, 29 May 2026 'Eid al-Adha (estimated)'. The Eid date is right, but the holiday set differs from the Cabinet Division notification (26-28 May).",
+    "published": "2026-09-21",
+    "reviewedAt": "2026-10-04",
+    "url": "https://github.com/vacanza/holidays/blob/532c3cedf7a5af36fee4aadea80b8e59ab6e5bf3/holidays/countries/pakistan.py#L123",
+    "quotes": [
+      {
+        "original": "EID_AL_ADHA_DATES_CONFIRMED_YEARS = (2005, 2025)",
+        "language": "en",
+        "locator": "L123"
+      }
+    ]
+  },
+  {
+    "_id": "ins-timeanddate-holidays-2026",
+    "title": "Holidays and Observances in Pakistan in 2026 (+ same-year pages for indonesia, saudi-arabia, united-arab-emirates)",
+    "kind": "encyclopedia",
+    "authority": "secondary",
+    "status": "in_force",
+    "jurisdiction": "jur-pk",
+    "publisher": "timeanddate.com",
+    "summary": "timeanddate (updated after the fact) labels Pakistan's Eid-ul-Fitr as Sat 21 March with Fri 20 March as a holiday - consistent with the Cabinet Division notification and the Ruet-e-Hilal decision; its Saudi/UAE pages list 19-22 March and Indonesia shows 20 Mar as joint holiday, 21 Mar Idul Fitri.",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.timeanddate.com/holidays/pakistan/2026",
+    "quotes": [
+      {
+        "original": "20 Mar Friday Eid-ul-Fitr Holiday Public Holiday 21 Mar Saturday Eid-ul-Fitr Public Holiday",
+        "language": "en",
+        "locator": "Pakistan 2026 table, March rows"
+      }
+    ]
+  },
+  {
+    "_id": "ins-kr-act-21338",
+    "title": "공휴일에 관한 법률 [법률 제21338호, 2026. 2. 10., 일부개정] 제정·개정이유 (Constitution Day made a public holiday)",
+    "kind": "statute",
+    "authority": "primary",
+    "status": "in_force",
+    "jurisdiction": "jur-kr",
+    "publisher": "국가법령정보센터 (law.go.kr)",
+    "published": "2026-02-10",
+    "effective": "2026-05-10T15:00:00Z",
+    "summary": "Amends the Public Holidays Act so that all national days (including Constitution Day, 17 July) are public holidays; in force three months after promulgation (2026-05-11).",
+    "reviewedAt": "2026-10-04",
+    "url": "https://www.law.go.kr/LSW/lsRvsDocInfoR.do?lsiSeq=283311&chrClsCd=010202",
+    "quotes": [
+      {
+        "original": "제헌절을 공휴일로 지정하여 헌법정신에 대한 국민의식을 제고하려는 것임",
+        "language": "ko",
+        "english": "The purpose is to designate Constitution Day as a public holiday to raise public awareness of the spirit of the Constitution.",
+        "locator": "Reason for revision"
+      }
+    ]
+  }
+]

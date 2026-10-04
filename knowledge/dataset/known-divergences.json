@@ -1,0 +1,8 @@
+[
+  {
+    "zone": "Asia/Beirut",
+    "from": "2023-03-25",
+    "to": "2023-03-29",
+    "reason": "Lebanon's official time stayed UTC+2 until the night of 29/30 March 2023 (cabinet decision announced 2023-03-27 by caretaker PM Mikati, L'Orient Today), while tzdata 2023c+ (2026e) records UTC+3 from 2023-03-26 00:00 because it reverted to the regular rule to model the 'two time zones' chaos. Day strings are UTC dates of the affected samples (2023-03-25 22:00 UTC to 2023-03-29 22:00 UTC)."
+  }
+]

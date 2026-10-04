@@ -1,0 +1,144 @@
+[
+  {
+    "_id": "ovr-ru-2026-01-09",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-09",
+    "isWorkday": false,
+    "reason": "Day off transferred from Saturday 3 January 2026 (Government Decree No. 1466 of 24.09.2025)",
+    "basis": [
+      "ins-ru-decree-1466-2025",
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2026-12-31",
+    "jurisdiction": "jur-ru",
+    "date": "2026-12-31",
+    "isWorkday": false,
+    "reason": "Day off transferred from Sunday 4 January 2026 (Government Decree No. 1466); 30 December is a full working day",
+    "basis": [
+      "ins-ru-decree-1466-2025",
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2026-03-09",
+    "jurisdiction": "jur-ru",
+    "date": "2026-03-09",
+    "isWorkday": false,
+    "reason": "Weekend day moved to the next working day because 8 March falls on a Sunday (Labour Code art. 112 part 2)",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2026-05-11",
+    "jurisdiction": "jur-ru",
+    "date": "2026-05-11",
+    "isWorkday": false,
+    "reason": "Weekend day moved to the next working day because 9 May falls on a Saturday (Labour Code art. 112 part 2)",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2027-02-20",
+    "jurisdiction": "jur-ru",
+    "date": "2027-02-20",
+    "isWorkday": true,
+    "reason": "Working Saturday: its day off is transferred to Monday 22 February 2027 (Government Decree No. 1187 of 17.09.2026)",
+    "basis": [
+      "ins-ru-decree-1187-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2027-02-22",
+    "jurisdiction": "jur-ru",
+    "date": "2027-02-22",
+    "isWorkday": false,
+    "reason": "Day off transferred from Saturday 20 February 2027 (Decree No. 1187)",
+    "basis": [
+      "ins-ru-decree-1187-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2027-11-05",
+    "jurisdiction": "jur-ru",
+    "date": "2027-11-05",
+    "isWorkday": false,
+    "reason": "Day off transferred from Saturday 2 January 2027 (Decree No. 1187)",
+    "basis": [
+      "ins-ru-decree-1187-2026"
+    ]
+  },
+  {
+    "_id": "ovr-ru-2027-12-31",
+    "jurisdiction": "jur-ru",
+    "date": "2027-12-31",
+    "isWorkday": false,
+    "reason": "Day off transferred from Sunday 3 January 2027 (Decree No. 1187)",
+    "basis": [
+      "ins-ru-decree-1187-2026"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-01-04",
+    "jurisdiction": "jur-cn",
+    "date": "2026-01-04",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sun) for the 2026 元旦 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-02-14",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-14",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sat) for the 2026 春节 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-02-28",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-28",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sat) for the 2026 春节 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-05-09",
+    "jurisdiction": "jur-cn",
+    "date": "2026-05-09",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sat) for the 2026 劳动节 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-09-20",
+    "jurisdiction": "jur-cn",
+    "date": "2026-09-20",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sun) for the 2026 国庆节 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "ovr-cn-2026-10-10",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-10",
+    "isWorkday": true,
+    "reason": "Make-up working day (调休上班, Sat) for the 2026 国庆节 holiday block",
+    "basis": [
+      "ins-cn-notice-2026-holidays"
+    ]
+  }
+]

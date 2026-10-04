@@ -1,0 +1,659 @@
+[
+  {
+    "id": "rUsHr139SunshineProtection",
+    "title": "If enacted: H.R. 139 Sunshine Protection Act of 2025",
+    "description": "H.R. 139 passed the House 2026-07-14 (308-117) and is pending in the Senate. If enacted, 15 U.S.C. 260a is repealed and each standard time advances one hour (Eastern UTC-4, Central -5, Mountain -6, Pacific -7, Alaska -8). The engrossed text sets no effective date, so this release ASSUMES enactment on the review date with effect from 00:00 local on 2026-10-05. America/Phoenix and Pacific/Honolulu are unchanged here because the text lets exempt states choose the old or the new standard time. Florida (Fla. Stat. 1.025) would coincide with the Eastern/Central outcome, but whether H.R. 139 literally triggers it is an open interpretive question.",
+    "documents": [
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-new-york-us-rules",
+          "zone": "zone-america-new-york",
+          "validFrom": null,
+          "validTo": "2026-10-05T04:00:00Z",
+          "stdOffsetMinutes": -300,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "Sun>=8",
+              "at": "2:00",
+              "atType": "wall"
+            },
+            "end": {
+              "month": 11,
+              "on": "Sun>=1",
+              "at": "2:00",
+              "atType": "wall"
+            }
+          },
+          "abbreviations": [
+            "EST",
+            "EDT"
+          ],
+          "basis": [
+            "ins-us-15-usc-260a",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "Eastern Time with DST from the 2nd Sunday of March to the 1st Sunday of November (15 U.S.C. 260a). H.R. 139 is pending in the Senate. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-new-york-hr139",
+          "zone": "zone-america-new-york",
+          "validFrom": "2026-10-05T04:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": -240,
+          "dst": null,
+          "basis": [
+            "ins-us-hr-139-engrossed"
+          ],
+          "note": "H.R. 139 sec. 2: 15 U.S.C. 260a repealed and standard time advanced one hour (UTC-4), no clock changes. Effective date ASSUMED: enactment on 2026-10-04, in force 00:00 local 2026-10-05 (the engrossed text has no delayed effective date). Wall clocks would not move on that date (DST is in effect) but would not fall back on 2026-11-01."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-chicago-us-rules",
+          "zone": "zone-america-chicago",
+          "validFrom": null,
+          "validTo": "2026-10-05T05:00:00Z",
+          "stdOffsetMinutes": -360,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "Sun>=8",
+              "at": "2:00",
+              "atType": "wall"
+            },
+            "end": {
+              "month": 11,
+              "on": "Sun>=1",
+              "at": "2:00",
+              "atType": "wall"
+            }
+          },
+          "abbreviations": [
+            "CST",
+            "CDT"
+          ],
+          "basis": [
+            "ins-us-15-usc-260a",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "Central Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-chicago-hr139",
+          "zone": "zone-america-chicago",
+          "validFrom": "2026-10-05T05:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": -300,
+          "dst": null,
+          "basis": [
+            "ins-us-hr-139-engrossed"
+          ],
+          "note": "H.R. 139 sec. 2: 15 U.S.C. 260a repealed and standard time advanced one hour (UTC-5), no clock changes. Effective date ASSUMED: enactment on 2026-10-04, in force 00:00 local 2026-10-05 (the engrossed text has no delayed effective date). Wall clocks would not move on that date (DST is in effect) but would not fall back on 2026-11-01."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-denver-us-rules",
+          "zone": "zone-america-denver",
+          "validFrom": null,
+          "validTo": "2026-10-05T06:00:00Z",
+          "stdOffsetMinutes": -420,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "Sun>=8",
+              "at": "2:00",
+              "atType": "wall"
+            },
+            "end": {
+              "month": 11,
+              "on": "Sun>=1",
+              "at": "2:00",
+              "atType": "wall"
+            }
+          },
+          "abbreviations": [
+            "MST",
+            "MDT"
+          ],
+          "basis": [
+            "ins-us-15-usc-260a",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "Mountain Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-denver-hr139",
+          "zone": "zone-america-denver",
+          "validFrom": "2026-10-05T06:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": -360,
+          "dst": null,
+          "basis": [
+            "ins-us-hr-139-engrossed"
+          ],
+          "note": "H.R. 139 sec. 2: 15 U.S.C. 260a repealed and standard time advanced one hour (UTC-6), no clock changes. Effective date ASSUMED: enactment on 2026-10-04, in force 00:00 local 2026-10-05 (the engrossed text has no delayed effective date). Wall clocks would not move on that date (DST is in effect) but would not fall back on 2026-11-01."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-los-angeles-us-rules",
+          "zone": "zone-america-los-angeles",
+          "validFrom": null,
+          "validTo": "2026-10-05T07:00:00Z",
+          "stdOffsetMinutes": -480,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "Sun>=8",
+              "at": "2:00",
+              "atType": "wall"
+            },
+            "end": {
+              "month": 11,
+              "on": "Sun>=1",
+              "at": "2:00",
+              "atType": "wall"
+            }
+          },
+          "abbreviations": [
+            "PST",
+            "PDT"
+          ],
+          "basis": [
+            "ins-us-15-usc-260a",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "Pacific Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-los-angeles-hr139",
+          "zone": "zone-america-los-angeles",
+          "validFrom": "2026-10-05T07:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": -420,
+          "dst": null,
+          "basis": [
+            "ins-us-hr-139-engrossed"
+          ],
+          "note": "H.R. 139 sec. 2: 15 U.S.C. 260a repealed and standard time advanced one hour (UTC-7), no clock changes. Effective date ASSUMED: enactment on 2026-10-04, in force 00:00 local 2026-10-05 (the engrossed text has no delayed effective date). Wall clocks would not move on that date (DST is in effect) but would not fall back on 2026-11-01."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-anchorage-us-rules",
+          "zone": "zone-america-anchorage",
+          "validFrom": null,
+          "validTo": "2026-10-05T08:00:00Z",
+          "stdOffsetMinutes": -540,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "Sun>=8",
+              "at": "2:00",
+              "atType": "wall"
+            },
+            "end": {
+              "month": 11,
+              "on": "Sun>=1",
+              "at": "2:00",
+              "atType": "wall"
+            }
+          },
+          "abbreviations": [
+            "AKST",
+            "AKDT"
+          ],
+          "basis": [
+            "ins-us-15-usc-260a",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "Alaska Time with DST under 15 U.S.C. 260a. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-anchorage-hr139",
+          "zone": "zone-america-anchorage",
+          "validFrom": "2026-10-05T08:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": -480,
+          "dst": null,
+          "basis": [
+            "ins-us-hr-139-engrossed"
+          ],
+          "note": "H.R. 139 sec. 2: 15 U.S.C. 260a repealed and standard time advanced one hour (UTC-8), no clock changes. Effective date ASSUMED: enactment on 2026-10-04, in force 00:00 local 2026-10-05 (the engrossed text has no delayed effective date). Wall clocks would not move on that date (DST is in effect) but would not fall back on 2026-11-01."
+        }
+      },
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-us-hr-139-engrossed",
+          "title": "H.R. 139 (119th Congress) - Sunshine Protection Act of 2025, Engrossed in House",
+          "kind": "bill",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-us",
+          "publisher": "U.S. Government Publishing Office / Congress.gov",
+          "summary": "Repeals 15 U.S.C. 260a (the DST period) and advances every standard time by one hour (Calder Act, 15 U.S.C. 261); states that had exempted themselves may keep either the new or the previous standard time. No delayed effective date. Passed the House 2026-07-14; not enacted.",
+          "published": "2026-07-14",
+          "reviewedAt": "2026-10-04",
+          "url": "https://www.congress.gov/119/bills/hr139/BILLS-119hr139eh.htm",
+          "quotes": [
+            {
+              "original": "Section 3 of the Uniform Time Act of 1966 (15 U.S.C. 260a) is hereby repealed.",
+              "language": "en",
+              "locator": "Sec. 2(a)"
+            },
+            {
+              "original": "Passed the House of Representatives July 14, 2026.",
+              "language": "en",
+              "locator": "Attestation"
+            },
+            {
+              "original": "(b) Advancement of Standard Time.-- (1) In general.--The second sentence of subsection (a) of section 1 of the Act of March 19, 1918 (commonly known as the ``Calder Act'') (15 U.S.C. 261), is amended-- (A) by striking ``4 hours'' and inserting ``3 hours'';",
+              "language": "en",
+              "locator": "Sec. 2(b)(1)(A)"
+            }
+          ],
+          "effective": "2026-10-05T04:00:00Z"
+        }
+      },
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-us-15-usc-260a",
+          "title": "15 U.S.C. 260a - Advancement of time or changeover dates (Uniform Time Act of 1966, s. 3)",
+          "kind": "statute",
+          "authority": "primary",
+          "status": "superseded",
+          "jurisdiction": "jur-us",
+          "publisher": "Legal Information Institute, Cornell Law School (U.S. Code text)",
+          "summary": "US daylight saving time runs from 2:00 a.m. on the second Sunday of March to 2:00 a.m. on the first Sunday of November (since the Energy Policy Act of 2005); a State may exempt itself (e.g. Arizona, Hawaii).",
+          "reviewedAt": "2026-10-04",
+          "url": "https://www.law.cornell.edu/uscode/text/15/260a",
+          "quotes": [
+            {
+              "original": "During the period commencing at 2 o’clock antemeridian on the second Sunday of March of each year and ending at 2 o’clock antemeridian on the first Sunday of November of each year, the standard time of each zone established by sections 261 to 264 of this title, as modified by section 265 of this title , shall be advanced one hour",
+              "language": "en",
+              "locator": "15 U.S.C. 260a(a)"
+            },
+            {
+              "original": "2005—Subsec. (a). Pub. L. 109–58 substituted “second Sunday of March” for “first Sunday of April” and “first Sunday of November” for “last Sunday of October”.",
+              "language": "en",
+              "locator": "Amendments note"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "rUaBill4201KyivTime",
+    "title": "If signed: Ukraine bill 4201 'On calculation of time' (Kyiv time UTC+2 all year)",
+    "description": "Bill 4201 was adopted by the Verkhovna Rada on 2024-07-16 (adopted text No. 3856-IX) and sent to the President on 2024-08-21; it is neither signed nor vetoed as of 2026-10-04. It fixes Kyiv time at UTC+2 with no seasonal changes. The adopted text could not be retrieved, so its commencement clause is unknown: this release ASSUMES signature and publication on the review date and effect from 00:00 local on 2026-10-05 (clocks would go from UTC+3 back to UTC+2 then, and the 2026-10-25 change would not happen).",
+    "documents": [
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-europe-kyiv-eet-eest",
+          "zone": "zone-europe-kyiv",
+          "validFrom": null,
+          "validTo": "2026-10-04T21:00:00Z",
+          "stdOffsetMinutes": 120,
+          "dst": {
+            "saveMinutes": 60,
+            "start": {
+              "month": 3,
+              "on": "lastSun",
+              "at": "1:00",
+              "atType": "utc"
+            },
+            "end": {
+              "month": 10,
+              "on": "lastSun",
+              "at": "1:00",
+              "atType": "utc"
+            }
+          },
+          "abbreviations": [
+            "EET",
+            "EEST"
+          ],
+          "basis": [
+            "ins-ua-slovoidilo-2026",
+            "ins-tzdata-2026e-europe",
+            "ins-ua-bill-4201"
+          ],
+          "note": "CMU Resolution No. 509 (1996): EET/EEST, last Sunday of March 03:00 -> 04:00 and last Sunday of October 04:00 -> 03:00 local (= 01:00 UTC, the EU instants). Resolution text not retrievable on 2026-10-04 (zakon.rada.gov.ua refused connections); in force per Slovo i Dilo and buhgalter.com.ua. Bill 4201 (no seasonal changes) is unsigned. Regime already in force on 2019-01-01, the start of this dataset's coverage; earlier history is not recorded here."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-europe-kyiv-bill-4201",
+          "zone": "zone-europe-kyiv",
+          "validFrom": "2026-10-04T21:00:00Z",
+          "validTo": null,
+          "stdOffsetMinutes": 120,
+          "dst": null,
+          "abbreviations": [
+            "EET"
+          ],
+          "basis": [
+            "ins-ua-bill-4201"
+          ],
+          "note": "Kyiv time UTC+2 all year under bill 4201 (assumed in force 00:00 local 2026-10-05 = 2026-10-04 21:00 UTC)."
+        }
+      },
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-ua-bill-4201",
+          "title": "Bill No. 4201 'On calculation of time in Ukraine' (Verkhovna Rada bill card)",
+          "kind": "bill",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-ua",
+          "publisher": "Verkhovna Rada of Ukraine",
+          "summary": "Latest status: sent to the President on 2024-08-21 (no later event). Would fix Kyiv time at UTC+2 with no seasonal changes. The card lists the adopted text as 'No. 3856-IX', signed by the Rada Chairman; no presidential signature or veto as of 2026-10-04.",
+          "reviewedAt": "2026-10-04",
+          "url": "https://itd.rada.gov.ua/billInfo/Bills/Card/4294",
+          "quotes": [
+            {
+              "original": "Передано на підпис Президенту 21.08.2024",
+              "language": "uk",
+              "english": "Sent to the President for signature 21.08.2024",
+              "locator": "Card: last event"
+            },
+            {
+              "original": "Закон прийнято 16.07.2024",
+              "language": "uk",
+              "english": "Law adopted 16.07.2024",
+              "locator": "Card: adoption event"
+            }
+          ],
+          "effective": "2026-10-04T21:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rFlSunshineConditional",
+    "title": "If triggered: Florida Statutes 1.025 (year-round DST in Florida)",
+    "description": "Fla. Stat. 1.025(2) makes daylight saving time Florida's year-round standard time only if Congress amends 15 U.S.C. 260a to authorize states to do so. The condition is unmet. Florida shares America/New_York and America/Chicago with other states, so a Florida-only change would need new zones; this release therefore changes only the statute's status. No trigger date exists.",
+    "documents": [
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-fl-stat-1-025",
+          "title": "Florida Statutes 1.025 Sunshine Protection Act",
+          "kind": "statute",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-us-fl",
+          "publisher": "The Florida Senate",
+          "summary": "Conditional statute.",
+          "condition": "The United States Congress amends 15 U.S.C. s. 260a to authorize states to observe daylight saving time year-round.",
+          "reviewedAt": "2026-10-04",
+          "url": "https://flsenate.gov/Laws/Statutes/2025/0001.025",
+          "quotes": [
+            {
+              "original": "(2) If the United States Congress amends 15 U.S.C. s. 260a to authorize states to observe daylight saving time year-round, it is the intent of the Legislature that daylight saving time shall be the year-round standard time of the entire state and all of its political subdivisions.",
+              "language": "en",
+              "locator": "s. 1.025(2)"
+            },
+            {
+              "original": "History. — s. 1, ch. 2018-99.",
+              "language": "en",
+              "locator": "History"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "rEuSeasonalTimeProposal",
+    "title": "If adopted: EU directive discontinuing seasonal changes of time (2018/0332(COD))",
+    "description": "The European Parliament adopted its first-reading position on 2019-03-26 (end of changes from 2021); the procedure is 'Awaiting Council's 1st reading position' and Spain's 2025 call to end changes in 2026 produced no adoption. The proposal leaves each Member State to choose permanent summer or winter time, so no clock regime can be derived from its text; this release only marks the proposal as adopted. Directive 2000/84/EC and the 2026-10-25 change still apply.",
+    "documents": [
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-eu-oeil-2018-0332-cod",
+          "title": "Proposal for a Directive discontinuing seasonal changes of time, COM(2018)639 - procedure 2018/0332(COD)",
+          "kind": "bill",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-eu",
+          "publisher": "European Parliament Legislative Observatory",
+          "summary": "Current stage of the procedure. European Parliament first-reading position 2019-03-26; no Council position, so Directive 2000/84/EC still applies.",
+          "reviewedAt": "2026-10-04",
+          "url": "https://oeil.secure.europarl.europa.eu/oeil/en/procedure-file?reference=2018/0332(COD)",
+          "quotes": [
+            {
+              "original": "Awaiting Council's 1st reading position",
+              "language": "en",
+              "locator": "Procedure file, stage"
+            }
+          ]
+        }
+      },
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-eu-directive-2000-84-ec",
+          "title": "Directive 2000/84/EC of the European Parliament and of the Council of 19 January 2001 on summer-time arrangements",
+          "kind": "statute",
+          "authority": "primary",
+          "status": "superseded",
+          "jurisdiction": "jur-eu",
+          "publisher": "Official Journal of the European Communities (copy on legislation.gov.uk)",
+          "summary": "Summer time begins in every Member State at 1.00 a.m. GMT on the last Sunday in March and ends at 1.00 a.m. GMT on the last Sunday in October.",
+          "published": "2001-02-02",
+          "reviewedAt": "2026-10-04",
+          "url": "https://www.legislation.gov.uk/eudr/2000/84/pdfs/eudr_20000084_adopted_en.pdf",
+          "quotes": [
+            {
+              "original": "From 2002 onwards, the summer-time period shall begin, in every Member State, at 1.00 a.m., Greenwich Mean Time, on the last Sunday in March.",
+              "language": "en",
+              "locator": "Art. 2"
+            },
+            {
+              "original": "From 2002 onwards, the summer-time period shall end, in every Member State, at 1.00 a.m., Greenwich Mean Time, on the last Sunday in October.",
+              "language": "en",
+              "locator": "Art. 3"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "rSkTimeAct2026",
+    "title": "When proclaimed: Saskatchewan Bill 58, The Time Act, 2026",
+    "description": "Bill 58 received Royal Assent on 2026-05-14 (per tzdata commentary) and comes into force by order of the Lieutenant Governor in Council; no order found as of 2026-10-04. It keeps central standard time (UTC-6) throughout Saskatchewan including Lloydminster, so no offset changes: the release re-bases the Regina and Swift Current regimes on the new Act and marks it in force. Proclamation date unknown.",
+    "documents": [
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-sk-bill-58-time-act-2026",
+          "title": "Bill No. 58 - The Time Act, 2026 (Saskatchewan)",
+          "kind": "statute",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-ca-sk",
+          "publisher": "Legislative Assembly of Saskatchewan",
+          "summary": "Saskatchewan time = CST (UTC-6), incl. Lloydminster. Royal Assent 2026-05-14 per tzdata commentary; in force only by order of the Lieutenant Governor in Council - no order found as of 2026-10-04 (UNVERIFIED either way). Changes no UTC offset in practice.",
+          "reviewedAt": "2026-10-04",
+          "url": "https://docs.legassembly.sk.ca/legdocs/Bills/30L2S/Bill30-58.pdf",
+          "quotes": [
+            {
+              "original": "4 Subject to section 5, the time to be observed in Saskatchewan is central standard time.",
+              "language": "en",
+              "locator": "s. 4"
+            },
+            {
+              "original": "9 This Act comes into force by order of the Lieutenant Governor in Council.",
+              "language": "en",
+              "locator": "s. 9"
+            },
+            {
+              "original": "(2) Without limiting the generality of subsection (1), this Act applies to the City of Lloydminster, notwithstanding The City of Lloydminster Act or The Lloydminster Charter.",
+              "language": "en",
+              "locator": "s. 3(2)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-regina-base",
+          "zone": "zone-america-regina",
+          "validFrom": null,
+          "validTo": null,
+          "stdOffsetMinutes": -360,
+          "dst": null,
+          "abbreviations": [
+            "CST"
+          ],
+          "basis": [
+            "ins-sk-bill-58-time-act-2026",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "The Time Act, 2026 s. 4: the time to be observed in Saskatchewan is central standard time (UTC-6), no DST. Offset unchanged from the 1978 Act."
+        }
+      },
+      {
+        "type": "ruleSegment",
+        "doc": {
+          "_id": "seg-america-swift-current-base",
+          "zone": "zone-america-swift-current",
+          "validFrom": null,
+          "validTo": null,
+          "stdOffsetMinutes": -360,
+          "dst": null,
+          "abbreviations": [
+            "CST"
+          ],
+          "basis": [
+            "ins-sk-bill-58-time-act-2026",
+            "ins-tzdata-2026e-northamerica"
+          ],
+          "note": "The Time Act, 2026 s. 4: the time to be observed in Saskatchewan is central standard time (UTC-6), no DST. Offset unchanged from the 1978 Act."
+        }
+      }
+    ]
+  },
+  {
+    "id": "rMbOfficialTimeInForce",
+    "title": "On 2026-10-31: Manitoba Official Time Amendment Act comes into force",
+    "description": "Scheduled: the proclamation of 2026-09-23 names 2026-10-31 as the in-force date of The Official Time Amendment Act (S.M. 2023, c. 4). The clock regime is already published (UTC-5 from 2026-10-31 05:00 UTC); this release flips the legal status of the Act and of the government announcement from enacted-not-effective to in force. Publish on 2026-10-31T05:00:00Z.",
+    "documents": [
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-mb-official-time-amendment-act-2023",
+          "title": "The Official Time Amendment Act (S.M. 2023, c. 4) - Proclamation naming 31 October 2026 as the in-force date",
+          "kind": "statute",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-ca-mb",
+          "publisher": "Province of Manitoba (Lieutenant Governor)",
+          "summary": "Legal in-force date 2026-10-31. Assented 2023-05-30; comes into force 2026-10-31 (00:00 local CDT = 05:00 UTC); Manitoba then stays on UTC-5 year-round.",
+          "published": "2026-09-23",
+          "effective": "2026-10-31T05:00:00Z",
+          "reviewedAt": "2026-10-04",
+          "url": "https://web2.gov.mb.ca/laws/statutes/proclamations/2023c4(2026-10-31).pdf",
+          "quotes": [
+            {
+              "original": "With the advice and consent of the Executive Council of Manitoba, we name October 31, 2026, as the day on which The Official Time Amendment Act (S.M. 2023, c. 4) comes into force.",
+              "language": "en",
+              "locator": "Proclamation, operative paragraph"
+            }
+          ]
+        }
+      },
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-mb-news-2026-09-17",
+          "title": "Manitoba Will Move to Permanent Daylight Saving Time",
+          "kind": "official-announcement",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-ca-mb",
+          "publisher": "Province of Manitoba (news release)",
+          "summary": "Manitoba will not fall back on 2026-11-01.",
+          "published": "2026-09-17",
+          "reviewedAt": "2026-10-04",
+          "url": "https://news.gov.mb.ca/news/?item=75397",
+          "quotes": [
+            {
+              "original": "This change means Manitobans’ clocks will not revert to standard time on Nov. 1.",
+              "language": "en",
+              "locator": "Quoted passage (page text)"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "rRuDecree1187In2027",
+    "title": "On 2027-01-01: Russian Government Decree 1187 (2027 transfers) applies",
+    "description": "Decree No. 1187 of 17.09.2026 transfers days off within calendar year 2027 (working Saturday 2027-02-20; days off 2027-02-22, 2027-11-05, 2027-12-31). The calendar overrides are already published; this release flips the decree from enacted-not-effective to in force. Publish on 2027-01-01.",
+    "documents": [
+      {
+        "type": "instrument",
+        "doc": {
+          "_id": "ins-ru-decree-1187-2026",
+          "title": "Постановление Правительства РФ от 17.09.2026 № 1187 «О переносе выходных дней в 2027 году»",
+          "kind": "decree",
+          "authority": "primary",
+          "status": "in_force",
+          "jurisdiction": "jur-ru",
+          "publisher": "Официальный интернет-портал правовой информации (publication.pravo.gov.ru)",
+          "summary": "2027 transfers, including a working Saturday on 2027-02-20. Applies to calendar year 2027.",
+          "published": "2026-09-18",
+          "reviewedAt": "2026-10-04",
+          "url": "http://publication.pravo.gov.ru/document/0001202609180037",
+          "quotes": [
+            {
+              "original": "Перенести в 2027 году следующие выходные дни: с субботы 2 января на пятницу 5 ноября; с воскресенья 3 января на пятницу 31 декабря; с субботы 20 февраля на понедельник 22 февраля.",
+              "language": "ru",
+              "english": "To transfer the following days off in 2027: from Saturday 2 January to Friday 5 November; from Sunday 3 January to Friday 31 December; from Saturday 20 February to Monday 22 February.",
+              "locator": "Item 1 (transcribed from the scanned PDF)"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

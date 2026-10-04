@@ -1,0 +1,5355 @@
+[
+  {
+    "_id": "hol-pl-2024-01-01",
+    "jurisdiction": "jur-pl",
+    "date": "2024-01-01",
+    "name": "New Year",
+    "nameLocal": "1 stycznia – Nowy Rok",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-01-06",
+    "jurisdiction": "jur-pl",
+    "date": "2024-01-06",
+    "name": "Epiphany",
+    "nameLocal": "6 stycznia – Święto Trzech Króli",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-03-31",
+    "jurisdiction": "jur-pl",
+    "date": "2024-03-31",
+    "name": "Easter Sunday",
+    "nameLocal": "pierwszy dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-04-01",
+    "jurisdiction": "jur-pl",
+    "date": "2024-04-01",
+    "name": "Easter Monday",
+    "nameLocal": "drugi dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-05-01",
+    "jurisdiction": "jur-pl",
+    "date": "2024-05-01",
+    "name": "State Holiday (1 May)",
+    "nameLocal": "1 maja – Święto Państwowe",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-05-03",
+    "jurisdiction": "jur-pl",
+    "date": "2024-05-03",
+    "name": "Constitution Day (3 May)",
+    "nameLocal": "3 maja – Święto Narodowe Trzeciego Maja",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-05-19",
+    "jurisdiction": "jur-pl",
+    "date": "2024-05-19",
+    "name": "Pentecost Sunday",
+    "nameLocal": "pierwszy dzień Zielonych Świątek",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-05-30",
+    "jurisdiction": "jur-pl",
+    "date": "2024-05-30",
+    "name": "Corpus Christi",
+    "nameLocal": "dzień Bożego Ciała",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-08-15",
+    "jurisdiction": "jur-pl",
+    "date": "2024-08-15",
+    "name": "Assumption of Mary",
+    "nameLocal": "15 sierpnia – Wniebowzięcie Najświętszej Maryi Panny",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-11-01",
+    "jurisdiction": "jur-pl",
+    "date": "2024-11-01",
+    "name": "All Saints' Day",
+    "nameLocal": "1 listopada – Wszystkich Świętych",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-11-11",
+    "jurisdiction": "jur-pl",
+    "date": "2024-11-11",
+    "name": "National Independence Day",
+    "nameLocal": "11 listopada – Narodowe Święto Niepodległości",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-12-25",
+    "jurisdiction": "jur-pl",
+    "date": "2024-12-25",
+    "name": "Christmas Day",
+    "nameLocal": "25 grudnia – pierwszy dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2024-12-26",
+    "jurisdiction": "jur-pl",
+    "date": "2024-12-26",
+    "name": "Second Day of Christmas",
+    "nameLocal": "26 grudnia – drugi dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-01-01",
+    "jurisdiction": "jur-pl",
+    "date": "2025-01-01",
+    "name": "New Year",
+    "nameLocal": "1 stycznia – Nowy Rok",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-01-06",
+    "jurisdiction": "jur-pl",
+    "date": "2025-01-06",
+    "name": "Epiphany",
+    "nameLocal": "6 stycznia – Święto Trzech Króli",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-04-20",
+    "jurisdiction": "jur-pl",
+    "date": "2025-04-20",
+    "name": "Easter Sunday",
+    "nameLocal": "pierwszy dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-04-21",
+    "jurisdiction": "jur-pl",
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "nameLocal": "drugi dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-05-01",
+    "jurisdiction": "jur-pl",
+    "date": "2025-05-01",
+    "name": "State Holiday (1 May)",
+    "nameLocal": "1 maja – Święto Państwowe",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-05-03",
+    "jurisdiction": "jur-pl",
+    "date": "2025-05-03",
+    "name": "Constitution Day (3 May)",
+    "nameLocal": "3 maja – Święto Narodowe Trzeciego Maja",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-06-08",
+    "jurisdiction": "jur-pl",
+    "date": "2025-06-08",
+    "name": "Pentecost Sunday",
+    "nameLocal": "pierwszy dzień Zielonych Świątek",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-06-19",
+    "jurisdiction": "jur-pl",
+    "date": "2025-06-19",
+    "name": "Corpus Christi",
+    "nameLocal": "dzień Bożego Ciała",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-08-15",
+    "jurisdiction": "jur-pl",
+    "date": "2025-08-15",
+    "name": "Assumption of Mary",
+    "nameLocal": "15 sierpnia – Wniebowzięcie Najświętszej Maryi Panny",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-11-01",
+    "jurisdiction": "jur-pl",
+    "date": "2025-11-01",
+    "name": "All Saints' Day",
+    "nameLocal": "1 listopada – Wszystkich Świętych",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-11-11",
+    "jurisdiction": "jur-pl",
+    "date": "2025-11-11",
+    "name": "National Independence Day",
+    "nameLocal": "11 listopada – Narodowe Święto Niepodległości",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-12-25",
+    "jurisdiction": "jur-pl",
+    "date": "2025-12-25",
+    "name": "Christmas Day",
+    "nameLocal": "25 grudnia – pierwszy dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-12-26",
+    "jurisdiction": "jur-pl",
+    "date": "2025-12-26",
+    "name": "Second Day of Christmas",
+    "nameLocal": "26 grudnia – drugi dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2025-12-24",
+    "jurisdiction": "jur-pl",
+    "date": "2025-12-24",
+    "name": "Christmas Eve (Wigilia)",
+    "nameLocal": "24 grudnia – Wigilia Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-dz-u-2024-poz-1965",
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-01-01",
+    "jurisdiction": "jur-pl",
+    "date": "2026-01-01",
+    "name": "New Year",
+    "nameLocal": "1 stycznia – Nowy Rok",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-01-06",
+    "jurisdiction": "jur-pl",
+    "date": "2026-01-06",
+    "name": "Epiphany",
+    "nameLocal": "6 stycznia – Święto Trzech Króli",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-04-05",
+    "jurisdiction": "jur-pl",
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "nameLocal": "pierwszy dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-04-06",
+    "jurisdiction": "jur-pl",
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "nameLocal": "drugi dzień Wielkiej Nocy",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-05-01",
+    "jurisdiction": "jur-pl",
+    "date": "2026-05-01",
+    "name": "State Holiday (1 May)",
+    "nameLocal": "1 maja – Święto Państwowe",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-05-03",
+    "jurisdiction": "jur-pl",
+    "date": "2026-05-03",
+    "name": "Constitution Day (3 May)",
+    "nameLocal": "3 maja – Święto Narodowe Trzeciego Maja",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-05-24",
+    "jurisdiction": "jur-pl",
+    "date": "2026-05-24",
+    "name": "Pentecost Sunday",
+    "nameLocal": "pierwszy dzień Zielonych Świątek",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-06-04",
+    "jurisdiction": "jur-pl",
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "nameLocal": "dzień Bożego Ciała",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-08-15",
+    "jurisdiction": "jur-pl",
+    "date": "2026-08-15",
+    "name": "Assumption of Mary",
+    "nameLocal": "15 sierpnia – Wniebowzięcie Najświętszej Maryi Panny",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-11-01",
+    "jurisdiction": "jur-pl",
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "nameLocal": "1 listopada – Wszystkich Świętych",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-11-11",
+    "jurisdiction": "jur-pl",
+    "date": "2026-11-11",
+    "name": "National Independence Day",
+    "nameLocal": "11 listopada – Narodowe Święto Niepodległości",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-12-25",
+    "jurisdiction": "jur-pl",
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "nameLocal": "25 grudnia – pierwszy dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-12-26",
+    "jurisdiction": "jur-pl",
+    "date": "2026-12-26",
+    "name": "Second Day of Christmas",
+    "nameLocal": "26 grudnia – drugi dzień Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-pl-2026-12-24",
+    "jurisdiction": "jur-pl",
+    "date": "2026-12-24",
+    "name": "Christmas Eve (Wigilia)",
+    "nameLocal": "24 grudnia – Wigilia Bożego Narodzenia",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-pl-dz-u-2024-poz-1965",
+      "ins-pl-act-1951-days-off"
+    ]
+  },
+  {
+    "_id": "hol-ua-2026-08-24",
+    "jurisdiction": "jur-ua",
+    "date": "2026-08-24",
+    "name": "Independence Day of Ukraine",
+    "nameLocal": "День незалежності України",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "suspended",
+    "basis": [
+      "ins-ua-labour-code-art-73",
+      "ins-ua-law-2136-ix"
+    ]
+  },
+  {
+    "_id": "hol-ua-2026-10-01",
+    "jurisdiction": "jur-ua",
+    "date": "2026-10-01",
+    "name": "Day of Defenders of Ukraine",
+    "nameLocal": "День захисників і захисниць України",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "suspended",
+    "basis": [
+      "ins-ua-labour-code-art-73",
+      "ins-ua-law-2136-ix"
+    ]
+  },
+  {
+    "_id": "hol-ua-2026-12-25",
+    "jurisdiction": "jur-ua",
+    "date": "2026-12-25",
+    "name": "Christmas",
+    "nameLocal": "Різдво Христове",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "suspended",
+    "basis": [
+      "ins-ua-labour-code-art-73",
+      "ins-ua-law-2136-ix",
+      "ins-ua-dtkt-law-3258"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-01-03",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-01-03",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-04-15",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-04-15",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-04-18",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-04-18",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-05-02",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-05-02",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-06-02",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-06-02",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-06-03",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-06-03",
+    "name": "Platinum Jubilee bank holiday",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-08-29",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-08-29",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-09-19",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-09-19",
+    "name": "Bank Holiday for the State Funeral of Queen Elizabeth II",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-12-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2022-12-27",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2022-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-01-02",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-01-02",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-04-07",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-04-07",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-04-10",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-04-10",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-05-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-05-01",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-05-08",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-05-08",
+    "name": "Bank holiday for the coronation of King Charles III",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-05-29",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-05-29",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-08-28",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-08-28",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-12-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2023-12-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2023-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-01-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-03-29",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-03-29",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-04-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-04-01",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-05-06",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-05-06",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-05-27",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-05-27",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-08-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-08-26",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-12-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2024-12-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2024-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-01-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-04-18",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-04-21",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-05-05",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-05-05",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-05-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-05-26",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-08-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-08-25",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-12-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2025-12-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2025-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-01-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-04-03",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-04-06",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-05-04",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-05-04",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-05-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-05-25",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-08-31",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-08-31",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-12-25",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2026-12-28",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2026-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-01-01",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-03-26",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-03-29",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-05-03",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-05-03",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-05-31",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-05-31",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-08-30",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-08-30",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-12-27",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-eaw-2027-12-28",
+    "jurisdiction": "jur-gb-eaw",
+    "date": "2027-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-01-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-01-03",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-01-04",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-01-04",
+    "name": "2nd January (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-04-15",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-04-15",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-05-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-05-02",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-06-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-06-02",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-06-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-06-03",
+    "name": "Platinum Jubilee bank holiday",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-08-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-08-01",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-09-19",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-09-19",
+    "name": "Bank Holiday for the State Funeral of Queen Elizabeth II",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-11-30",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-11-30",
+    "name": "St Andrew’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-12-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2022-12-27",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2022-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-01-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-01-02",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-01-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-01-03",
+    "name": "2nd January (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-04-07",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-04-07",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-05-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-05-01",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-05-08",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-05-08",
+    "name": "Bank holiday for the coronation of King Charles III",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-05-29",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-05-29",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-08-07",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-08-07",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-11-30",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-11-30",
+    "name": "St Andrew’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-12-25",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2023-12-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2023-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-01-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-01-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-01-02",
+    "name": "2nd January",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-03-29",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-03-29",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-05-06",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-05-06",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-05-27",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-05-27",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-08-05",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-08-05",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-12-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-12-02",
+    "name": "St Andrew’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-12-25",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2024-12-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2024-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-01-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-01-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-01-02",
+    "name": "2nd January",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-04-18",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-05-05",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-05-05",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-05-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-05-26",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-08-04",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-08-04",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-12-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-12-01",
+    "name": "St Andrew’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-12-25",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2025-12-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2025-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-01-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-01-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-01-02",
+    "name": "2nd January",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-04-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-05-04",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-05-04",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-05-25",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-05-25",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-06-15",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-06-15",
+    "name": "World Cup bank holiday",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-scotland-2026"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-08-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-08-03",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-11-30",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-11-30",
+    "name": "St Andrew’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-12-25",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2026-12-28",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2026-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-01-01",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-01-04",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-01-04",
+    "name": "2nd January (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-03-26",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-05-03",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-05-03",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-05-31",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-05-31",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-08-02",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-08-02",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-11-30",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-11-30",
+    "name": "St Andrew’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-12-27",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-sct-2027-12-28",
+    "jurisdiction": "jur-gb-sct",
+    "date": "2027-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-01-03",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-01-03",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-03-17",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-03-17",
+    "name": "St Patrick’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-04-15",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-04-15",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-04-18",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-04-18",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-05-02",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-05-02",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-06-02",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-06-02",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-06-03",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-06-03",
+    "name": "Platinum Jubilee bank holiday",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-dcms-jubilee-2020"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-07-12",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-07-12",
+    "name": "Battle of the Boyne (Orangemen’s Day)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-08-29",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-08-29",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-09-19",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-09-19",
+    "name": "Bank Holiday for the State Funeral of Queen Elizabeth II",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-12-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2022-12-27",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2022-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-01-02",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-01-02",
+    "name": "New Year’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-03-17",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-03-17",
+    "name": "St Patrick’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-04-07",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-04-07",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-04-10",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-04-10",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-05-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-05-01",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-05-08",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-05-08",
+    "name": "Bank holiday for the coronation of King Charles III",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-05-29",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-05-29",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-07-12",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-07-12",
+    "name": "Battle of the Boyne (Orangemen’s Day)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-08-28",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-08-28",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-12-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2023-12-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2023-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-01-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-03-18",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-03-18",
+    "name": "St Patrick’s Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-03-29",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-03-29",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-04-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-04-01",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-05-06",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-05-06",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-05-27",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-05-27",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-07-12",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-07-12",
+    "name": "Battle of the Boyne (Orangemen’s Day)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-08-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-08-26",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-12-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2024-12-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2024-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-01-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-03-17",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-03-17",
+    "name": "St Patrick’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-04-18",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-04-21",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-05-05",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-05-05",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-05-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-05-26",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-07-14",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-07-14",
+    "name": "Battle of the Boyne (Orangemen’s Day) (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-08-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-08-25",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-12-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2025-12-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2025-12-26",
+    "name": "Boxing Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-01-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-03-17",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-03-17",
+    "name": "St Patrick’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-04-03",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-04-06",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-05-04",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-05-04",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-05-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-05-25",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-07-13",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-07-13",
+    "name": "Battle of the Boyne (Orangemen’s Day) (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-08-31",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-08-31",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-12-25",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2026-12-28",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2026-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-01-01",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-01-01",
+    "name": "New Year’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-03-17",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-03-17",
+    "name": "St Patrick’s Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-03-26",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-03-29",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-05-03",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-05-03",
+    "name": "Early May bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-05-31",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-05-31",
+    "name": "Spring bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-07-12",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-07-12",
+    "name": "Battle of the Boyne (Orangemen’s Day)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-08-30",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-08-30",
+    "name": "Summer bank holiday",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-12-27",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-12-27",
+    "name": "Christmas Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json"
+    ]
+  },
+  {
+    "_id": "hol-gb-nir-2027-12-28",
+    "jurisdiction": "jur-gb-nir",
+    "date": "2027-12-28",
+    "name": "Boxing Day (substitute day)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-gb-bank-holidays-json",
+      "ins-gb-proclamation-ewni-2027"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-01-01",
+    "jurisdiction": "jur-us",
+    "date": "2026-01-01",
+    "name": "New Year's Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-01-19",
+    "jurisdiction": "jur-us",
+    "date": "2026-01-19",
+    "name": "Birthday of Martin Luther King, Jr. (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-02-16",
+    "jurisdiction": "jur-us",
+    "date": "2026-02-16",
+    "name": "Washington's Birthday (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-05-25",
+    "jurisdiction": "jur-us",
+    "date": "2026-05-25",
+    "name": "Memorial Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-06-19",
+    "jurisdiction": "jur-us",
+    "date": "2026-06-19",
+    "name": "Juneteenth National Independence Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays",
+      "ins-us-pl-117-17"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-07-03",
+    "jurisdiction": "jur-us",
+    "date": "2026-07-03",
+    "name": "Independence Day (observed; July 4 is a Saturday) (federal employees)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-09-07",
+    "jurisdiction": "jur-us",
+    "date": "2026-09-07",
+    "name": "Labor Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-10-12",
+    "jurisdiction": "jur-us",
+    "date": "2026-10-12",
+    "name": "Columbus Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-11-11",
+    "jurisdiction": "jur-us",
+    "date": "2026-11-11",
+    "name": "Veterans Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-11-26",
+    "jurisdiction": "jur-us",
+    "date": "2026-11-26",
+    "name": "Thanksgiving Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2026-12-25",
+    "jurisdiction": "jur-us",
+    "date": "2026-12-25",
+    "name": "Christmas Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-01-01",
+    "jurisdiction": "jur-us",
+    "date": "2027-01-01",
+    "name": "New Year's Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-01-18",
+    "jurisdiction": "jur-us",
+    "date": "2027-01-18",
+    "name": "Birthday of Martin Luther King, Jr. (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-02-15",
+    "jurisdiction": "jur-us",
+    "date": "2027-02-15",
+    "name": "Washington's Birthday (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-05-31",
+    "jurisdiction": "jur-us",
+    "date": "2027-05-31",
+    "name": "Memorial Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-06-18",
+    "jurisdiction": "jur-us",
+    "date": "2027-06-18",
+    "name": "Juneteenth National Independence Day (observed; June 19 is a Saturday) (federal employees)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays",
+      "ins-us-pl-117-17"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-07-05",
+    "jurisdiction": "jur-us",
+    "date": "2027-07-05",
+    "name": "Independence Day (observed; July 4 is a Sunday) (federal employees)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-09-06",
+    "jurisdiction": "jur-us",
+    "date": "2027-09-06",
+    "name": "Labor Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-10-11",
+    "jurisdiction": "jur-us",
+    "date": "2027-10-11",
+    "name": "Columbus Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-11-11",
+    "jurisdiction": "jur-us",
+    "date": "2027-11-11",
+    "name": "Veterans Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-11-25",
+    "jurisdiction": "jur-us",
+    "date": "2027-11-25",
+    "name": "Thanksgiving Day (federal employees)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-12-24",
+    "jurisdiction": "jur-us",
+    "date": "2027-12-24",
+    "name": "Christmas Day (observed; December 25 is a Saturday) (federal employees)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2027-12-31",
+    "jurisdiction": "jur-us",
+    "date": "2027-12-31",
+    "name": "New Year's Day 2028 (observed; January 1, 2028 is a Saturday) (federal employees)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays"
+    ]
+  },
+  {
+    "_id": "hol-us-2021-06-18",
+    "jurisdiction": "jur-us",
+    "date": "2021-06-18",
+    "name": "Juneteenth National Independence Day (observed; federal employees; NYSE/Nasdaq stayed open)",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-opm-federal-holidays",
+      "ins-us-pl-117-17",
+      "ins-us-sec-sr-nyse-2021-56",
+      "ins-tradinghours-juneteenth"
+    ]
+  },
+  {
+    "_id": "hol-us-wy-2026-06-19",
+    "jurisdiction": "jur-us-wy",
+    "date": "2026-06-19",
+    "name": "Juneteenth National Independence Day - federal holiday, but no paid day off for most Wyoming state workers (Pew 2026)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-us-pew-juneteenth-2026",
+      "ins-us-pl-117-17"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-01-01",
+    "jurisdiction": "jur-br",
+    "date": "2026-01-01",
+    "name": "Confraternização Universal (national holiday)",
+    "nameLocal": "Confraternização Universal",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-02-16",
+    "jurisdiction": "jur-br",
+    "date": "2026-02-16",
+    "name": "Carnaval - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Carnaval",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-02-17",
+    "jurisdiction": "jur-br",
+    "date": "2026-02-17",
+    "name": "Carnaval - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Carnaval",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-02-18",
+    "jurisdiction": "jur-br",
+    "date": "2026-02-18",
+    "name": "Quarta-Feira de Cinzas (ponto facultativo até as 14 horas) - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Quarta-Feira de Cinzas (ponto facultativo até as 14 horas)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-04-03",
+    "jurisdiction": "jur-br",
+    "date": "2026-04-03",
+    "name": "Paixão de Cristo (national holiday)",
+    "nameLocal": "Paixão de Cristo",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-04-20",
+    "jurisdiction": "jur-br",
+    "date": "2026-04-20",
+    "name": "Ponto facultativo - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Ponto facultativo",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-04-21",
+    "jurisdiction": "jur-br",
+    "date": "2026-04-21",
+    "name": "Tiradentes (national holiday)",
+    "nameLocal": "Tiradentes",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-05-01",
+    "jurisdiction": "jur-br",
+    "date": "2026-05-01",
+    "name": "Dia Mundial do Trabalho (national holiday)",
+    "nameLocal": "Dia Mundial do Trabalho",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-06-04",
+    "jurisdiction": "jur-br",
+    "date": "2026-06-04",
+    "name": "Corpus Christi - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Corpus Christi",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-06-05",
+    "jurisdiction": "jur-br",
+    "date": "2026-06-05",
+    "name": "Ponto facultativo - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Ponto facultativo",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-09-07",
+    "jurisdiction": "jur-br",
+    "date": "2026-09-07",
+    "name": "Independência do Brasil (national holiday)",
+    "nameLocal": "Independência do Brasil",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-10-12",
+    "jurisdiction": "jur-br",
+    "date": "2026-10-12",
+    "name": "Nossa Senhora Aparecida (national holiday)",
+    "nameLocal": "Nossa Senhora Aparecida",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-10-28",
+    "jurisdiction": "jur-br",
+    "date": "2026-10-28",
+    "name": "Dia do Servidor Público federal - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Dia do Servidor Público federal",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-11-02",
+    "jurisdiction": "jur-br",
+    "date": "2026-11-02",
+    "name": "Finados (national holiday)",
+    "nameLocal": "Finados",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-11-15",
+    "jurisdiction": "jur-br",
+    "date": "2026-11-15",
+    "name": "Proclamação da República (national holiday)",
+    "nameLocal": "Proclamação da República",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-11-20",
+    "jurisdiction": "jur-br",
+    "date": "2026-11-20",
+    "name": "Dia Nacional de Zumbi e da Consciência Negra (national holiday)",
+    "nameLocal": "Dia Nacional de Zumbi e da Consciência Negra",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-lei-14759-2023",
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-12-24",
+    "jurisdiction": "jur-br",
+    "date": "2026-12-24",
+    "name": "Véspera do Natal (ponto facultativo após as 13 horas) - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Véspera do Natal (ponto facultativo após as 13 horas)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-12-25",
+    "jurisdiction": "jur-br",
+    "date": "2026-12-25",
+    "name": "Natal (national holiday)",
+    "nameLocal": "Natal",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2026-12-31",
+    "jurisdiction": "jur-br",
+    "date": "2026-12-31",
+    "name": "Véspera do Ano Novo (ponto facultativo após as 13 horas) - optional day for the federal administration (ponto facultativo)",
+    "nameLocal": "Véspera do Ano Novo (ponto facultativo após as 13 horas)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-portaria-mgi-11460-2025"
+    ]
+  },
+  {
+    "_id": "hol-br-2024-11-20",
+    "jurisdiction": "jur-br",
+    "date": "2024-11-20",
+    "name": "Dia Nacional de Zumbi e da Consciência Negra (national holiday)",
+    "nameLocal": "Dia Nacional de Zumbi e da Consciência Negra",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-lei-14759-2023"
+    ]
+  },
+  {
+    "_id": "hol-br-2025-11-20",
+    "jurisdiction": "jur-br",
+    "date": "2025-11-20",
+    "name": "Dia Nacional de Zumbi e da Consciência Negra (national holiday)",
+    "nameLocal": "Dia Nacional de Zumbi e da Consciência Negra",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-br-lei-14759-2023"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-01",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-01",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-02",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-02",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-03",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-03",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-04",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-04",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-05",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-05",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-06",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-06",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-07",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-07",
+    "name": "Orthodox Christmas",
+    "nameLocal": "Рождество Христово",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-01-08",
+    "jurisdiction": "jur-ru",
+    "date": "2026-01-08",
+    "name": "New Year holidays",
+    "nameLocal": "Новогодние каникулы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-02-23",
+    "jurisdiction": "jur-ru",
+    "date": "2026-02-23",
+    "name": "Defender of the Fatherland Day",
+    "nameLocal": "День защитника Отечества",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-03-08",
+    "jurisdiction": "jur-ru",
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "nameLocal": "Международный женский день",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-05-01",
+    "jurisdiction": "jur-ru",
+    "date": "2026-05-01",
+    "name": "Spring and Labour Day",
+    "nameLocal": "Праздник Весны и Труда",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-05-09",
+    "jurisdiction": "jur-ru",
+    "date": "2026-05-09",
+    "name": "Victory Day",
+    "nameLocal": "День Победы",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-06-12",
+    "jurisdiction": "jur-ru",
+    "date": "2026-06-12",
+    "name": "Russia Day",
+    "nameLocal": "День России",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2026-11-04",
+    "jurisdiction": "jur-ru",
+    "date": "2026-11-04",
+    "name": "National Unity Day",
+    "nameLocal": "День народного единства",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-ru-2027-02-23",
+    "jurisdiction": "jur-ru",
+    "date": "2027-02-23",
+    "name": "Defender of the Fatherland Day",
+    "nameLocal": "День защитника Отечества",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-ru-decree-1187-2026",
+      "ins-ru-consultant-calendar-2026"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-01-01",
+    "jurisdiction": "jur-cn",
+    "date": "2026-01-01",
+    "name": "元旦 New Year's Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-16",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-16",
+    "name": "春节 Spring Festival (农历除夕)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-17",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-17",
+    "name": "春节 Spring Festival (正月初一)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-18",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-18",
+    "name": "春节 Spring Festival (正月初二)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-19",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-19",
+    "name": "春节 Spring Festival (正月初三)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-05-01",
+    "jurisdiction": "jur-cn",
+    "date": "2026-05-01",
+    "name": "劳动节 Labour Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-05-02",
+    "jurisdiction": "jur-cn",
+    "date": "2026-05-02",
+    "name": "劳动节 Labour Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-01",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-01",
+    "name": "国庆节 National Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-02",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-02",
+    "name": "国庆节 National Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-03",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-03",
+    "name": "国庆节 National Day",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-decree-795",
+      "ins-cn-notice-2026-holidays"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-01-02",
+    "jurisdiction": "jur-cn",
+    "date": "2026-01-02",
+    "name": "元旦 New Year holiday (放假调休, block 1-3 Jan)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-20",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-20",
+    "name": "春节 Spring Festival holiday (放假调休, block 15-23 Feb)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-02-23",
+    "jurisdiction": "jur-cn",
+    "date": "2026-02-23",
+    "name": "春节 Spring Festival holiday (放假调休, block 15-23 Feb)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-04-06",
+    "jurisdiction": "jur-cn",
+    "date": "2026-04-06",
+    "name": "清明节 Qingming Festival holiday (放假, block 4-6 Apr)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-05-04",
+    "jurisdiction": "jur-cn",
+    "date": "2026-05-04",
+    "name": "劳动节 Labour Day holiday (放假调休, block 1-5 May)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-05-05",
+    "jurisdiction": "jur-cn",
+    "date": "2026-05-05",
+    "name": "劳动节 Labour Day holiday (放假调休, block 1-5 May)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-06-19",
+    "jurisdiction": "jur-cn",
+    "date": "2026-06-19",
+    "name": "端午节 Dragon Boat Festival holiday (放假, block 19-21 Jun)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-09-25",
+    "jurisdiction": "jur-cn",
+    "date": "2026-09-25",
+    "name": "中秋节 Mid-Autumn Festival holiday (放假, block 25-27 Sep)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-05",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-05",
+    "name": "国庆节 National Day holiday (放假调休, block 1-7 Oct)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-06",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-06",
+    "name": "国庆节 National Day holiday (放假调休, block 1-7 Oct)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-cn-2026-10-07",
+    "jurisdiction": "jur-cn",
+    "date": "2026-10-07",
+    "name": "国庆节 National Day holiday (放假调休, block 1-7 Oct)",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-cn-notice-2026-holidays",
+      "ins-cn-decree-795"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-03-19",
+    "jurisdiction": "jur-ae",
+    "date": "2026-03-19",
+    "name": "Eid al-Fitr holiday - federal government (FAHR, 19-22 March)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-03-20",
+    "jurisdiction": "jur-ae",
+    "date": "2026-03-20",
+    "name": "Eid al-Fitr (1 Shawwal 1447) - federal government holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-fitr-2026",
+      "ins-ae-wam-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-03-21",
+    "jurisdiction": "jur-ae",
+    "date": "2026-03-21",
+    "name": "Eid al-Fitr holiday - federal government (FAHR, 19-22 March)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-03-22",
+    "jurisdiction": "jur-ae",
+    "date": "2026-03-22",
+    "name": "Eid al-Fitr holiday - federal government (FAHR, 19-22 March)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-05-25",
+    "jurisdiction": "jur-ae",
+    "date": "2026-05-25",
+    "name": "Arafat Day and Eid al-Adha holiday - federal government only (private sector works)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-05-26",
+    "jurisdiction": "jur-ae",
+    "date": "2026-05-26",
+    "name": "Arafat Day - federal government holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-05-27",
+    "jurisdiction": "jur-ae",
+    "date": "2026-05-27",
+    "name": "Eid al-Adha (10 Dhu al-Hijjah 1447) - federal government holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-adha-2026",
+      "ins-ae-wam-eid-al-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-05-28",
+    "jurisdiction": "jur-ae",
+    "date": "2026-05-28",
+    "name": "Eid al-Adha holiday - federal government (FAHR, 25-29 May)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-05-29",
+    "jurisdiction": "jur-ae",
+    "date": "2026-05-29",
+    "name": "Eid al-Adha holiday - federal government (FAHR, 25-29 May)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-fahr-eid-al-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-ae-2026-02-18",
+    "jurisdiction": "jur-ae",
+    "date": "2026-02-18",
+    "name": "First day of Ramadan 1447 (UAE Council for Fatwa; not a holiday)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-ae-wam-ramadan-2026"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-02-22",
+    "jurisdiction": "jur-sa",
+    "date": "2026-02-22",
+    "name": "Founding Day (يوم التأسيس)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-founding-day-2026",
+      "ins-sa-sama-founding-day-1446"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-09-23",
+    "jurisdiction": "jur-sa",
+    "date": "2026-09-23",
+    "name": "Saudi National Day (96th)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-03-19",
+    "jurisdiction": "jur-sa",
+    "date": "2026-03-19",
+    "name": "Eid al-Fitr holiday - private and non-profit sectors (4 days from the day after 29 Ramadan, Umm al-Qura)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-umm-al-qura-calendar",
+      "ins-sa-spa-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-03-20",
+    "jurisdiction": "jur-sa",
+    "date": "2026-03-20",
+    "name": "Eid al-Fitr (1 Shawwal 1447, Supreme Court) - private-sector holiday day 2 of 4",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-umm-al-qura-calendar",
+      "ins-sa-spa-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-03-21",
+    "jurisdiction": "jur-sa",
+    "date": "2026-03-21",
+    "name": "Eid al-Fitr holiday - private and non-profit sectors (4 days from the day after 29 Ramadan, Umm al-Qura)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-umm-al-qura-calendar",
+      "ins-sa-spa-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-03-22",
+    "jurisdiction": "jur-sa",
+    "date": "2026-03-22",
+    "name": "Eid al-Fitr holiday - private and non-profit sectors (4 days from the day after 29 Ramadan, Umm al-Qura)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-umm-al-qura-calendar",
+      "ins-sa-spa-eid-al-fitr-2026"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-05-26",
+    "jurisdiction": "jur-sa",
+    "date": "2026-05-26",
+    "name": "Arafat Day - Eid al-Adha holiday day 1 of 4 (private sector)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-spa-eid-al-adha-2026",
+      "ins-sa-umm-al-qura-calendar"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-05-27",
+    "jurisdiction": "jur-sa",
+    "date": "2026-05-27",
+    "name": "Eid al-Adha (10 Dhu al-Hijjah 1447) - private-sector holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-spa-eid-al-adha-2026",
+      "ins-sa-umm-al-qura-calendar"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-05-28",
+    "jurisdiction": "jur-sa",
+    "date": "2026-05-28",
+    "name": "Eid al-Adha holiday - private sector (4 days from Arafat day)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-spa-eid-al-adha-2026",
+      "ins-sa-umm-al-qura-calendar"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-05-29",
+    "jurisdiction": "jur-sa",
+    "date": "2026-05-29",
+    "name": "Eid al-Adha holiday - private sector (4 days from Arafat day)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-hrsd-holidays-and-leaves",
+      "ins-sa-spa-eid-al-adha-2026",
+      "ins-sa-umm-al-qura-calendar"
+    ]
+  },
+  {
+    "_id": "hol-sa-2026-02-18",
+    "jurisdiction": "jur-sa",
+    "date": "2026-02-18",
+    "name": "First day of Ramadan 1447 (Supreme Court; not a holiday)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-spa-ramadan-2026",
+      "ins-sa-umm-al-qura-calendar"
+    ]
+  },
+  {
+    "_id": "hol-sa-2025-02-23",
+    "jurisdiction": "jur-sa",
+    "date": "2025-02-23",
+    "name": "Founding Day in lieu - official holiday for SAMA-supervised banks only (22 Feb 2025 was a Saturday)",
+    "dayOff": false,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-sa-sama-founding-day-1446"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-01-01",
+    "jurisdiction": "jur-jp",
+    "date": "2021-01-01",
+    "name": "New Year's Day",
+    "nameLocal": "元日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-01-11",
+    "jurisdiction": "jur-jp",
+    "date": "2021-01-11",
+    "name": "Coming of Age Day",
+    "nameLocal": "成人の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-02-11",
+    "jurisdiction": "jur-jp",
+    "date": "2021-02-11",
+    "name": "National Foundation Day",
+    "nameLocal": "建国記念の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-02-23",
+    "jurisdiction": "jur-jp",
+    "date": "2021-02-23",
+    "name": "Emperor's Birthday",
+    "nameLocal": "天皇誕生日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-03-20",
+    "jurisdiction": "jur-jp",
+    "date": "2021-03-20",
+    "name": "Vernal Equinox Day",
+    "nameLocal": "春分の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-04-29",
+    "jurisdiction": "jur-jp",
+    "date": "2021-04-29",
+    "name": "Showa Day",
+    "nameLocal": "昭和の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-05-03",
+    "jurisdiction": "jur-jp",
+    "date": "2021-05-03",
+    "name": "Constitution Memorial Day",
+    "nameLocal": "憲法記念日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-05-04",
+    "jurisdiction": "jur-jp",
+    "date": "2021-05-04",
+    "name": "Greenery Day",
+    "nameLocal": "みどりの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-05-05",
+    "jurisdiction": "jur-jp",
+    "date": "2021-05-05",
+    "name": "Children's Day",
+    "nameLocal": "こどもの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-07-22",
+    "jurisdiction": "jur-jp",
+    "date": "2021-07-22",
+    "name": "Marine Day (moved for the Tokyo Olympics)",
+    "nameLocal": "海の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv",
+      "ins-jp-cao-national-holidays"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-07-23",
+    "jurisdiction": "jur-jp",
+    "date": "2021-07-23",
+    "name": "Sports Day (moved for the Tokyo Olympics)",
+    "nameLocal": "スポーツの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv",
+      "ins-jp-cao-national-holidays"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-08-08",
+    "jurisdiction": "jur-jp",
+    "date": "2021-08-08",
+    "name": "Mountain Day (moved for the Tokyo Olympics)",
+    "nameLocal": "山の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv",
+      "ins-jp-cao-national-holidays"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-08-09",
+    "jurisdiction": "jur-jp",
+    "date": "2021-08-09",
+    "name": "Substitute holiday (moved for the Tokyo Olympics)",
+    "nameLocal": "休日",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv",
+      "ins-jp-cao-national-holidays"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-09-20",
+    "jurisdiction": "jur-jp",
+    "date": "2021-09-20",
+    "name": "Respect for the Aged Day",
+    "nameLocal": "敬老の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-09-23",
+    "jurisdiction": "jur-jp",
+    "date": "2021-09-23",
+    "name": "Autumnal Equinox Day",
+    "nameLocal": "秋分の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-11-03",
+    "jurisdiction": "jur-jp",
+    "date": "2021-11-03",
+    "name": "Culture Day",
+    "nameLocal": "文化の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2021-11-23",
+    "jurisdiction": "jur-jp",
+    "date": "2021-11-23",
+    "name": "Labour Thanksgiving Day",
+    "nameLocal": "勤労感謝の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-01-01",
+    "jurisdiction": "jur-jp",
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "nameLocal": "元日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-01-12",
+    "jurisdiction": "jur-jp",
+    "date": "2026-01-12",
+    "name": "Coming of Age Day",
+    "nameLocal": "成人の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-02-11",
+    "jurisdiction": "jur-jp",
+    "date": "2026-02-11",
+    "name": "National Foundation Day",
+    "nameLocal": "建国記念の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-02-23",
+    "jurisdiction": "jur-jp",
+    "date": "2026-02-23",
+    "name": "Emperor's Birthday",
+    "nameLocal": "天皇誕生日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-03-20",
+    "jurisdiction": "jur-jp",
+    "date": "2026-03-20",
+    "name": "Vernal Equinox Day",
+    "nameLocal": "春分の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-04-29",
+    "jurisdiction": "jur-jp",
+    "date": "2026-04-29",
+    "name": "Showa Day",
+    "nameLocal": "昭和の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-05-03",
+    "jurisdiction": "jur-jp",
+    "date": "2026-05-03",
+    "name": "Constitution Memorial Day",
+    "nameLocal": "憲法記念日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-05-04",
+    "jurisdiction": "jur-jp",
+    "date": "2026-05-04",
+    "name": "Greenery Day",
+    "nameLocal": "みどりの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-05-05",
+    "jurisdiction": "jur-jp",
+    "date": "2026-05-05",
+    "name": "Children's Day",
+    "nameLocal": "こどもの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-05-06",
+    "jurisdiction": "jur-jp",
+    "date": "2026-05-06",
+    "name": "Substitute holiday",
+    "nameLocal": "休日",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-07-20",
+    "jurisdiction": "jur-jp",
+    "date": "2026-07-20",
+    "name": "Marine Day",
+    "nameLocal": "海の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-08-11",
+    "jurisdiction": "jur-jp",
+    "date": "2026-08-11",
+    "name": "Mountain Day",
+    "nameLocal": "山の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-09-21",
+    "jurisdiction": "jur-jp",
+    "date": "2026-09-21",
+    "name": "Respect for the Aged Day",
+    "nameLocal": "敬老の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-09-22",
+    "jurisdiction": "jur-jp",
+    "date": "2026-09-22",
+    "name": "Citizens' holiday (between two national holidays)",
+    "nameLocal": "休日",
+    "dayOff": true,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-09-23",
+    "jurisdiction": "jur-jp",
+    "date": "2026-09-23",
+    "name": "Autumnal Equinox Day",
+    "nameLocal": "秋分の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-10-12",
+    "jurisdiction": "jur-jp",
+    "date": "2026-10-12",
+    "name": "Sports Day",
+    "nameLocal": "スポーツの日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-11-03",
+    "jurisdiction": "jur-jp",
+    "date": "2026-11-03",
+    "name": "Culture Day",
+    "nameLocal": "文化の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-jp-2026-11-23",
+    "jurisdiction": "jur-jp",
+    "date": "2026-11-23",
+    "name": "Labour Thanksgiving Day",
+    "nameLocal": "勤労感謝の日",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-jp-cao-holidays-csv"
+    ]
+  },
+  {
+    "_id": "hol-kr-2025-01-27",
+    "jurisdiction": "jur-kr",
+    "date": "2025-01-27",
+    "name": "Temporary public holiday before Seollal (임시공휴일)",
+    "nameLocal": "임시공휴일",
+    "dayOff": true,
+    "kind": "one-off",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-temporary-holiday-2025-01-27",
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-05-01",
+    "jurisdiction": "jur-kr",
+    "date": "2026-05-01",
+    "name": "Labour Day (first year as a public holiday)",
+    "nameLocal": "노동절",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-act-21543",
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-07-17",
+    "jurisdiction": "jur-kr",
+    "date": "2026-07-17",
+    "name": "Constitution Day (public holiday again from 2026)",
+    "nameLocal": "제헌절",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-act-21338",
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-08-15",
+    "jurisdiction": "jur-kr",
+    "date": "2026-08-15",
+    "name": "Liberation Day",
+    "nameLocal": "광복절",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-08-17",
+    "jurisdiction": "jur-kr",
+    "date": "2026-08-17",
+    "name": "Substitute holiday for Liberation Day (15 Aug is a Saturday)",
+    "nameLocal": "광복절 대체공휴일",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-10-03",
+    "jurisdiction": "jur-kr",
+    "date": "2026-10-03",
+    "name": "National Foundation Day",
+    "nameLocal": "개천절",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-kr-2026-10-05",
+    "jurisdiction": "jur-kr",
+    "date": "2026-10-05",
+    "name": "Substitute holiday for National Foundation Day (3 Oct is a Saturday)",
+    "nameLocal": "개천절 대체공휴일",
+    "dayOff": true,
+    "kind": "substitute",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-kr-regulation-public-holidays"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-03-20",
+    "jurisdiction": "jur-pk",
+    "date": "2026-03-20",
+    "name": "Eid-ul-Fitr public holiday (federal; Eid itself fell on 21 March)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-arabnews-2026-03-15"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-03-21",
+    "jurisdiction": "jur-pk",
+    "date": "2026-03-21",
+    "name": "Eid-ul-Fitr (1 Shawwal 1447, Central Ruet-e-Hilal Committee) - federal public holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-app-eid-al-fitr-2026",
+      "ins-pk-arabnews-2026-03-15"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-05-26",
+    "jurisdiction": "jur-pk",
+    "date": "2026-05-26",
+    "name": "Eid-ul-Azha public holiday (federal)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-thenews-adha-holidays-2026"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-05-27",
+    "jurisdiction": "jur-pk",
+    "date": "2026-05-27",
+    "name": "Eid-ul-Azha (10 Zil Hajj 1447) - federal public holiday",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-app-eid-al-adha-2026",
+      "ins-pk-thenews-adha-holidays-2026"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-05-28",
+    "jurisdiction": "jur-pk",
+    "date": "2026-05-28",
+    "name": "Eid-ul-Azha public holiday (federal; also Youm-e-Takbeer)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-thenews-adha-holidays-2026"
+    ]
+  },
+  {
+    "_id": "hol-pk-2026-02-19",
+    "jurisdiction": "jur-pk",
+    "date": "2026-02-19",
+    "name": "First day of Ramadan 1447 in Pakistan (not a holiday)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-pk-arabnews-2026-03-15"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-20",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-20",
+    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave; Idul Fitri for Muhammadiyah members)",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-muhammadiyah-maklumat-1447"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-21",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-21",
+    "name": "Idul Fitri 1447 H (1 Syawal, government sidang isbat) - national holiday",
+    "nameLocal": "Hari Raya Idul Fitri",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-kemenag-jateng-syawal-1447"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-22",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-22",
+    "name": "Idul Fitri 1447 H, second day - national holiday",
+    "nameLocal": "Hari Raya Idul Fitri",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-kemenag-jateng-syawal-1447"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-23",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-23",
+    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave)",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-03-24",
+    "jurisdiction": "jur-id",
+    "date": "2026-03-24",
+    "name": "Cuti bersama Idul Fitri (collective leave, counted against annual leave)",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-05-27",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-27",
+    "name": "Idul Adha 1447 H - national holiday",
+    "nameLocal": "Hari Raya Idul Adha",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026",
+      "ins-id-investortrust-adha-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-05-28",
+    "jurisdiction": "jur-id",
+    "date": "2026-05-28",
+    "name": "Cuti bersama Idul Adha (collective leave)",
+    "dayOff": false,
+    "kind": "bridge",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-id-skb-2026"
+    ]
+  },
+  {
+    "_id": "hol-id-2026-02-19",
+    "jurisdiction": "jur-id",
+    "date": "2026-02-19",
+    "name": "First day of Ramadan 1447 (government sidang isbat; Muhammadiyah began 18 Feb) - not a holiday",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-id-antara-ramadan-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-01-01",
+    "jurisdiction": "jur-tr",
+    "date": "2026-01-01",
+    "name": "Yılbaşı (New Year)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-04-23",
+    "jurisdiction": "jur-tr",
+    "date": "2026-04-23",
+    "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-01",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-01",
+    "name": "Emek ve Dayanışma Günü",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-19",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-19",
+    "name": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-07-15",
+    "jurisdiction": "jur-tr",
+    "date": "2026-07-15",
+    "name": "Demokrasi ve Milli Birlik Günü",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-08-30",
+    "jurisdiction": "jur-tr",
+    "date": "2026-08-30",
+    "name": "Zafer Bayramı",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-10-28",
+    "jurisdiction": "jur-tr",
+    "date": "2026-10-28",
+    "name": "Cumhuriyet Bayramı eve - holiday only from 13:00",
+    "dayOff": false,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-10-29",
+    "jurisdiction": "jur-tr",
+    "date": "2026-10-29",
+    "name": "Cumhuriyet Bayramı (Republic Day)",
+    "dayOff": true,
+    "kind": "statutory",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-03-19",
+    "jurisdiction": "jur-tr",
+    "date": "2026-03-19",
+    "name": "Ramazan Bayramı arefe - holiday only from 13:00",
+    "dayOff": false,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-03-20",
+    "jurisdiction": "jur-tr",
+    "date": "2026-03-20",
+    "name": "Ramazan Bayramı (day 1)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-03-21",
+    "jurisdiction": "jur-tr",
+    "date": "2026-03-21",
+    "name": "Ramazan Bayramı (day 2)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-03-22",
+    "jurisdiction": "jur-tr",
+    "date": "2026-03-22",
+    "name": "Ramazan Bayramı (day 3)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-26",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-26",
+    "name": "Kurban Bayramı arefe - holiday only from 13:00 (morning: administrative leave for public employees)",
+    "dayOff": false,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026",
+      "ins-tr-aa-idari-izin-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-27",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-27",
+    "name": "Kurban Bayramı (day 1)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-28",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-28",
+    "name": "Kurban Bayramı (day 2)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-29",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-29",
+    "name": "Kurban Bayramı (day 3)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-30",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-30",
+    "name": "Kurban Bayramı (day 4)",
+    "dayOff": true,
+    "kind": "moon-sighted",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-law-2429",
+      "ins-tr-diyanet-dini-gunler-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-05-25",
+    "jurisdiction": "jur-tr",
+    "date": "2026-05-25",
+    "name": "Administrative leave (idari izin) for public employees only - not a public holiday",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "fixed",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-aa-idari-izin-2026"
+    ]
+  },
+  {
+    "_id": "hol-tr-2026-02-19",
+    "jurisdiction": "jur-tr",
+    "date": "2026-02-19",
+    "name": "Ramazan başlangıcı - first day of Ramadan 1447 per Diyanet (not a holiday)",
+    "dayOff": false,
+    "kind": "observance",
+    "dateCertainty": "announced",
+    "status": "in_force",
+    "basis": [
+      "ins-tr-diyanet-dini-gunler-2026",
+      "ins-tr-diyanet-ramazan-2026"
+    ]
+  }
+]

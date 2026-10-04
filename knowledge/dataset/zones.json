@@ -1,0 +1,620 @@
+[
+  {
+    "_id": "zone-america-vancouver",
+    "ianaId": "America/Vancouver",
+    "aliases": [
+      "Canada/Pacific"
+    ],
+    "jurisdiction": "jur-ca-bc",
+    "city": "Vancouver",
+    "location": {
+      "_type": "geopoint",
+      "lat": 49.2667,
+      "lng": -123.1167
+    }
+  },
+  {
+    "_id": "zone-america-edmonton",
+    "ianaId": "America/Edmonton",
+    "aliases": [
+      "Canada/Mountain",
+      "America/Yellowknife"
+    ],
+    "jurisdiction": "jur-ca-ab",
+    "city": "Edmonton",
+    "location": {
+      "_type": "geopoint",
+      "lat": 53.55,
+      "lng": -113.4667
+    }
+  },
+  {
+    "_id": "zone-america-inuvik",
+    "ianaId": "America/Inuvik",
+    "aliases": [],
+    "jurisdiction": "jur-ca-nt",
+    "city": "Inuvik",
+    "location": {
+      "_type": "geopoint",
+      "lat": 68.3497,
+      "lng": -133.7167
+    }
+  },
+  {
+    "_id": "zone-america-winnipeg",
+    "ianaId": "America/Winnipeg",
+    "aliases": [
+      "Canada/Central",
+      "America/Rainy_River"
+    ],
+    "jurisdiction": "jur-ca-mb",
+    "city": "Winnipeg",
+    "location": {
+      "_type": "geopoint",
+      "lat": 49.8833,
+      "lng": -97.15
+    }
+  },
+  {
+    "_id": "zone-america-regina",
+    "ianaId": "America/Regina",
+    "aliases": [
+      "Canada/Saskatchewan"
+    ],
+    "jurisdiction": "jur-ca-sk",
+    "city": "Regina",
+    "location": {
+      "_type": "geopoint",
+      "lat": 50.4,
+      "lng": -104.65
+    }
+  },
+  {
+    "_id": "zone-america-swift-current",
+    "ianaId": "America/Swift_Current",
+    "aliases": [],
+    "jurisdiction": "jur-ca-sk",
+    "city": "Swift Current",
+    "location": {
+      "_type": "geopoint",
+      "lat": 50.2833,
+      "lng": -107.8333
+    }
+  },
+  {
+    "_id": "zone-africa-casablanca",
+    "ianaId": "Africa/Casablanca",
+    "aliases": [],
+    "jurisdiction": "jur-ma",
+    "city": "Casablanca",
+    "location": {
+      "_type": "geopoint",
+      "lat": 33.65,
+      "lng": -7.5833
+    }
+  },
+  {
+    "_id": "zone-africa-el-aaiun",
+    "ianaId": "Africa/El_Aaiun",
+    "aliases": [],
+    "jurisdiction": "jur-eh",
+    "city": "El Aaiún (Laayoune)",
+    "location": {
+      "_type": "geopoint",
+      "lat": 27.15,
+      "lng": -13.2
+    }
+  },
+  {
+    "_id": "zone-america-asuncion",
+    "ianaId": "America/Asuncion",
+    "aliases": [],
+    "jurisdiction": "jur-py",
+    "city": "Asunción",
+    "location": {
+      "_type": "geopoint",
+      "lat": -25.2667,
+      "lng": -57.6667
+    }
+  },
+  {
+    "_id": "zone-asia-almaty",
+    "ianaId": "Asia/Almaty",
+    "aliases": [],
+    "jurisdiction": "jur-kz",
+    "city": "Almaty",
+    "location": {
+      "_type": "geopoint",
+      "lat": 43.25,
+      "lng": 76.95
+    }
+  },
+  {
+    "_id": "zone-asia-qostanay",
+    "ianaId": "Asia/Qostanay",
+    "aliases": [],
+    "jurisdiction": "jur-kz",
+    "city": "Qostanay",
+    "location": {
+      "_type": "geopoint",
+      "lat": 53.2,
+      "lng": 63.6167
+    }
+  },
+  {
+    "_id": "zone-america-nuuk",
+    "ianaId": "America/Nuuk",
+    "aliases": [
+      "America/Godthab"
+    ],
+    "jurisdiction": "jur-gl",
+    "city": "Nuuk",
+    "location": {
+      "_type": "geopoint",
+      "lat": 64.1833,
+      "lng": -51.7333
+    }
+  },
+  {
+    "_id": "zone-america-scoresbysund",
+    "ianaId": "America/Scoresbysund",
+    "aliases": [],
+    "jurisdiction": "jur-gl",
+    "city": "Ittoqqortoormiit (Scoresbysund)",
+    "location": {
+      "_type": "geopoint",
+      "lat": 70.4833,
+      "lng": -21.9667
+    }
+  },
+  {
+    "_id": "zone-america-mexico-city",
+    "ianaId": "America/Mexico_City",
+    "aliases": [
+      "Mexico/General"
+    ],
+    "jurisdiction": "jur-mx-cmx",
+    "city": "Mexico City",
+    "location": {
+      "_type": "geopoint",
+      "lat": 19.4,
+      "lng": -99.15
+    }
+  },
+  {
+    "_id": "zone-america-monterrey",
+    "ianaId": "America/Monterrey",
+    "aliases": [],
+    "jurisdiction": "jur-mx-nle",
+    "city": "Monterrey",
+    "location": {
+      "_type": "geopoint",
+      "lat": 25.6667,
+      "lng": -100.3167
+    }
+  },
+  {
+    "_id": "zone-america-chihuahua",
+    "ianaId": "America/Chihuahua",
+    "aliases": [],
+    "jurisdiction": "jur-mx-chh",
+    "city": "Chihuahua",
+    "location": {
+      "_type": "geopoint",
+      "lat": 28.6333,
+      "lng": -106.0833
+    }
+  },
+  {
+    "_id": "zone-america-ciudad-juarez",
+    "ianaId": "America/Ciudad_Juarez",
+    "aliases": [],
+    "jurisdiction": "jur-mx-chh",
+    "city": "Ciudad Juárez",
+    "location": {
+      "_type": "geopoint",
+      "lat": 31.7333,
+      "lng": -106.4833
+    }
+  },
+  {
+    "_id": "zone-america-ojinaga",
+    "ianaId": "America/Ojinaga",
+    "aliases": [],
+    "jurisdiction": "jur-mx-chh",
+    "city": "Ojinaga",
+    "location": {
+      "_type": "geopoint",
+      "lat": 29.5667,
+      "lng": -104.4167
+    }
+  },
+  {
+    "_id": "zone-america-matamoros",
+    "ianaId": "America/Matamoros",
+    "aliases": [],
+    "jurisdiction": "jur-mx-tam",
+    "city": "Matamoros",
+    "location": {
+      "_type": "geopoint",
+      "lat": 25.8333,
+      "lng": -97.5
+    }
+  },
+  {
+    "_id": "zone-america-tijuana",
+    "ianaId": "America/Tijuana",
+    "aliases": [
+      "Mexico/BajaNorte",
+      "America/Ensenada",
+      "America/Santa_Isabel"
+    ],
+    "jurisdiction": "jur-mx-bcn",
+    "city": "Tijuana",
+    "location": {
+      "_type": "geopoint",
+      "lat": 32.5333,
+      "lng": -117.0167
+    }
+  },
+  {
+    "_id": "zone-africa-cairo",
+    "ianaId": "Africa/Cairo",
+    "aliases": [
+      "Egypt"
+    ],
+    "jurisdiction": "jur-eg",
+    "city": "Cairo",
+    "location": {
+      "_type": "geopoint",
+      "lat": 30.05,
+      "lng": 31.25
+    }
+  },
+  {
+    "_id": "zone-america-port-au-prince",
+    "ianaId": "America/Port-au-Prince",
+    "aliases": [],
+    "jurisdiction": "jur-ht",
+    "city": "Port-au-Prince",
+    "location": {
+      "_type": "geopoint",
+      "lat": 18.5333,
+      "lng": -72.3333
+    }
+  },
+  {
+    "_id": "zone-asia-beirut",
+    "ianaId": "Asia/Beirut",
+    "aliases": [],
+    "jurisdiction": "jur-lb",
+    "city": "Beirut",
+    "location": {
+      "_type": "geopoint",
+      "lat": 33.8833,
+      "lng": 35.5
+    }
+  },
+  {
+    "_id": "zone-europe-kyiv",
+    "ianaId": "Europe/Kyiv",
+    "aliases": [
+      "Europe/Kiev",
+      "Europe/Uzhgorod",
+      "Europe/Zaporozhye"
+    ],
+    "jurisdiction": "jur-ua",
+    "city": "Kyiv",
+    "location": {
+      "_type": "geopoint",
+      "lat": 50.4333,
+      "lng": 30.5167
+    }
+  },
+  {
+    "_id": "zone-america-new-york",
+    "ianaId": "America/New_York",
+    "aliases": [
+      "US/Eastern"
+    ],
+    "jurisdiction": "jur-us",
+    "city": "New York",
+    "location": {
+      "_type": "geopoint",
+      "lat": 40.7142,
+      "lng": -74.0064
+    }
+  },
+  {
+    "_id": "zone-america-chicago",
+    "ianaId": "America/Chicago",
+    "aliases": [
+      "US/Central"
+    ],
+    "jurisdiction": "jur-us",
+    "city": "Chicago",
+    "location": {
+      "_type": "geopoint",
+      "lat": 41.85,
+      "lng": -87.65
+    }
+  },
+  {
+    "_id": "zone-america-denver",
+    "ianaId": "America/Denver",
+    "aliases": [
+      "US/Mountain",
+      "Navajo",
+      "America/Shiprock"
+    ],
+    "jurisdiction": "jur-us",
+    "city": "Denver",
+    "location": {
+      "_type": "geopoint",
+      "lat": 39.7392,
+      "lng": -104.9842
+    }
+  },
+  {
+    "_id": "zone-america-los-angeles",
+    "ianaId": "America/Los_Angeles",
+    "aliases": [
+      "US/Pacific"
+    ],
+    "jurisdiction": "jur-us",
+    "city": "Los Angeles",
+    "location": {
+      "_type": "geopoint",
+      "lat": 34.0522,
+      "lng": -118.2428
+    }
+  },
+  {
+    "_id": "zone-america-anchorage",
+    "ianaId": "America/Anchorage",
+    "aliases": [
+      "US/Alaska"
+    ],
+    "jurisdiction": "jur-us-ak",
+    "city": "Anchorage",
+    "location": {
+      "_type": "geopoint",
+      "lat": 61.2181,
+      "lng": -149.9003
+    }
+  },
+  {
+    "_id": "zone-pacific-honolulu",
+    "ianaId": "Pacific/Honolulu",
+    "aliases": [
+      "US/Hawaii"
+    ],
+    "jurisdiction": "jur-us-hi",
+    "city": "Honolulu",
+    "location": {
+      "_type": "geopoint",
+      "lat": 21.3069,
+      "lng": -157.8583
+    }
+  },
+  {
+    "_id": "zone-america-phoenix",
+    "ianaId": "America/Phoenix",
+    "aliases": [
+      "US/Arizona"
+    ],
+    "jurisdiction": "jur-us-az",
+    "city": "Phoenix",
+    "location": {
+      "_type": "geopoint",
+      "lat": 33.4483,
+      "lng": -112.0733
+    }
+  },
+  {
+    "_id": "zone-europe-berlin",
+    "ianaId": "Europe/Berlin",
+    "aliases": [],
+    "jurisdiction": "jur-de",
+    "city": "Berlin",
+    "location": {
+      "_type": "geopoint",
+      "lat": 52.5,
+      "lng": 13.3667
+    }
+  },
+  {
+    "_id": "zone-europe-paris",
+    "ianaId": "Europe/Paris",
+    "aliases": [],
+    "jurisdiction": "jur-fr",
+    "city": "Paris",
+    "location": {
+      "_type": "geopoint",
+      "lat": 48.8667,
+      "lng": 2.3333
+    }
+  },
+  {
+    "_id": "zone-europe-madrid",
+    "ianaId": "Europe/Madrid",
+    "aliases": [],
+    "jurisdiction": "jur-es",
+    "city": "Madrid",
+    "location": {
+      "_type": "geopoint",
+      "lat": 40.4,
+      "lng": -3.6833
+    }
+  },
+  {
+    "_id": "zone-europe-warsaw",
+    "ianaId": "Europe/Warsaw",
+    "aliases": [
+      "Poland"
+    ],
+    "jurisdiction": "jur-pl",
+    "city": "Warsaw",
+    "location": {
+      "_type": "geopoint",
+      "lat": 52.25,
+      "lng": 21
+    }
+  },
+  {
+    "_id": "zone-europe-athens",
+    "ianaId": "Europe/Athens",
+    "aliases": [],
+    "jurisdiction": "jur-gr",
+    "city": "Athens",
+    "location": {
+      "_type": "geopoint",
+      "lat": 37.9667,
+      "lng": 23.7167
+    }
+  },
+  {
+    "_id": "zone-europe-lisbon",
+    "ianaId": "Europe/Lisbon",
+    "aliases": [
+      "Portugal"
+    ],
+    "jurisdiction": "jur-pt",
+    "city": "Lisbon",
+    "location": {
+      "_type": "geopoint",
+      "lat": 38.7167,
+      "lng": -9.1333
+    }
+  },
+  {
+    "_id": "zone-asia-tehran",
+    "ianaId": "Asia/Tehran",
+    "aliases": [
+      "Iran"
+    ],
+    "jurisdiction": "jur-ir",
+    "city": "Tehran",
+    "location": {
+      "_type": "geopoint",
+      "lat": 35.6667,
+      "lng": 51.4333
+    }
+  },
+  {
+    "_id": "zone-asia-amman",
+    "ianaId": "Asia/Amman",
+    "aliases": [],
+    "jurisdiction": "jur-jo",
+    "city": "Amman",
+    "location": {
+      "_type": "geopoint",
+      "lat": 31.95,
+      "lng": 35.9333
+    }
+  },
+  {
+    "_id": "zone-asia-damascus",
+    "ianaId": "Asia/Damascus",
+    "aliases": [],
+    "jurisdiction": "jur-sy",
+    "city": "Damascus",
+    "location": {
+      "_type": "geopoint",
+      "lat": 33.5,
+      "lng": 36.3
+    }
+  },
+  {
+    "_id": "zone-america-santiago",
+    "ianaId": "America/Santiago",
+    "aliases": [
+      "Chile/Continental"
+    ],
+    "jurisdiction": "jur-cl",
+    "city": "Santiago",
+    "location": {
+      "_type": "geopoint",
+      "lat": -33.45,
+      "lng": -70.6667
+    }
+  },
+  {
+    "_id": "zone-america-coyhaique",
+    "ianaId": "America/Coyhaique",
+    "aliases": [],
+    "jurisdiction": "jur-cl-ai",
+    "city": "Coyhaique",
+    "location": {
+      "_type": "geopoint",
+      "lat": -45.5667,
+      "lng": -72.0667
+    }
+  },
+  {
+    "_id": "zone-america-punta-arenas",
+    "ianaId": "America/Punta_Arenas",
+    "aliases": [],
+    "jurisdiction": "jur-cl-ma",
+    "city": "Punta Arenas",
+    "location": {
+      "_type": "geopoint",
+      "lat": -53.15,
+      "lng": -70.9167
+    }
+  },
+  {
+    "_id": "zone-europe-chisinau",
+    "ianaId": "Europe/Chisinau",
+    "aliases": [
+      "Europe/Tiraspol"
+    ],
+    "jurisdiction": "jur-md",
+    "city": "Chișinău",
+    "location": {
+      "_type": "geopoint",
+      "lat": 47,
+      "lng": 28.8333
+    }
+  },
+  {
+    "_id": "zone-america-sao-paulo",
+    "ianaId": "America/Sao_Paulo",
+    "aliases": [
+      "Brazil/East"
+    ],
+    "jurisdiction": "jur-br",
+    "city": "São Paulo",
+    "location": {
+      "_type": "geopoint",
+      "lat": -23.5333,
+      "lng": -46.6167
+    }
+  },
+  {
+    "_id": "zone-america-manaus",
+    "ianaId": "America/Manaus",
+    "aliases": [
+      "Brazil/West"
+    ],
+    "jurisdiction": "jur-br-am",
+    "city": "Manaus",
+    "location": {
+      "_type": "geopoint",
+      "lat": -3.1333,
+      "lng": -60.0167
+    }
+  },
+  {
+    "_id": "zone-america-bahia",
+    "ianaId": "America/Bahia",
+    "aliases": [],
+    "jurisdiction": "jur-br-ba",
+    "city": "Salvador (Bahia)",
+    "location": {
+      "_type": "geopoint",
+      "lat": -12.9833,
+      "lng": -38.5167
+    }
+  }
+]

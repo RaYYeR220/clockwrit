@@ -1,0 +1,649 @@
+[
+  {
+    "_id": "jur-ca",
+    "code": "CA",
+    "name": "Canada",
+    "timeAuthority": "Each province and territory sets its own legal time by statute or regulation."
+  },
+  {
+    "_id": "jur-ca-bc",
+    "code": "CA-BC",
+    "name": "British Columbia",
+    "parent": "jur-ca",
+    "timeAuthority": "Provincial legislature: Interpretation Act s. 26 ('Pacific Time' = UTC-7), brought into force by B.C. Reg. 20/2026. The 2019 plan to wait for Washington, Oregon and California was dropped."
+  },
+  {
+    "_id": "jur-ca-ab",
+    "code": "CA-AB",
+    "name": "Alberta",
+    "parent": "jur-ca",
+    "timeAuthority": "Provincial legislature: Official Time Act, RSA 2000 c. O-5.7 (UTC-6, no DST), proclaimed by OC 204/2026."
+  },
+  {
+    "_id": "jur-ca-nt",
+    "code": "CA-NT",
+    "name": "Northwest Territories",
+    "parent": "jur-ca",
+    "timeAuthority": "Territorial government by regulation under the Interpretation Act (Northwest Territories Time Regulations, R-090-2026)."
+  },
+  {
+    "_id": "jur-ca-mb",
+    "code": "CA-MB",
+    "name": "Manitoba",
+    "parent": "jur-ca",
+    "timeAuthority": "Provincial legislature: The Official Time Act (C.C.S.M. c. O30), amended by S.M. 2023 c. 4 with effect from 2026-10-31 by proclamation."
+  },
+  {
+    "_id": "jur-ca-sk",
+    "code": "CA-SK",
+    "name": "Saskatchewan",
+    "parent": "jur-ca",
+    "timeAuthority": "Provincial legislature: The Time Act (RSS 1978 c. T-14); Bill 58, The Time Act, 2026 is assented but comes into force only by order of the Lieutenant Governor in Council."
+  },
+  {
+    "_id": "jur-ma",
+    "code": "MA",
+    "name": "Morocco",
+    "timeAuthority": "Government by decree (Decree 2.18.855 of 2018, abrogated by Decree 2.26.530 published in BO 7521)."
+  },
+  {
+    "_id": "jur-eh",
+    "code": "EH",
+    "name": "Western Sahara",
+    "timeAuthority": "Moroccan legal-time decrees are applied in the Moroccan-administered territory; tzdata 2026c: the return to UTC \"also affects Western Sahara\"."
+  },
+  {
+    "_id": "jur-py",
+    "code": "PY",
+    "name": "Paraguay",
+    "timeAuthority": "Congress by law (Ley No. 7354 of 2024: UTC-3 nationwide)."
+  },
+  {
+    "_id": "jur-kz",
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "timeAuthority": "Government resolution (19 Jan 2024: 5th time zone for the whole territory)."
+  },
+  {
+    "_id": "jur-gl",
+    "code": "GL",
+    "name": "Greenland",
+    "timeAuthority": "Inatsisartut (Greenland parliament) and Naalakkersuisut; standard time UTC-2 from 2023-03-25, EU DST rules from 2024."
+  },
+  {
+    "_id": "jur-mx",
+    "code": "MX",
+    "name": "Mexico",
+    "timeAuthority": "Federal Congress: Ley de los Husos Horarios en los Estados Unidos Mexicanos (DOF 2022-10-28), with a northern-border seasonal regime on US dates."
+  },
+  {
+    "_id": "jur-mx-cmx",
+    "code": "MX-CMX",
+    "name": "Ciudad de México",
+    "parent": "jur-mx"
+  },
+  {
+    "_id": "jur-mx-nle",
+    "code": "MX-NLE",
+    "name": "Nuevo León",
+    "parent": "jur-mx"
+  },
+  {
+    "_id": "jur-mx-chh",
+    "code": "MX-CHH",
+    "name": "Chihuahua",
+    "parent": "jur-mx",
+    "timeAuthority": "Federal law; the state is on UTC-6 without DST except the border strip (Ciudad Juárez, Ojinaga), which follows US DST from 2022-11-30."
+  },
+  {
+    "_id": "jur-mx-bcn",
+    "code": "MX-BCN",
+    "name": "Baja California",
+    "parent": "jur-mx",
+    "timeAuthority": "Federal law: northern-border seasonal time on US dates (2nd Sunday of March to 1st Sunday of November)."
+  },
+  {
+    "_id": "jur-mx-tam",
+    "code": "MX-TAM",
+    "name": "Tamaulipas",
+    "parent": "jur-mx"
+  },
+  {
+    "_id": "jur-eg",
+    "code": "EG",
+    "name": "Egypt",
+    "timeAuthority": "Parliament by law (Law No. 24 of 2023 reinstating DST: last Friday of April to last Thursday of October)."
+  },
+  {
+    "_id": "jur-ht",
+    "code": "HT",
+    "name": "Haiti",
+    "timeAuthority": "Presidency (annual notices; primary text not retrieved - UNVERIFIED)."
+  },
+  {
+    "_id": "jur-lb",
+    "code": "LB",
+    "name": "Lebanon",
+    "timeAuthority": "Council of Ministers (the 2023 postponement and its reversal were cabinet decisions)."
+  },
+  {
+    "_id": "jur-ua",
+    "code": "UA",
+    "name": "Ukraine",
+    "timeAuthority": "Cabinet of Ministers Resolution No. 509 (1996) governs time; bill 4201 (law No. 3856-IX) awaiting the President. Public holidays: Labour Code art. 73, suspended under martial law by Law 2136-IX art. 6(6).",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Only the art. 73 dates relevant to the research cases (24 Aug, 1 Oct, 25 Dec 2026) plus the martial-law suspension window; the extension of martial law beyond 2026-10-31 is UNVERIFIED."
+      }
+    ]
+  },
+  {
+    "_id": "jur-us",
+    "code": "US",
+    "name": "United States",
+    "timeAuthority": "Congress: Uniform Time Act of 1966 (15 U.S.C. 260a) sets DST dates; states may exempt themselves. Federal holidays: 5 U.S.C. 6103 (federal employees only).",
+    "calendarCoverage": [
+      {
+        "_key": "y2021",
+        "year": 2021,
+        "completeness": "partial",
+        "note": "Only Juneteenth (observed Fri 2021-06-18)."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "Federal holidays for federal employees per OPM 2026 schedule; states and private employers differ."
+      },
+      {
+        "_key": "y2027",
+        "year": 2027,
+        "completeness": "complete",
+        "note": "Federal holidays per OPM 2027 schedule, plus Fri 2027-12-31 observed for New Year 2028 (OPM 2028 schedule)."
+      }
+    ]
+  },
+  {
+    "_id": "jur-us-fl",
+    "code": "US-FL",
+    "name": "Florida",
+    "parent": "jur-us",
+    "timeAuthority": "Fla. Stat. 1.025: year-round DST only if Congress amends 15 U.S.C. 260a to allow it."
+  },
+  {
+    "_id": "jur-us-wy",
+    "code": "US-WY",
+    "name": "Wyoming",
+    "parent": "jur-us",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Only Juneteenth (no paid day off for state workers per Pew 2026; Wyoming statute not fetched - UNVERIFIED)."
+      }
+    ]
+  },
+  {
+    "_id": "jur-us-az",
+    "code": "US-AZ",
+    "name": "Arizona",
+    "parent": "jur-us",
+    "timeAuthority": "State exemption from DST under 15 U.S.C. 260a(a)."
+  },
+  {
+    "_id": "jur-us-hi",
+    "code": "US-HI",
+    "name": "Hawaii",
+    "parent": "jur-us",
+    "timeAuthority": "State exemption from DST under 15 U.S.C. 260a(a)."
+  },
+  {
+    "_id": "jur-us-ak",
+    "code": "US-AK",
+    "name": "Alaska",
+    "parent": "jur-us"
+  },
+  {
+    "_id": "jur-eu",
+    "code": "EU",
+    "name": "European Union",
+    "timeAuthority": "Directive 2000/84/EC fixes summer-time dates for all Member States; the 2018 proposal to end clock changes (2018/0332(COD)) awaits the Council."
+  },
+  {
+    "_id": "jur-de",
+    "code": "DE",
+    "name": "Germany",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC."
+  },
+  {
+    "_id": "jur-fr",
+    "code": "FR",
+    "name": "France",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC."
+  },
+  {
+    "_id": "jur-es",
+    "code": "ES",
+    "name": "Spain",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC."
+  },
+  {
+    "_id": "jur-gr",
+    "code": "GR",
+    "name": "Greece",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC."
+  },
+  {
+    "_id": "jur-pt",
+    "code": "PT",
+    "name": "Portugal",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC."
+  },
+  {
+    "_id": "jur-pl",
+    "code": "PL",
+    "name": "Poland",
+    "timeAuthority": "National standard time; summer-time dates harmonised by EU Directive 2000/84/EC. Public holidays: Act of 18 January 1951 on days off work (as amended by Dz.U. 2024 poz. 1965).",
+    "calendarCoverage": [
+      {
+        "_key": "y2024",
+        "year": 2024,
+        "completeness": "complete",
+        "note": "All statutory days off under the 1951 Act (13 holidays; Sundays via the weekend regime). Easter-dependent dates computed with the Gregorian computus."
+      },
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "complete",
+        "note": "1951 Act list plus 24 December (in force 2025-02-01). Easter-dependent dates computed."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "1951 Act list plus 24 December. Easter-dependent dates computed."
+      }
+    ]
+  },
+  {
+    "_id": "jur-ir",
+    "code": "IR",
+    "name": "Iran",
+    "timeAuthority": "Parliament by law (DST cancelled from Iranian year 1402); in 2025 the government asked for authority to set DST - not granted."
+  },
+  {
+    "_id": "jur-jo",
+    "code": "JO",
+    "name": "Jordan",
+    "timeAuthority": "Council of Ministers (decision of 2022-10-05: summer time all year, i.e. permanent UTC+3)."
+  },
+  {
+    "_id": "jur-sy",
+    "code": "SY",
+    "name": "Syria",
+    "timeAuthority": "Cabinet (decision of 2022-10-04: permanent UTC+3)."
+  },
+  {
+    "_id": "jur-cl",
+    "code": "CL",
+    "name": "Chile",
+    "timeAuthority": "Government by decree (DS 1.286 of 2018 as amended; mainland regime renewed by Decreto 98 of 2026 to fall 2029)."
+  },
+  {
+    "_id": "jur-cl-ai",
+    "code": "CL-AI",
+    "name": "Aysén",
+    "parent": "jur-cl",
+    "timeAuthority": "Decreto 93 (DO 2025-03-20): permanent UTC-3."
+  },
+  {
+    "_id": "jur-cl-ma",
+    "code": "CL-MA",
+    "name": "Magallanes y la Antártica Chilena",
+    "parent": "jur-cl",
+    "timeAuthority": "Permanent UTC-3 since 2016-12-04 (tzdata); confirmed by Decreto 93 of 2025."
+  },
+  {
+    "_id": "jur-md",
+    "code": "MD",
+    "name": "Moldova",
+    "timeAuthority": "Government decision (2026, Monitorul Oficial) formalising EU transition times used in practice since 2022."
+  },
+  {
+    "_id": "jur-br",
+    "code": "BR",
+    "name": "Brazil",
+    "timeAuthority": "Federal executive by decree (Decreto 9.772/2019 ended DST). Holidays: federal law (e.g. Lei 14.759/2023); annual MGI ordinance for the federal administration.",
+    "calendarCoverage": [
+      {
+        "_key": "y2024",
+        "year": 2024,
+        "completeness": "partial",
+        "note": "Only 20 November."
+      },
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "partial",
+        "note": "Only 20 November."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "National holidays and federal optional days per Portaria MGI 11.460/2025; state and municipal holidays not included."
+      }
+    ]
+  },
+  {
+    "_id": "jur-br-am",
+    "code": "BR-AM",
+    "name": "Amazonas",
+    "parent": "jur-br"
+  },
+  {
+    "_id": "jur-br-ba",
+    "code": "BR-BA",
+    "name": "Bahia",
+    "parent": "jur-br"
+  },
+  {
+    "_id": "jur-gb",
+    "code": "GB",
+    "name": "United Kingdom",
+    "timeAuthority": "Bank holidays: Banking and Financial Dealings Act 1971; one-off days by Royal Proclamation under s. 1(3)."
+  },
+  {
+    "_id": "jur-gb-eaw",
+    "code": "GB-EAW",
+    "name": "England and Wales",
+    "parent": "jur-gb",
+    "calendarCoverage": [
+      {
+        "_key": "y2022",
+        "year": 2022,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2023",
+        "year": 2023,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2024",
+        "year": 2024,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2027",
+        "year": 2027,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      }
+    ]
+  },
+  {
+    "_id": "jur-gb-sct",
+    "code": "GB-SCT",
+    "name": "Scotland",
+    "parent": "jur-gb",
+    "calendarCoverage": [
+      {
+        "_key": "y2022",
+        "year": 2022,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2023",
+        "year": 2023,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2024",
+        "year": 2024,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2027",
+        "year": 2027,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      }
+    ]
+  },
+  {
+    "_id": "jur-gb-nir",
+    "code": "GB-NIR",
+    "name": "Northern Ireland",
+    "parent": "jur-gb",
+    "calendarCoverage": [
+      {
+        "_key": "y2022",
+        "year": 2022,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2023",
+        "year": 2023,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2024",
+        "year": 2024,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      },
+      {
+        "_key": "y2027",
+        "year": 2027,
+        "completeness": "complete",
+        "note": "All bank holidays for this region in GOV.UK bank-holidays.json (fetched 2026-10-04). Bank holidays are not a statutory right to a day off for every worker."
+      }
+    ]
+  },
+  {
+    "_id": "jur-ru",
+    "code": "RU",
+    "name": "Russia",
+    "timeAuthority": "Holidays: Labour Code art. 112; annual Government decree transferring days off.",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "Labour Code art. 112 holidays, Decree 1466 transfers and art. 112 part 2 weekend shifts (as listed by ConsultantPlus)."
+      },
+      {
+        "_key": "y2027",
+        "year": 2027,
+        "completeness": "partial",
+        "note": "Only the Decree 1187 transfers and 23 February; automatic art. 112 shifts for 2027 not recorded."
+      }
+    ]
+  },
+  {
+    "_id": "jur-cn",
+    "code": "CN",
+    "name": "China",
+    "timeAuthority": "State Council: 全国年节及纪念日放假办法 (Decree 795) and the annual General Office notice on holiday arrangements.",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "All 2026 holiday blocks and six make-up working days per 国办发明电〔2025〕7号. Weekend dates inside blocks are rest days via the weekend regime."
+      }
+    ]
+  },
+  {
+    "_id": "jur-ae",
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "timeAuthority": "Federal government (FAHR circulars) for the federal public sector; MoHRE for the private sector.",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Eid al-Fitr and Eid al-Adha 1447 holidays of the federal government (private-sector ranges differ: 19-22 Mar, 26-29 May)."
+      }
+    ]
+  },
+  {
+    "_id": "jur-ae-sh",
+    "code": "AE-SH",
+    "name": "Sharjah",
+    "parent": "jur-ae",
+    "timeAuthority": "Government of Sharjah: four-day working week (Mon-Thu), Friday-Sunday weekend."
+  },
+  {
+    "_id": "jur-sa",
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "timeAuthority": "Royal decrees and HRSD announcements; Eid holidays anchored to the Umm al-Qura calendar and Supreme Court sightings.",
+    "calendarCoverage": [
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "partial",
+        "note": "Only the SAMA in-lieu Founding Day for banks (2025-02-23)."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Founding Day, National Day and private-sector Eid holidays; weekly-rest compensation days and the government-sector Eid ranges are UNVERIFIED."
+      }
+    ]
+  },
+  {
+    "_id": "jur-jp",
+    "code": "JP",
+    "name": "Japan",
+    "timeAuthority": "National Holidays Act (Act No. 178 of 1948); Cabinet Office publishes the official list.",
+    "calendarCoverage": [
+      {
+        "_key": "y2021",
+        "year": 2021,
+        "completeness": "complete",
+        "note": "All rows of the Cabinet Office CSV for 2021 (Olympic moves included)."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "complete",
+        "note": "All rows of the Cabinet Office CSV for 2026."
+      }
+    ]
+  },
+  {
+    "_id": "jur-kr",
+    "code": "KR",
+    "name": "South Korea",
+    "timeAuthority": "Public Holidays Act and the Regulation on Public Holidays of Government Offices; temporary holidays by Cabinet decision.",
+    "calendarCoverage": [
+      {
+        "_key": "y2025",
+        "year": 2025,
+        "completeness": "partial",
+        "note": "Only the temporary holiday of 27 January."
+      },
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Labour Day, Constitution Day and the August/October substitute holidays only; lunar holidays not recorded."
+      }
+    ]
+  },
+  {
+    "_id": "jur-pk",
+    "code": "PK",
+    "name": "Pakistan",
+    "timeAuthority": "Federal government (Cabinet Division notifications) for public holidays; Central Ruet-e-Hilal Committee for Islamic dates.",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Federal Eid al-Fitr and Eid al-Adha holidays only."
+      }
+    ]
+  },
+  {
+    "_id": "jur-id",
+    "code": "ID",
+    "name": "Indonesia",
+    "timeAuthority": "Joint decree (SKB) of the Ministers of Religious Affairs, Manpower and PANRB; Islamic dates fixed by the Minister of Religious Affairs (sidang isbat).",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "Idul Fitri and Idul Adha national holidays and collective-leave days only."
+      }
+    ]
+  },
+  {
+    "_id": "jur-tr",
+    "code": "TR",
+    "name": "Türkiye",
+    "timeAuthority": "Law No. 2429 on national and general holidays; Diyanet fixes the Islamic dates by calculation.",
+    "calendarCoverage": [
+      {
+        "_key": "y2026",
+        "year": 2026,
+        "completeness": "partial",
+        "note": "All general holidays under Law 2429 for 2026 are recorded, but Saturday status differs by sector (Law 2429 art. 3: weekly holiday is Sunday, from Saturday 13:00 at the latest), so working-day answers are not claimed."
+      }
+    ]
+  }
+]

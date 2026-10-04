@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "sus-ua-martial-law-2026-08-02",
+    "jurisdiction": "jur-ua",
+    "from": "2026-08-02",
+    "to": "2026-10-31",
+    "reason": "Martial law: Labour Code art. 73 holidays do not apply (Law 2136-IX art. 6 part 6). Current period from 05:30 on 2026-08-02 for 90 days, to 05:30 on 2026-10-31; no extension found as of 2026-10-04.",
+    "basis": [
+      "ins-ua-law-2136-ix",
+      "ins-ua-martial-law-extension-2026-08-02",
+      "ins-ua-law-4928-ix"
+    ]
+  }
+]
