@@ -146,7 +146,7 @@
   flex-direction: column;
   gap: 2px;
 }
-.clocks span {
+.clocks > div > span {
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
