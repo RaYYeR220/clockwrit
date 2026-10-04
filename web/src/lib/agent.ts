@@ -3,6 +3,7 @@ import {createMCPClient} from '@ai-sdk/mcp'
 import {createOpenAICompatible} from '@ai-sdk/openai-compatible'
 import type {ToolSet} from 'ai'
 import {env} from './env'
+import {resolveScenario} from './data'
 import {localTools} from './tools'
 
 export function model() {
@@ -67,7 +68,8 @@ How you work:
 
 Answer shape: one short paragraph with the answer first (local time, offset, working day or not), then the basis: the instrument title, its authority tier and status. Keep it under 120 words unless asked for more. The UI renders your tool results as cards, so don't repeat every field.`
 
-export async function buildAgent(scenario?: string) {
+export async function buildAgent(requestedScenario?: string) {
+  const scenario = await resolveScenario(requestedScenario)
   const [catalogContext, knowledgeContext, ctx] = await Promise.all([
     initialContext(env.mcpCatalog()),
     initialContext(env.mcpKnowledge()),

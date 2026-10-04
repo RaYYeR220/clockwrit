@@ -16,7 +16,8 @@ export const env = {
   contextEditorToken: () => process.env.SANITY_CONTEXT_EDITOR_TOKEN ?? required('SANITY_CONTEXT_TOKEN'),
   /** Project token with write access — rulings are written back to the dataset. */
   writeToken: () => required('SANITY_WRITE_TOKEN'),
-  readToken: () => process.env.SANITY_READ_TOKEN,
+  /** Project token with the Viewer role — needed to read Content Release versions. */
+  readToken: () => required('SANITY_READ_TOKEN'),
   mcpCatalog: () => process.env.SANITY_MCP_CATALOG ?? 'wallclock-catalog',
   mcpKnowledge: () => process.env.SANITY_MCP_KNOWLEDGE ?? 'wallclock-knowledge',
   knowledgeBaseId: () => required('SANITY_KNOWLEDGE_BASE_ID'),

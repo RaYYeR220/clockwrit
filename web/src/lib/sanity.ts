@@ -14,7 +14,8 @@ export function contentClient(perspective?: ClientPerspective): SanityClient {
     dataset: env.dataset(),
     apiVersion: API_VERSION,
     useCdn: false,
-    token: env.readToken() ?? env.writeToken(),
+    // Read-only token: reads never borrow write credentials.
+    token: env.readToken(),
     perspective: 'published',
   })
   return perspective ? content.withConfig({perspective}) : content

@@ -54,7 +54,8 @@ export interface ZoneData {
 }
 
 export async function loadZone(zone: string, scenario?: string): Promise<ZoneData> {
-  const client = contentClient(scenario ? [scenario] : undefined)
+  const release = await resolveScenario(scenario)
+  const client = contentClient(release ? [release] : undefined)
   const meta = await client.fetch<{ianaId: string} | null>(ZONE_QUERY, {id: zone})
   const ianaId = meta?.ianaId ?? zone
   const docs = await client.fetch<SegmentDoc[]>(SEGMENTS_QUERY, {zone: ianaId})
@@ -88,7 +89,8 @@ interface CalendarDocs {
 }
 
 export async function loadCalendar(code: string, scenario?: string): Promise<{calendar: CalendarData; citations: Record<string, Citation>}> {
-  const docs = await contentClient(scenario ? [scenario] : undefined).fetch<CalendarDocs>(CALENDAR_QUERY, {code})
+  const release = await resolveScenario(scenario)
+  const docs = await contentClient(release ? [release] : undefined).fetch<CalendarDocs>(CALENDAR_QUERY, {code})
   const citations: Record<string, Citation> = {}
   const ids = (b: Citation[] | null) =>
     (b ?? []).map((c) => {
@@ -107,12 +109,26 @@ export async function loadCalendar(code: string, scenario?: string): Promise<{ca
   }
 }
 
+let scenarioCache: {at: number; list: {id: string; title: string; description?: string}[]} | null = null
+
+/** Pending or conditional laws, modelled as active Content Releases. */
 export async function listScenarios(): Promise<{id: string; title: string; description?: string}[]> {
-  try {
-    return await contentClient().fetch(RELEASES_QUERY)
-  } catch {
-    return []
-  }
+  if (scenarioCache && Date.now() - scenarioCache.at < 5 * 60_000) return scenarioCache.list
+  const list = await contentClient().fetch<{id: string; title: string; description?: string}[]>(RELEASES_QUERY)
+  scenarioCache = {at: Date.now(), list}
+  return list
+}
+
+/**
+ * Only an active release we published as a scenario may become a read perspective.
+ * Anything else (drafts, raw, unknown ids) is refused, so callers can't read unpublished content.
+ */
+export async function resolveScenario(scenario: string | undefined | null): Promise<string | undefined> {
+  if (!scenario) return undefined
+  if (!/^r[A-Za-z0-9_-]{1,64}$/.test(scenario)) throw new Error(`Unknown scenario: ${scenario}`)
+  const list = await listScenarios()
+  if (!list.some((s) => s.id === scenario)) throw new Error(`Unknown scenario: ${scenario}`)
+  return scenario
 }
 
 function normalise(c: Citation & {_id?: string}): Citation {
