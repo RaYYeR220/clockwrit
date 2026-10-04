@@ -37,6 +37,14 @@ describe('expandOccurrences', () => {
     const occ = expandOccurrences({title: 't', start: '2026-12-03T09:00', zone: 'America/New_York', rrule: 'FREQ=WEEKLY;BYDAY=TH'}, '2026-12-01', '2026-12-31')
     expect(occ).toEqual(['2026-12-03T09:00', '2026-12-10T09:00', '2026-12-17T09:00', '2026-12-24T09:00', '2026-12-31T09:00'])
   })
+
+  it('refuses sub-hourly rules and bounds rules that start long before the window', () => {
+    expect(() => expandOccurrences({title: 't', start: '1970-01-01T00:00', zone: 'UTC', rrule: 'FREQ=MINUTELY'}, '2026-01-01', '2026-01-02')).toThrow(/too frequent/)
+    const t0 = Date.now()
+    const occ = expandOccurrences({title: 't', start: '1900-01-01T00:00', zone: 'UTC', rrule: 'FREQ=HOURLY'}, '2026-01-01', '2026-01-02')
+    expect(occ).toEqual([])
+    expect(Date.now() - t0).toBeLessThan(2000)
+  })
 })
 
 describe('auditSchedule', () => {

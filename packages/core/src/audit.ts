@@ -59,6 +59,8 @@ export interface AuditInput {
   maxOccurrences?: number
 }
 
+const MAX_ITERATIONS = 20_000
+
 /** Expand an event into local wall-clock starts inside [from, to]. */
 export function expandOccurrences(event: ScheduledEvent, from: string, to: string, max = 200): string[] {
   const [date, time] = event.start.split('T') as [string, string]
@@ -67,9 +69,12 @@ export function expandOccurrences(event: ScheduledEvent, from: string, to: strin
   const start = ICAL.Time.fromData({year: y, month: mo, day: d, hour: h, minute: mi, second: 0, isDate: false})
   if (!event.rrule) return withinWindow([event.start], from, to)
   const recur = ICAL.Recur.fromString(event.rrule)
+  if (['SECONDLY', 'MINUTELY'].includes(recur.freq)) throw new Error(`Recurrence too frequent to audit: ${recur.freq}`)
   const it = recur.iterator(start)
   const out: string[] = []
-  for (let next = it.next(); next && out.length < max; next = it.next()) {
+  // Hard cap on iterator steps, so a rule that starts long before the window can't spin forever.
+  let steps = 0
+  for (let next = it.next(); next && out.length < max && steps < MAX_ITERATIONS; next = it.next(), steps++) {
     const local = `${pad(next.year, 4)}-${pad(next.month)}-${pad(next.day)}T${pad(next.hour)}:${pad(next.minute)}`
     if (local.slice(0, 10) > to) break
     if (local.slice(0, 10) >= from) out.push(local)
