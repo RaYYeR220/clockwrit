@@ -18,8 +18,8 @@ export const env = {
   writeToken: () => required('SANITY_WRITE_TOKEN'),
   /** Project token with the Viewer role — needed to read Content Release versions. */
   readToken: () => required('SANITY_READ_TOKEN'),
-  mcpCatalog: () => process.env.SANITY_MCP_CATALOG ?? 'wallclock-catalog',
-  mcpKnowledge: () => process.env.SANITY_MCP_KNOWLEDGE ?? 'wallclock-knowledge',
+  mcpCatalog: () => process.env.SANITY_MCP_CATALOG ?? 'clockwrit-catalog',
+  mcpKnowledge: () => process.env.SANITY_MCP_KNOWLEDGE ?? 'clockwrit-sources',
   knowledgeBaseId: () => required('SANITY_KNOWLEDGE_BASE_ID'),
   llmBaseUrl: () => process.env.LLM_BASE_URL ?? 'https://api.venice.ai/api/v1',
   llmApiKey: () => required('LLM_API_KEY'),

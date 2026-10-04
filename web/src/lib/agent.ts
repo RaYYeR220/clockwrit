@@ -33,30 +33,38 @@ async function initialContext(name: string): Promise<string> {
 
 type Closer = () => Promise<void>
 
-/** Connect to both Sanity Context endpoints and namespace their tools so they can't collide. */
-async function contextTools(scenario?: string): Promise<{tools: ToolSet; close: Closer}> {
-  const headers = {Authorization: `Bearer ${env.contextToken()}`}
-  const catalogUrl = scenario ? `${mcpUrl(env.mcpCatalog())}?perspective=${encodeURIComponent(scenario)}` : mcpUrl(env.mcpCatalog())
-  const [catalog, knowledge] = await Promise.all([
-    createMCPClient({transport: {type: 'http', url: catalogUrl, headers}, clientName: 'wallclock'}),
-    createMCPClient({transport: {type: 'http', url: mcpUrl(env.mcpKnowledge()), headers}, clientName: 'wallclock'}),
-  ])
+async function endpointTools(name: string, url: string, prefix: string): Promise<{tools: ToolSet; close: Closer}> {
+  const client = await createMCPClient({
+    transport: {type: 'http', url, headers: {Authorization: `Bearer ${env.contextToken()}`}},
+    clientName: 'clockwrit',
+  })
   const tools: ToolSet = {}
-  for (const [name, t] of Object.entries(await catalog.tools())) {
-    if (name !== 'initial_context') tools[`catalog_${name}`] = t as ToolSet[string]
+  for (const [tool, t] of Object.entries(await client.tools())) {
+    if (tool !== 'initial_context') tools[`${prefix}_${tool}`] = t as ToolSet[string]
   }
-  for (const [name, t] of Object.entries(await knowledge.tools())) {
-    if (name !== 'initial_context') tools[`sources_${name}`] = t as ToolSet[string]
-  }
-  return {
-    tools,
-    close: async () => {
-      await Promise.allSettled([catalog.close(), knowledge.close()])
-    },
+  return {tools, close: () => client.close()}
+}
+
+interface Endpoint {
+  ok: boolean
+  context: string
+  tools: ToolSet
+  close: Closer
+}
+
+/** One Sanity Context endpoint: its orientation text and its tools, namespaced so the two endpoints can't collide. */
+async function connect(name: string, prefix: string, scenario?: string): Promise<Endpoint> {
+  const url = scenario ? `${mcpUrl(name)}?perspective=${encodeURIComponent(scenario)}` : mcpUrl(name)
+  try {
+    const [context, t] = await Promise.all([initialContext(name), endpointTools(name, url, prefix)])
+    return {ok: true, context, ...t}
+  } catch (e) {
+    // Reported to the model and the user rather than silently dropped.
+    return {ok: false, context: `Unavailable right now (${(e as Error).message.slice(0, 160)}).`, tools: {}, close: async () => {}}
   }
 }
 
-const POLICY = `You are Wallclock, an agent that answers what the clock and the calendar legally say at a place and moment, and on whose authority.
+const POLICY = `You are Clockwrit, an agent that answers what the clock and the calendar legally say at a place and moment, and on whose authority.
 
 How you work:
 - Never state a UTC offset, a DST status, or whether a day is a working day from memory. Compute it with legal_time / working_day / audit_schedule. These read typed clock regimes and calendars that cite the instruments they rest on.
@@ -70,19 +78,26 @@ Answer shape: one short paragraph with the answer first (local time, offset, wor
 
 export async function buildAgent(requestedScenario?: string) {
   const scenario = await resolveScenario(requestedScenario)
-  const [catalogContext, knowledgeContext, ctx] = await Promise.all([
-    initialContext(env.mcpCatalog()),
-    initialContext(env.mcpKnowledge()),
-    contextTools(scenario),
+  const [catalog, knowledge] = await Promise.all([
+    connect(env.mcpCatalog(), 'catalog', scenario),
+    connect(env.mcpKnowledge(), 'sources'),
   ])
+  const unavailable = knowledge.ok ? '' : '\nThe Knowledge Base is unavailable for this answer. Say so if the question needs what the sources say.\n'
   const system = `${POLICY}
-
+${unavailable}
 Today is ${new Date().toISOString().slice(0, 10)}.
 
 # Structured dataset (catalog_* tools)
-${catalogContext}
+${catalog.context}
 
 # Knowledge Base (sources_* tools)
-${knowledgeContext}`
-  return {system, tools: {...localTools, ...ctx.tools} as ToolSet, close: ctx.close}
+${knowledge.context}`
+  return {
+    system,
+    tools: {...localTools, ...catalog.tools, ...knowledge.tools} as ToolSet,
+    sources: {catalog: catalog.ok, knowledge: knowledge.ok},
+    close: async () => {
+      await Promise.allSettled([catalog.close(), knowledge.close()])
+    },
+  }
 }
