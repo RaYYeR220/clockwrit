@@ -2,7 +2,7 @@
 
 **What time is it — legally?** An agent that reads the law, IANA tzdata and your runtime’s clock, and tells you which one is right, with the decree, the date and the source quote. Built on [Sanity Context](https://www.sanity.io/context): a typed dataset for the facts, a Knowledge Base for what the sources say, and a ruling loop for when they disagree.
 
-**Live:** https://clockwrit.vercel.app · **Ask:** [/ask](https://clockwrit.vercel.app/ask) · **Ruling desk:** [/desk](https://clockwrit.vercel.app/desk) · **Eval:** [/eval](https://clockwrit.vercel.app/eval) · **MCP:** `https://clockwrit.vercel.app/api/mcp` · Reviewing? Start with [JUDGES.md](JUDGES.md).
+**Live:** https://clockwrit.vercel.app · **Video (3 min):** https://youtu.be/pSU875tMuzw · **Ask:** [/ask](https://clockwrit.vercel.app/ask) · **Ruling desk:** [/desk](https://clockwrit.vercel.app/desk) · **Eval:** [/eval](https://clockwrit.vercel.app/eval) · **MCP:** `https://clockwrit.vercel.app/api/mcp` · Reviewing? Start with [JUDGES.md](JUDGES.md).
 
 ![Architecture](docs/architecture.png)
 
