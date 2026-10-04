@@ -2,7 +2,7 @@ import type {NextConfig} from 'next'
 
 const nextConfig: NextConfig = {
   transpilePackages: ['@wallclock/core'],
-  serverExternalPackages: ['timezonecomplete', 'tzdata'],
+  serverExternalPackages: ['moment-timezone'],
 }
 
 export default nextConfig

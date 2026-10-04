@@ -5,31 +5,30 @@ import type {RuleSegment} from './types.ts'
 
 const require = createRequire(import.meta.url)
 
-interface TzDatabase {
-  totalOffset(zone: string, utcMillis: number): {minutes(): number}
+interface MomentTz {
+  dataVersion: string
+  zone(name: string): {utcOffset(ms: number): number} | null
 }
 
-let db: TzDatabase | null = null
-let version: string | null = null
+let tz: MomentTz | null = null
 
-function iana(): TzDatabase {
-  if (!db) {
-    // timezonecomplete picks up the `tzdata` package; we pin it so the reference version is explicit.
-    const tc = require('timezonecomplete') as {TzDatabase: {instance(): TzDatabase}}
-    db = tc.TzDatabase.instance()
-  }
-  return db
+// moment-timezone ships tzdata compiled by zic; we pin the package so the reference release is explicit.
+function iana(): MomentTz {
+  tz ??= (require('moment-timezone') as {tz: MomentTz}).tz
+  return tz
 }
 
 /** The IANA tzdata release the reference clock is compiled from (e.g. "2026e"). */
 export function ianaVersion(): string {
-  if (!version) version = (require('tzdata/timezone-data.json') as {version: string}).version
-  return version
+  return iana().dataVersion
 }
 
 /** Offset according to the pinned IANA tzdata release. */
 export function ianaOffset(zone: string, instantIso: string): number {
-  return iana().totalOffset(zone, Date.parse(instantIso)).minutes()
+  const z = iana().zone(zone)
+  if (!z) throw new Error(`Unknown IANA zone: ${zone}`)
+  // moment reports minutes west of UTC.
+  return -z.utcOffset(Date.parse(instantIso)) || 0
 }
 
 export interface ThreeClocks {

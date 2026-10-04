@@ -47,3 +47,12 @@ describe('threeClocks', () => {
     expect(r.drift).toContain('iana')
   })
 })
+
+describe('IANA reference regressions', () => {
+  it('has Manitoba on permanent -05 after 2026-11-01 (tzdata 2026e)', () => {
+    expect(ianaOffset('America/Winnipeg', '2026-12-01T12:00:00Z')).toBe(-300)
+  })
+  it('still has Egypt on summer time', () => {
+    expect(ianaOffset('Africa/Cairo', '2027-07-01T12:00:00Z')).toBe(180)
+  })
+})
