@@ -120,7 +120,8 @@ let scenarioCache: {at: number; list: {id: string; title: string; description?: 
 /** Pending or conditional laws, modelled as active Content Releases. */
 export async function listScenarios(): Promise<{id: string; title: string; description?: string}[]> {
   if (scenarioCache && Date.now() - scenarioCache.at < 5 * 60_000) return scenarioCache.list
-  const list = await contentClient().fetch<{id: string; title: string; description?: string}[]>(RELEASES_QUERY)
+  // Release documents are system documents: only visible in the raw perspective.
+  const list = await contentClient().withConfig({perspective: 'raw'}).fetch<{id: string; title: string; description?: string}[]>(RELEASES_QUERY)
   scenarioCache = {at: Date.now(), list}
   return list
 }

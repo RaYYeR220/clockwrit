@@ -1,4 +1,7 @@
-import {CalendarIcon, PauseIcon, SunIcon, SwitchIcon} from '@sanity/icons'
+import {CalendarIcon} from '@sanity/icons/Calendar'
+import {PauseIcon} from '@sanity/icons/Pause'
+import {SunIcon} from '@sanity/icons/Sun'
+import {TransferIcon} from '@sanity/icons/Transfer'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 import {STATUS} from './shared'
 
@@ -106,7 +109,7 @@ export const workdayOverride = defineType({
   name: 'workdayOverride',
   title: 'Workday override',
   type: 'document',
-  icon: SwitchIcon,
+  icon: TransferIcon,
   description: 'A date whose working status is set explicitly, e.g. a weekend day made a working day to bridge a holiday.',
   fields: [
     jurisdictionRef,

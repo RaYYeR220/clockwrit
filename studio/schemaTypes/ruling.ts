@@ -1,4 +1,4 @@
-import {ScaleIcon} from '@sanity/icons'
+import {BookIcon} from '@sanity/icons/Book'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 
 /**
@@ -10,7 +10,7 @@ export const ruling = defineType({
   name: 'ruling',
   title: 'Ruling',
   type: 'document',
-  icon: ScaleIcon,
+  icon: BookIcon,
   fields: [
     defineField({name: 'issueId', title: 'Knowledge Base issue', type: 'string', readOnly: true, validation: (r) => r.required()}),
     defineField({name: 'knowledgeBase', type: 'string', readOnly: true}),

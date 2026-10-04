@@ -1,4 +1,4 @@
-import {DocumentTextIcon} from '@sanity/icons'
+import {DocumentTextIcon} from '@sanity/icons/DocumentText'
 import {defineArrayMember, defineField, defineType} from 'sanity'
 import {AUTHORITY, STATUS} from './shared'
 

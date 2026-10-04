@@ -1,4 +1,5 @@
-import {EarthGlobeIcon, PinIcon} from '@sanity/icons'
+import {EarthGlobeIcon} from '@sanity/icons/EarthGlobe'
+import {PinIcon} from '@sanity/icons/Pin'
 import {defineField, defineType} from 'sanity'
 
 export const jurisdiction = defineType({
