@@ -1,6 +1,6 @@
 import 'server-only'
 import {timingSafeEqual} from 'node:crypto'
-import {generateText, Output} from 'ai'
+import {generateText, tool} from 'ai'
 import {z} from 'zod'
 import {model} from './agent'
 import {env} from './env'
@@ -175,6 +175,24 @@ export async function listRulings(): Promise<RulingView[]> {
   )
 }
 
+const STOP = new Set(['that', 'with', 'from', 'this', 'than', 'entry', 'says', 'source', 'date', 'time', 'states', 'while', 'their', 'there', 'which'])
+
+/** Typed records that bear on a conflict: instruments, holidays and clock regimes matching any of its key terms. */
+async function structuredCheckFor(text: string) {
+  const terms = [...new Set(text.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 3 && !STOP.has(w)))].slice(0, 8)
+  if (!terms.length) return {instruments: [], holidays: [], regimes: []}
+  const params = Object.fromEntries(terms.map((t, i) => [`t${i}`, `${t}*`]))
+  const any = (fields: string) => terms.map((_, i) => `${fields} match $t${i}`).join(' || ')
+  return contentClient().fetch(
+    `{
+      "instruments": *[_type == "instrument" && (${any('[title, summary]')})] | order(authority asc)[0...8]{title, kind, authority, status, effective, url},
+      "holidays": *[_type == "holiday" && (${any('[name, nameLocal, jurisdiction->name]')})] | order(date asc)[0...8]{date, name, dayOff, kind, dateCertainty, "jurisdiction": jurisdiction->code},
+      "regimes": *[_type == "ruleSegment" && (${any('[zone->ianaId, zone->city, zone->jurisdiction->name]')})] | order(validFrom desc)[0...6]{"zone": zone->ianaId, validFrom, validTo, stdOffsetMinutes, "dst": defined(dst)}
+    }`,
+    params,
+  )
+}
+
 const Draft = z.object({
   question: z.string().describe('The disputed fact as a short question'),
   proposedSide: z.number().int().min(0),
@@ -191,21 +209,23 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
   // A live draft is never overwritten: the reviewer must be approving exactly what they read.
   if (view.ruling && view.ruling.status !== 'rejected') throw new Error(`A ${view.ruling.status} ruling already exists for this conflict`)
 
-  const keywords = `${view.claimKey ?? ''} ${view.issue ?? ''}`.slice(0, 300)
-  const related = await contentClient().fetch(
-    `*[_type == "instrument" && [title, summary] match $q] | order(authority asc)[0...8]{title, kind, authority, status, effective, url}`,
-    {q: keywords.split(/\W+/).filter((w) => w.length > 3).slice(0, 8)},
-  )
+  const related = await structuredCheckFor(`${view.claimKey ?? ''} ${view.issue ?? ''}`)
   const sides = view.sides
     .map((s) => `Side ${s.index} [${s.authority ?? 'unknown'}] from ${s.sourceTitles.join(', ')}: ${s.claim}${s.value ? ` (value: ${s.value})` : ''}\nQuote: ${s.quote ?? 'n/a'}`)
     .join('\n\n')
-  const {output} = await generateText({
+  // A forced tool call is the most reliable way to get a typed draft out of any OpenAI-compatible provider.
+  const result = await generateText({
     model: model(),
-    output: Output.object({schema: Draft}),
+    tools: {submit_ruling: tool({description: 'Submit the drafted ruling.', inputSchema: Draft})},
+    toolChoice: {type: 'tool', toolName: 'submit_ruling'},
     system:
       'You draft rulings on conflicting claims about legal time and calendars. Prefer the claim backed by the law itself (primary) over reference data (secondary) over news (community), unless the primary source is superseded, conditional or not yet in force. Name dates and statuses. Never invent a third answer: pick a side index.',
     prompt: `Conflict: ${view.issue ?? view.claimKey}\n\n${sides}\n\nTyped records that may bear on it:\n${JSON.stringify(related, null, 1)}`,
   })
+  const call = result.toolCalls.find((c) => c.toolName === 'submit_ruling')
+  const parsed = Draft.safeParse(call?.input)
+  if (!parsed.success) throw new Error('The agent did not return a valid draft')
+  const output = parsed.data
   if (output.proposedSide >= view.sides.length) throw new Error('Draft picked a side that does not exist')
 
   const doc: RulingDoc & {_type: 'ruling'} = {

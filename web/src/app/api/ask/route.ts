@@ -8,7 +8,7 @@ export const maxDuration = 120
 
 /** One question in, one grounded answer out — for scripts, the CLI and the eval harness. */
 export async function POST(req: Request) {
-  if (!rateLimit(req, 'ask', 30, 10 * 60_000)) return Response.json({error: 'Rate limited, try again in a few minutes'}, {status: 429})
+  if (!rateLimit(req, 'ask', Number(process.env.ASK_RATE_LIMIT ?? 30), 10 * 60_000)) return Response.json({error: 'Rate limited, try again in a few minutes'}, {status: 429})
   const body = (await req.json().catch(() => ({}))) as {question?: string; scenario?: string}
   const question = body.question?.trim()
   if (!question || question.length > 2000) return Response.json({error: 'Expected a question (1-2000 chars)'}, {status: 400})
