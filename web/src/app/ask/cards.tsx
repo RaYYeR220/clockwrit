@@ -182,10 +182,9 @@ const LABELS: Record<string, string> = {
 /** A tool call the agent made, shown as evidence: what it asked Sanity and what came back. */
 export function EvidenceRow({name, input, state, output}: {name: string; input: unknown; state: string; output: unknown}) {
   const args = input as Record<string, unknown> | undefined
-  const detail =
-    (args?.query as string | undefined) ??
-    (Array.isArray(args?.paths) ? (args!.paths as string[]).join(', ') : undefined) ??
-    (args ? JSON.stringify(args) : '')
+  const detail = String(
+    typeof args?.query === 'string' ? args.query : Array.isArray(args?.paths) ? args.paths.join(', ') : args ? JSON.stringify(args) : '',
+  )
   const done = state === 'output-available'
   return (
     <details className={styles.evidence}>

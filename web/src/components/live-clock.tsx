@@ -31,7 +31,13 @@ export function LiveClock({cities}: {cities: CityClock[]}) {
   const now = useSyncExternalStore(everySecond, currentSecond, () => null)
   const stale = useSyncExternalStore(
     noSubscribe,
-    () => browserOffset(c.zone, new Date(Date.parse(c.from) + 86_400_000)),
+    () => {
+      try {
+        return browserOffset(c.zone, new Date(Date.parse(c.from) + 86_400_000))
+      } catch {
+        return null
+      }
+    },
     () => null,
   )
 

@@ -12,7 +12,12 @@ export async function POST(req: Request) {
   const body = (await req.json().catch(() => ({}))) as {question?: string; scenario?: string}
   const question = body.question?.trim()
   if (!question || question.length > 2000) return Response.json({error: 'Expected a question (1-2000 chars)'}, {status: 400})
-  const agent = await buildAgent(body.scenario)
+  let agent: Awaited<ReturnType<typeof buildAgent>>
+  try {
+    agent = await buildAgent(body.scenario)
+  } catch (e) {
+    return Response.json({error: (e as Error).message}, {status: 400})
+  }
   try {
     const result = await generateText({
       model: model(),

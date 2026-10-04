@@ -106,7 +106,7 @@ async function sourceInfo(id: string): Promise<SourceInfo> {
   let info: SourceInfo = {title: id}
   try {
     const head = asText(await kb().context.sources.content({sourceId: id, startLine: 1, endLine: 4}))
-    const field = (name: string) => new RegExp(`^\s*(?:\d+[:|]\s*)?${name}:\s*(.+)$`, 'm').exec(head)?.[1]?.trim()
+    const field = (name: string) => new RegExp(String.raw`^\s*(?:\d+[:|]\s*)?${name}:\s*(.+)$`, 'm').exec(head)?.[1]?.trim()
     const tier = field('Authority tier')
     info = {
       title: field('Source') ?? id,
@@ -287,6 +287,8 @@ export async function decide(input: {
   const id = rulingIdFor(input.issueId)
   const ruling = await contentClient().fetch<RulingDoc | null>(`*[_id == $id][0]`, {id})
   if (!ruling) throw new Error('No draft ruling for this conflict')
+  // An approval whose Knowledge Base call failed is left "approved"; approving again finishes the job.
+  if (ruling.status === 'approved' && input.decision === 'approve') return applyToKnowledgeBase(id, input.issueId, ruling)
   if (ruling.status !== 'proposed') throw new Error(`Ruling is already ${ruling.status}`)
   if (ruling._rev !== input.expectedRev || ruling.proposedSide !== input.expectedSide)
     throw new Error('The draft changed since you opened it; reload and review again')
@@ -299,8 +301,14 @@ export async function decide(input: {
 
   // Record the human decision first, so the audit trail exists even if the Knowledge Base call fails.
   await writeClient().patch(id).ifRevisionId(input.expectedRev).set({status: 'approved', reviewer: input.reviewer, reviewNote: input.note, decidedAt}).commit()
-  await kb().context.issues.resolve({issueId: input.issueId, resolution: ruling.proposedSide})
+  return applyToKnowledgeBase(id, input.issueId, {...ruling, status: 'approved', reviewer: input.reviewer, reviewNote: input.note, decidedAt})
+}
+
+async function applyToKnowledgeBase(id: string, issueId: string, ruling: RulingDoc): Promise<RulingDoc> {
+  const issue = (await kb().context.issues.list({})).find((i) => i._id === issueId)
+  // Resolved elsewhere already (e.g. a retry after a timeout) counts as done.
+  if (issue?.status === 'open') await kb().context.issues.resolve({issueId, resolution: ruling.proposedSide})
   const appliedAt = new Date().toISOString()
   await writeClient().patch(id).set({status: 'applied', appliedAt}).commit()
-  return {...ruling, status: 'applied', reviewer: input.reviewer, reviewNote: input.note, decidedAt, appliedAt}
+  return {...ruling, status: 'applied', appliedAt}
 }

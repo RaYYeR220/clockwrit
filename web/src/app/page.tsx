@@ -142,7 +142,8 @@ export default async function Home() {
           {evalRun ? (
             <>
               <div className={styles.score}>
-                {(['agent', 'keyword', 'model'] as const).map((arm) => (
+                {(['agent', 'keyword', 'model'] as const).map((arm) =>
+                  evalRun.summary[arm] ? (
                   <div key={arm}>
                     <b>
                       {evalRun.summary[arm].correct}
@@ -153,7 +154,8 @@ export default async function Home() {
                       traps {evalRun.summary[arm].trapsCorrect}/{evalRun.summary[arm].traps}
                     </em>
                   </div>
-                ))}
+                  ) : null,
+                )}
               </div>
               <Link className={styles.link} href="/eval">
                 Every question, answer and verdict →

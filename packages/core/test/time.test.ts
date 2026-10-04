@@ -110,6 +110,12 @@ describe('offsetAt', () => {
     expect(r.nextTransition).toEqual({instant: '2026-10-25T01:00:00.000Z', offsetMinutes: 60})
   })
 
+  it('finds the next change across a regime boundary that keeps the offset', () => {
+    const a: RuleSegment = {...EU, id: 'a', to: '2026-12-01T00:00:00Z'}
+    const b: RuleSegment = {...EU, id: 'b', from: '2026-12-01T00:00:00Z', to: null}
+    expect(offsetAt([a, b], '2026-11-15T12:00:00Z').nextTransition).toEqual({instant: '2027-03-28T01:00:00.000Z', offsetMinutes: 120})
+  })
+
   it('throws when no segment covers the instant', () => {
     expect(() => offsetAt([{...EU, from: '2030-01-01T00:00:00Z'}], '2026-01-01T00:00:00Z')).toThrow(/no rule segment/i)
   })
@@ -121,9 +127,12 @@ describe('resolveLocal', () => {
     expect(r).toMatchObject({kind: 'unique', instant: '2026-12-24T09:00:00.000Z', offsetMinutes: 60})
   })
 
-  it('flags local times inside the spring-forward gap as nonexistent', () => {
-    const r = resolveLocal([NY], '2026-03-08T02:30')
-    expect(r.kind).toBe('nonexistent')
+  it('flags local times inside the spring-forward gap as nonexistent, with the real transition instant', () => {
+    for (const local of ['2026-03-08T02:00', '2026-03-08T02:30', '2026-03-08T02:59']) {
+      const r = resolveLocal([NY], local)
+      expect(r.kind, local).toBe('nonexistent')
+      if (r.kind === 'nonexistent') expect(r.gapStart, local).toBe('2026-03-08T07:00:00.000Z')
+    }
   })
 
   it('flags local times inside the fall-back overlap as ambiguous', () => {

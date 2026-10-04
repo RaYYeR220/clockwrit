@@ -54,6 +54,11 @@ describe('dayVerdict', () => {
     expect(v).toMatchObject({workday: true, reasons: [{code: 'ordinary'}]})
   })
 
+  it('refuses dates that do not exist', () => {
+    expect(() => dayVerdict(data, 'PL', '2026-02-30')).toThrow(/not a valid date/i)
+    expect(() => dayVerdict(data, 'PL', '2026-13-45')).toThrow(/not a valid date/i)
+  })
+
   it('refuses jurisdictions it has no weekend data for', () => {
     expect(() => dayVerdict(data, 'XX', '2026-10-06')).toThrow(/no calendar data/i)
   })

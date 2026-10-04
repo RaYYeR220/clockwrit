@@ -7,6 +7,13 @@ function isoWeekday(date: string): number {
   return d === 0 ? 7 : d
 }
 
+/** YYYY-MM-DD that names a real calendar day (rejects 2026-02-30). */
+export function isValidDate(date: string): boolean {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return false
+  const t = Date.parse(`${date}T00:00:00Z`)
+  return !Number.isNaN(t) && new Date(t).toISOString().startsWith(date)
+}
+
 function within(date: string, from: string | null, to: string | null): boolean {
   return (from === null || from <= date) && (to === null || date <= to)
 }
@@ -16,6 +23,7 @@ function within(date: string, from: string | null, to: string | null): boolean {
  * Precedence: explicit override > holiday (unless suspended) > weekend regime > ordinary day.
  */
 export function dayVerdict(data: CalendarData, jurisdiction: string, date: string): DayVerdict {
+  if (!isValidDate(date)) throw new Error(`Not a valid date: ${date}`)
   const weekend = data.weekends.find((w) => w.jurisdiction === jurisdiction && within(date, w.from, w.to))
   if (!weekend) throw new Error(`No calendar data for ${jurisdiction} on ${date}`)
 

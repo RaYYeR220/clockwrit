@@ -31,28 +31,38 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
   const draft = async () => {
     setBusy('draft')
     setError(null)
-    const res = await fetch('/api/rulings/draft', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({issueId: c.issueId})})
-    const body = (await res.json()) as {ruling?: RulingDoc; error?: string}
-    setBusy(null)
-    if (!res.ok || !body.ruling) return setError(body.error ?? 'Draft failed')
-    // Re-read so we hold the revision the reviewer will be approving.
-    const fresh = await fetch('/api/rulings', {cache: 'no-store'}).then((x) => x.json() as Promise<{conflicts: RulingView[]}>)
-    onChange({ruling: fresh.conflicts.find((x) => x.issueId === c.issueId)?.ruling ?? body.ruling})
+    try {
+      const res = await fetch('/api/rulings/draft', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({issueId: c.issueId})})
+      const body = (await res.json().catch(() => ({}))) as {ruling?: RulingDoc; error?: string}
+      if (!res.ok || !body.ruling) return setError(body.error ?? `Draft failed (${res.status})`)
+      // Re-read so we hold the revision the reviewer will be approving.
+      const fresh = (await fetch('/api/rulings', {cache: 'no-store'}).then((x) => x.json()).catch(() => ({}))) as {conflicts?: RulingView[]}
+      onChange({ruling: fresh.conflicts?.find((x) => x.issueId === c.issueId)?.ruling ?? body.ruling})
+    } catch {
+      setError('The draft request failed. Check your connection and try again.')
+    } finally {
+      setBusy(null)
+    }
   }
 
   const decide = async (decision: 'approve' | 'reject') => {
     if (!r?._rev) return
     setBusy('decide')
     setError(null)
-    const res = await fetch('/api/rulings/decide', {
-      method: 'POST',
-      headers: {'content-type': 'application/json'},
-      body: JSON.stringify({issueId: c.issueId, decision, reviewer, note, passcode, expectedRev: r._rev, expectedSide: r.proposedSide}),
-    })
-    const body = (await res.json()) as {ruling?: RulingDoc; error?: string}
-    setBusy(null)
-    if (!res.ok || !body.ruling) return setError(body.error ?? 'Decision failed')
-    onChange({ruling: body.ruling, status: decision === 'approve' ? 'accepted' : c.status})
+    try {
+      const res = await fetch('/api/rulings/decide', {
+        method: 'POST',
+        headers: {'content-type': 'application/json'},
+        body: JSON.stringify({issueId: c.issueId, decision, reviewer, note, passcode, expectedRev: r._rev, expectedSide: r.proposedSide}),
+      })
+      const body = (await res.json().catch(() => ({}))) as {ruling?: RulingDoc; error?: string}
+      if (!res.ok || !body.ruling) return setError(body.error ?? `Decision failed (${res.status})`)
+      onChange({ruling: body.ruling, status: decision === 'approve' ? 'accepted' : c.status})
+    } catch {
+      setError('The request failed. Check your connection and try again.')
+    } finally {
+      setBusy(null)
+    }
   }
 
   const ruled = r?.status === 'applied'
@@ -68,9 +78,10 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
 
       <div className={styles.sides}>
         {c.sides.map((s) => {
-          const chosen = r && r.proposedSide === s.index
+          const live = r && r.status !== 'rejected'
+          const chosen = live && r.proposedSide === s.index
           return (
-            <section key={s.index} className={styles.side} data-chosen={chosen || undefined} data-lost={(r && !chosen) || undefined}>
+            <section key={s.index} className={styles.side} data-chosen={chosen || undefined} data-lost={(live && !chosen) || undefined}>
               <p className={styles.sideHead}>
                 <span className={`chip ${s.authority ?? 'secondary'}`}>
                   {TIER_MARK[s.authority ?? 'secondary']} {s.authority ?? 'unrated'}
@@ -86,7 +97,7 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
         })}
       </div>
 
-      {!r ? (
+      {!r || r.status === 'rejected' ? (
         <div className={styles.actions}>
           <button className="btn" onClick={draft} disabled={busy !== null || c.status !== 'open'}>
             {busy === 'draft' ? 'The agent is reading both sides…' : 'Ask the agent to draft a ruling'}
@@ -105,7 +116,7 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
               </p>
             ) : null}
           </div>
-          {r.status === 'proposed' ? (
+          {r.status === 'proposed' || r.status === 'approved' ? (
             <form
               className={styles.approve}
               onSubmit={(e) => {
@@ -127,7 +138,7 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
               </label>
               <div className={styles.buttons}>
                 <button className="btn" type="submit" disabled={busy !== null}>
-                  {busy === 'decide' ? 'Applying…' : 'Approve and apply'}
+                  {busy === 'decide' ? 'Applying…' : r.status === 'approved' ? 'Finish applying' : 'Approve and apply'}
                 </button>
                 <button className="btn ghost" type="button" disabled={busy !== null} onClick={() => void decide('reject')}>
                   Send back
@@ -142,7 +153,7 @@ function Conflict({c, onChange}: {c: RulingView; onChange: (p: Partial<RulingVie
                 </span>
               ) : null}
               <p>
-                {r.status === 'rejected' ? 'Sent back' : 'Approved'} by <b>{r.reviewer}</b>
+                Approved by <b>{r.reviewer}</b>
                 {r.decidedAt ? ` on ${r.decidedAt.slice(0, 16).replace('T', ' ')} UTC` : ''}.
                 {ruled ? ' The Knowledge Base now carries this as a standing instruction for every rebuild.' : ''}
               </p>

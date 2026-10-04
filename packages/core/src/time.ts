@@ -119,14 +119,21 @@ function nextTransition(
   t: number,
   current: number,
 ): {instant: string; offsetMinutes: number} | null {
-  const inside = segmentTransitions(seg, t).find((x) => x.instant > t && x.offsetMinutes !== current)
-  if (inside) return {instant: new Date(inside.instant).toISOString(), offsetMinutes: inside.offsetMinutes}
-  if (seg.to === null) return null
-  const boundary = Date.parse(seg.to)
-  const after = segments.find((s) => inSegment(s, boundary))
-  if (!after) return null
-  const state = stateAt(after, boundary)
-  return state.offsetMinutes === current ? null : {instant: new Date(boundary).toISOString(), offsetMinutes: state.offsetMinutes}
+  // Walk forward through later regimes until the offset actually changes.
+  let from = t
+  for (let s: RuleSegment | undefined = seg, hops = 0; s && hops < 8; hops++) {
+    const inside = segmentTransitions(s, from).find((x) => x.instant > from && x.offsetMinutes !== current)
+    if (inside) return {instant: new Date(inside.instant).toISOString(), offsetMinutes: inside.offsetMinutes}
+    if (s.to === null) return null
+    const boundary = Date.parse(s.to)
+    const next = segments.find((x) => inSegment(x, boundary))
+    if (!next) return null
+    const state = stateAt(next, boundary)
+    if (state.offsetMinutes !== current) return {instant: new Date(boundary).toISOString(), offsetMinutes: state.offsetMinutes}
+    s = next
+    from = boundary
+  }
+  return null
 }
 
 /**
@@ -166,12 +173,14 @@ export function resolveLocal(segments: RuleSegment[], local: string): LocalResol
   const sorted = [...offsets].sort((a, b) => a - b)
   const before = sorted[0] ?? 0
   const after = sorted.at(-1) ?? 0
-  return {
-    kind: 'nonexistent',
-    gapStart: new Date(localMs - before * MIN - (after - before) * MIN).toISOString(),
-    offsetBefore: before,
-    offsetAfter: after,
+  // The gap opens at the transition instant: find it from a day before the skipped reading.
+  let gapStart = new Date(localMs - after * MIN).toISOString()
+  try {
+    gapStart = offsetAt(segments, new Date(localMs - after * MIN - DAY).toISOString()).nextTransition?.instant ?? gapStart
+  } catch {
+    // outside coverage; keep the estimate
   }
+  return {kind: 'nonexistent', gapStart, offsetBefore: before, offsetAfter: after}
 }
 
 /** "+05:30" style label for an offset in minutes. */

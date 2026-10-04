@@ -52,13 +52,18 @@ function Ruling({handle}: {handle: DocumentHandle}) {
   const decide = async (decision: 'approve' | 'reject') => {
     setBusy(true)
     setError(null)
-    const res = await fetch(`${API}/api/rulings/decide`, {
-      method: 'POST',
-      headers: {'content-type': 'application/json', ...(token ? {authorization: `Bearer ${token}`} : {})},
-      body: JSON.stringify({issueId: data.issueId, decision, note, expectedRev: data._rev, expectedSide: data.proposedSide}),
-    })
-    setBusy(false)
-    if (!res.ok) setError(((await res.json().catch(() => ({}))) as {error?: string}).error ?? `Failed (${res.status})`)
+    try {
+      const res = await fetch(`${API}/api/rulings/decide`, {
+        method: 'POST',
+        headers: {'content-type': 'application/json', ...(token ? {authorization: `Bearer ${token}`} : {})},
+        body: JSON.stringify({issueId: data.issueId, decision, note, expectedRev: data._rev, expectedSide: data.proposedSide}),
+      })
+      if (!res.ok) setError(((await res.json().catch(() => ({}))) as {error?: string}).error ?? `Failed (${res.status})`)
+    } catch {
+      setError('The request failed. Check your connection and try again.')
+    } finally {
+      setBusy(false)
+    }
   }
 
   return (
@@ -77,7 +82,7 @@ function Ruling({handle}: {handle: DocumentHandle}) {
       </ol>
       <p>{data.rationale}</p>
       {data.structuredCheck ? <p className="muted small">Dataset check: {data.structuredCheck}</p> : null}
-      {data.status === 'proposed' ? (
+      {data.status === 'proposed' || data.status === 'approved' ? (
         <div className="decide">
           <input placeholder="Note (optional)" value={note} onChange={(e) => setNote(e.target.value)} maxLength={500} />
           <button onClick={() => decide('approve')} disabled={busy}>
