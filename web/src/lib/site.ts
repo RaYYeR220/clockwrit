@@ -36,15 +36,45 @@ export async function datasetCounts(): Promise<Counts> {
   }`)
 }
 
+export type EvalArm = 'model' | 'keyword' | 'agent'
+
 export interface EvalSummary {
   ranAt: string
+  /** The date the questions were asked "as of". */
+  today: string
+  split: string
   total: number
   answerModel: string
   judgeModel: string
-  summary: Record<'model' | 'keyword' | 'agent', {correct: number; incorrect: number; abstained: number; errors: number; trapsCorrect: number; traps: number}>
+  summary: Record<EvalArm, {correct: number; incorrect: number; abstained: number; errors: number; trapsCorrect: number; traps: number}>
 }
 
+/** One question as eval/src/run.ts writes it: the key and every arm's graded answer. */
+export interface EvalRow {
+  id: string
+  category: string
+  trap: boolean
+  question: string
+  key: string
+  arms: Partial<
+    Record<
+      EvalArm,
+      {
+        answer: string
+        verdict: 'correct' | 'incorrect' | 'abstained' | 'error'
+        reason: string
+        ms: number
+        retrieved?: string[]
+        tools?: string[]
+        error?: string
+      }
+    >
+  >
+}
+
+export type EvalRun = EvalSummary & {rows: EvalRow[]}
+
 /** Latest held-out evaluation (copied from eval/results by the eval runner), if it has been run. */
-export function evalSummary(): (EvalSummary & {rows: unknown[]}) | null {
-  return latest as unknown as (EvalSummary & {rows: unknown[]}) | null
+export function evalSummary(): EvalRun | null {
+  return latest as unknown as EvalRun | null
 }
