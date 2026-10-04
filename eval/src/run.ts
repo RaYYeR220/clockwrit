@@ -169,6 +169,8 @@ async function main() {
   const stamp = result.ranAt.replace(/[:.]/g, '-')
   writeFileSync(join(outDir, `${split}-${stamp}.json`), JSON.stringify(result, null, 2))
   writeFileSync(join(outDir, `latest-${split}.json`), JSON.stringify(result, null, 2))
+  // The site renders the held-out run.
+  if (split === 'test') writeFileSync(join(root, '..', 'web', 'src', 'data', 'eval-latest.json'), JSON.stringify(result, null, 2))
   console.table(summary)
 }
 
