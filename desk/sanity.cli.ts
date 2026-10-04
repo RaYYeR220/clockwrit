@@ -5,4 +5,7 @@ export default defineCliConfig({
     organizationId: 'ozunqqf8v',
     entry: './src/App.tsx',
   },
+  deployment: {
+    appId: 'iyi0hgpd1z37ee2hk1arlo3f',
+  },
 })
