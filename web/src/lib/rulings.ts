@@ -256,8 +256,10 @@ export async function draftRuling(issueId: string): Promise<RulingDoc> {
   }
   // Create when absent; replace only a rejected draft, and only the revision we just read.
   if (view.ruling?._rev) {
-    const {_id, _type, ...fields} = body
-    await writeClient().patch(_id).ifRevisionId(view.ruling._rev).set(fields).unset(['reviewer', 'reviewNote', 'decidedAt', 'appliedAt']).commit()
+    const fields: Record<string, unknown> = {...body}
+    delete fields._id
+    delete fields._type
+    await writeClient().patch(body._id).ifRevisionId(view.ruling._rev).set(fields).unset(['reviewer', 'reviewNote', 'decidedAt', 'appliedAt']).commit()
   } else {
     await writeClient().create(body)
   }

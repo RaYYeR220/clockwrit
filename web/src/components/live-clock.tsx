@@ -1,6 +1,6 @@
 'use client'
 
-import {useEffect, useState} from 'react'
+import {useState, useSyncExternalStore} from 'react'
 import {browserOffset, fmtOffset} from '@/lib/format'
 import styles from './live-clock.module.css'
 
@@ -17,20 +17,23 @@ export interface CityClock {
 
 const pad = (n: number) => String(n).padStart(2, '0')
 
+const everySecond = (tick: () => void) => {
+  const t = setInterval(tick, 1000)
+  return () => clearInterval(t)
+}
+const currentSecond = () => Math.floor(Date.now() / 1000) * 1000
+const noSubscribe = () => () => {}
+
 export function LiveClock({cities}: {cities: CityClock[]}) {
   const [i, setI] = useState(0)
-  const [now, setNow] = useState<number | null>(null)
-  const [stale, setStale] = useState<number | null>(null)
   const c = cities[i]!
-
-  useEffect(() => {
-    setNow(Date.now())
-    const t = setInterval(() => setNow(Date.now()), 1000)
-    return () => clearInterval(t)
-  }, [])
-  useEffect(() => {
-    setStale(browserOffset(c.zone, new Date(Date.parse(c.from) + 86_400_000)))
-  }, [c])
+  // Client-only readings: the server renders placeholders, the browser fills in its own clock and tz data.
+  const now = useSyncExternalStore(everySecond, currentSecond, () => null)
+  const stale = useSyncExternalStore(
+    noSubscribe,
+    () => browserOffset(c.zone, new Date(Date.parse(c.from) + 86_400_000)),
+    () => null,
+  )
 
   const t = now === null ? null : new Date(now + c.now * 60_000)
   return (
